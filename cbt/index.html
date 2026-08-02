@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NCS CBT 모의고사</title>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import { getFirestore, collection, serverTimestamp, getDocs, query, orderBy, where, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+    import { getAuth, onAuthStateChanged, signInAnonymously } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCMXRmSlgfchAMvNaLrh-VzvtsaT8zcF48",
+      authDomain: "gritmindlab-cbt.firebaseapp.com",
+      projectId: "gritmindlab-cbt",
+      storageBucket: "gritmindlab-cbt.firebasestorage.app",
+      messagingSenderId: "468296058186",
+      appId: "1:468296058186:web:155e2dc31658bfb62d6db3",
+      measurementId: "G-HNTVL8QJLE"
+    };
+
+    try {
+      const app = initializeApp(firebaseConfig);
+      const db = getFirestore(app);
+      const auth = getAuth(app);
+      const ensureAnonymousUser = async () => {
+        const existingUser = await new Promise((resolve, reject) => {
+          let unsubscribe = () => {};
+          unsubscribe = onAuthStateChanged(auth, user => {
+            unsubscribe();
+            resolve(user);
+          }, reject);
+        });
+        if (existingUser) return existingUser;
+        const credential = await signInAnonymously(auth);
+        return credential.user;
+      };
+      window.__firebase = {
+        db, auth, ensureAnonymousUser, collection, serverTimestamp, getDocs, query,
+        orderBy, where, doc, getDoc, setDoc, ready: true
+      };
+      window.dispatchEvent(new Event('firebase-ready'));
+    } catch (e) {
+      console.error('Firebase 초기화 실패:', e);
+      window.__firebase = { ready: false, error: e };
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #f0f4f8;
+      color: #1a2332;
+      min-height: 100vh;
+    }
+
+    /* ── 상단 헤더 ── */
+    header {
+      background: #1a3a5c;
+      color: #fff;
+      padding: 0 2rem;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header .logo { font-size: 1.05rem; font-weight: 700; letter-spacing: -.3px; }
+    header .exam-title { font-size: 0.85rem; opacity: .75; }
+    header .timer {
+      background: #e63946;
+      border-radius: 6px;
+      padding: 4px 14px;
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+
+    /* ── 정보 입력 화면 ── */
+    #screen-login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: calc(100vh - 56px);
+    }
+    .login-card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 3rem 2.5rem;
+      width: 400px;
+      box-shadow: 0 4px 24px rgba(0,0,0,.09);
+    }
+    .login-card h2 { font-size: 1.3rem; margin-bottom: .4rem; }
+    .login-card p { font-size: .85rem; color: #6b7a8d; margin-bottom: 2rem; }
+    .form-group { margin-bottom: 1rem; }
+    .form-group label { display: block; font-size: .8rem; font-weight: 500; color: #444; margin-bottom: 5px; }
+    .form-group input, .form-group select {
+      width: 100%;
+      border: 1.5px solid #d1d9e6;
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: .9rem;
+      font-family: inherit;
+      transition: border-color .2s;
+    }
+    .form-group input:focus, .form-group select:focus {
+      outline: none;
+      border-color: #1a3a5c;
+    }
+    .row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+    .row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: .8rem; }
+    .btn-start {
+      width: 100%;
+      margin-top: 1.5rem;
+      background: #1a3a5c;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 13px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background .2s;
+    }
+    .btn-start:hover { background: #14304d; }
+
+    /* ── 시험 화면 ── */
+    #screen-exam { display: none; padding: 2rem 1rem; }
+    .exam-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 220px;
+      gap: 1.5rem;
+      align-items: start;
+    }
+
+    /* 문제 카드 */
+    .question-card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 2rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,.07);
+      border-top: 5px solid var(--domain-accent, #1a3a5c);
+      transition: border-color .2s;
+    }
+    .q-meta {
+      display: flex;
+      align-items: center;
+      gap: .8rem;
+      margin-bottom: 1.2rem;
+    }
+    .q-num {
+      background: var(--domain-accent, #1a3a5c);
+      color: #fff;
+      border-radius: 50%;
+      width: 36px; height: 36px;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: .95rem; flex-shrink: 0;
+      transition: background .2s;
+    }
+    .q-category {
+      font-size: .75rem;
+      background: var(--domain-bg, #e8f0fe);
+      color: var(--domain-text, #1a3a5c);
+      border-radius: 20px;
+      padding: 3px 10px;
+      font-weight: 700;
+      transition: background .2s, color .2s;
+    }
+    .q-text { font-size: .95rem; font-weight: 700; line-height: 1.75; margin-bottom: 1.4rem; }
+
+    /* 지문/자료 박스 */
+    .q-data {
+      background: #ffffff;
+      border: 2px solid #6b7a8d;
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1.4rem;
+      font-size: .88rem;
+      line-height: 1.8;
+    }
+    .q-data table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .85rem;
+      margin-top: .5rem;
+    }
+    .q-data th {
+      background: #1a3a5c;
+      color: #fff;
+      padding: 7px 10px;
+      text-align: center;
+    }
+    .q-data td {
+      padding: 6px 10px;
+      text-align: center;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .q-data tr:nth-child(even) td { background: #f0f4f8; }
+
+    /* 선택지 */
+    .choices { display: flex; flex-direction: column; gap: .7rem; }
+    .choice {
+      display: flex;
+      align-items: center;
+      gap: .9rem;
+      padding: 12px 16px;
+      border: 2px solid #d1d9e6;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all .15s;
+      font-size: .9rem;
+    }
+    .choice:hover { border-color: #1a3a5c; background: #f0f4f8; }
+    .choice.selected { border-color: #1a3a5c; background: #e8f0fe; }
+    .choice-num {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: #e2e8f0;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: .82rem;
+      flex-shrink: 0;
+      transition: all .15s;
+    }
+    .choice.selected .choice-num { background: #1a3a5c; color: #fff; }
+
+    /* 이전/다음 버튼 */
+    .nav-btns {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1.8rem;
+    }
+    .btn-nav {
+      padding: 10px 24px;
+      border-radius: 8px;
+      border: 2px solid #1a3a5c;
+      background: #fff;
+      color: #1a3a5c;
+      font-weight: 700;
+      font-size: .9rem;
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .btn-nav:hover { background: #1a3a5c; color: #fff; }
+    .btn-nav.primary { background: #1a3a5c; color: #fff; }
+    .btn-nav.primary:hover { background: #14304d; }
+    .btn-nav:disabled { opacity: .35; cursor: not-allowed; }
+    .btn-nav:disabled:hover { background: #fff; color: #1a3a5c; }
+
+    /* 사이드 패널 */
+    .side-panel { display: flex; flex-direction: column; gap: 1rem; }
+
+    .panel-card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 1.2rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,.07);
+    }
+    .panel-card h3 { font-size: .8rem; color: #6b7a8d; text-transform: uppercase; letter-spacing: .8px; margin-bottom: 1rem; }
+
+    /* 문제 번호 그리드 */
+    .q-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 6px;
+    }
+    .q-dot {
+      aspect-ratio: 1;
+      border-radius: 6px;
+      border: 2px solid #d1d9e6;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .78rem; font-weight: 700;
+      cursor: pointer;
+      transition: all .15s;
+      color: #6b7a8d;
+    }
+    .q-dot:hover { border-color: #1a3a5c; color: #1a3a5c; }
+    .q-dot.answered { background: #1a3a5c; border-color: #1a3a5c; color: #fff; }
+    .q-dot.current { border-color: #e63946; color: #e63946; }
+    .q-dot.current.answered { background: #e63946; border-color: #e63946; color: #fff; }
+
+    /* 진행률 */
+    .progress-info { display: flex; justify-content: space-between; font-size: .8rem; color: #6b7a8d; margin-bottom: .5rem; }
+    .progress-bar { height: 6px; background: #e2e8f0; border-radius: 99px; overflow: hidden; }
+    .progress-fill { height: 100%; background: #1a3a5c; border-radius: 99px; transition: width .3s; }
+
+    /* 제출 버튼 */
+    .btn-submit {
+      width: 100%;
+      background: #e63946;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 12px;
+      font-size: .95rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background .2s;
+    }
+    .btn-submit:hover { background: #c1121f; }
+
+    /* ── 제출 완료 화면 ── */
+    #screen-result {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      min-height: calc(100vh - 56px);
+    }
+    .result-card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 3rem 2.5rem;
+      width: 440px;
+      text-align: center;
+      box-shadow: 0 4px 24px rgba(0,0,0,.09);
+    }
+    .result-icon { font-size: 3rem; margin-bottom: 1rem; }
+    .result-card h2 { font-size: 1.4rem; margin-bottom: .5rem; }
+    .result-card p { color: #6b7a8d; font-size: .9rem; line-height: 1.6; }
+    .result-score {
+      margin: 1.8rem 0;
+      padding: 1.5rem;
+      background: #f0f4f8;
+      border-radius: 10px;
+    }
+    .result-score .score-num { font-size: 3rem; font-weight: 700; color: #1a3a5c; }
+    .result-score .score-label { font-size: .85rem; color: #6b7a8d; margin-top: .3rem; }
+    .result-summary {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .8rem;
+      margin-bottom: 1.8rem;
+      text-align: left;
+    }
+    .summary-item {
+      background: #f7f9fc;
+      border-radius: 8px;
+      padding: .8rem 1rem;
+    }
+    .summary-item .label { font-size: .75rem; color: #6b7a8d; }
+    .summary-item .value { font-size: 1rem; font-weight: 700; margin-top: 2px; }
+
+    /* ── 모바일 반응형 ── */
+    @media (max-width: 780px) {
+      header { padding: 0 1rem; height: 50px; }
+      header .logo { font-size: .9rem; }
+      header .exam-title { display: none !important; }
+      header .timer { font-size: .9rem; padding: 3px 11px; }
+
+      #screen-login { padding: 1.2rem; align-items: flex-start; padding-top: 2.5rem; }
+      .login-card { width: 100%; padding: 2rem 1.4rem; }
+      .row-3 { grid-template-columns: 1fr 1fr; }
+      .row-3 .form-group:first-child { grid-column: 1 / -1; }
+
+      #screen-exam { padding: 1rem .8rem; }
+      .exam-wrap { grid-template-columns: 1fr; gap: 1rem; }
+      .side-panel { flex-direction: column; }
+      .side-panel { order: 2; }
+      .panel-card { padding: 1rem; }
+      .q-grid { grid-template-columns: repeat(8, 1fr); }
+
+      .question-card { padding: 1.4rem 1.2rem; order: 1; }
+      .q-text { font-size: .92rem; }
+      .choice { padding: 11px 14px; font-size: .87rem; }
+      .nav-btns { gap: .6rem; }
+      .btn-nav { padding: 10px 14px; font-size: .85rem; flex: 1; }
+
+      .result-card { width: 100%; padding: 2.2rem 1.5rem; }
+      .result-summary { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── 상단 헤더 ── -->
+<header>
+  <div class="logo">그릿마인드랩 NCS CBT</div>
+  <div class="exam-title" id="header-title" style="display:none;">NCS 직업기초능력 모의고사</div>
+  <div class="timer" id="timer" style="visibility:hidden;">60:00</div>
+</header>
+
+<!-- ── 화면 1: 정보 입력 ── -->
+<div id="screen-login">
+  <div class="login-card">
+    <h2>시험 시작</h2>
+    <p>정보를 입력하고 시험 코드를 입력해 주세요.</p>
+
+    <div class="form-group">
+      <label>학교명</label>
+      <input type="text" placeholder="예) 수도전기공업고등학교" id="inp-school" />
+    </div>
+    <div class="row-3">
+      <div class="form-group">
+        <label>학년</label>
+        <select id="inp-grade">
+          <option value="">선택</option>
+          <option>1학년</option><option>2학년</option><option>3학년</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>반</label>
+        <input type="text" placeholder="예) 3반" id="inp-class" />
+      </div>
+      <div class="form-group">
+        <label>번호</label>
+        <input type="text" placeholder="예) 15" id="inp-num" />
+      </div>
+    </div>
+    <div class="form-group">
+      <label>이름</label>
+      <input type="text" placeholder="홍길동" id="inp-name" />
+    </div>
+    <div class="form-group">
+      <label>시험 코드</label>
+      <input type="text" placeholder="강사에게 받은 코드를 입력하세요" id="inp-code" />
+    </div>
+    <button class="btn-start" id="btn-start" onclick="startExam()">시험 시작하기 →</button>
+    <div style="font-size:.78rem;color:#e63946;text-align:center;margin-top:.6rem;display:none;" id="start-error"></div>
+  </div>
+</div>
+
+<!-- ── 화면 2: 시험 ── -->
+<div id="screen-exam">
+  <div class="exam-wrap">
+
+    <!-- 문제 카드 -->
+    <div class="question-card">
+      <div id="q-setbanner" style="display:none;width:100%;box-sizing:border-box;background:#eef1f5;color:#1a3a5c;font-weight:700;font-size:.85rem;text-align:left;padding:9px 14px;border-radius:8px;margin-bottom:1rem;"></div>
+      <div class="q-meta">
+        <div class="q-num" id="q-num">1</div>
+        <div class="q-category" id="q-cat">수리능력</div>
+      </div>
+      <div class="q-text" id="q-text"></div>
+      <div class="q-data" id="q-data"></div>
+      <div class="choices" id="choices"></div>
+      <div class="nav-btns">
+        <button class="btn-nav" id="btn-prev" onclick="goQ(-1)" disabled>← 이전</button>
+        <button class="btn-nav primary" id="btn-next" onclick="goQ(1)">다음 →</button>
+      </div>
+    </div>
+
+    <!-- 사이드 패널 -->
+    <div class="side-panel">
+
+      <div class="panel-card">
+        <h3>진행 현황</h3>
+        <div class="progress-info">
+          <span id="progress-text">0 / 5 문제 완료</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+        </div>
+        <div id="save-status" style="margin-top:.7rem;font-size:.75rem;color:#6b7a8d;">답안 자동저장 준비 중</div>
+      </div>
+
+      <div class="panel-card">
+        <h3>문제 목록</h3>
+        <div class="q-grid" id="q-grid"></div>
+      </div>
+
+      <div class="panel-card">
+        <button class="btn-submit" onclick="submitExam()">답안 제출하기</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ── 화면 3: 제출 완료 ── -->
+<div id="screen-result">
+  <div class="result-card">
+    <div class="result-icon">✅</div>
+    <h2>답안 제출 완료</h2>
+    <p>시험이 종료되었습니다.<br/>수고하셨습니다!</p>
+    <div class="result-score">
+      <div class="score-num" id="res-answered">0</div>
+      <div class="score-label">문항 응답 완료</div>
+    </div>
+    <div class="result-summary">
+      <div class="summary-item">
+        <div class="label">이름</div>
+        <div class="value" id="res-name">-</div>
+      </div>
+      <div class="summary-item">
+        <div class="label">학교·학년·반</div>
+        <div class="value" id="res-class">-</div>
+      </div>
+      <div class="summary-item">
+        <div class="label">응시 횟수</div>
+        <div class="value" id="res-attempt">1회</div>
+      </div>
+      <div class="summary-item">
+        <div class="label">소요 시간</div>
+        <div class="value" id="res-time">-</div>
+      </div>
+    </div>
+    <p style="font-size:.82rem;color:#aaa;">정답 및 해설은 강사를 통해 확인하세요.</p>
+  </div>
+</div>
+
+<script>
+// ── 샘플 문제 데이터 ──
+let questions = []; // Firestore에서 동적으로 로드됨
+
+// ── 영역별 포인트 컬러 (문제 카드 상단 테두리 · 카테고리 배지에 사용) ──
+const DOMAIN_COLORS = {
+  '의사소통능력': { bg: '#e7f0ff', text: '#2054a6' },
+  '수리능력':     { bg: '#f1ecfd', text: '#6b3fa0' },
+  '문제해결능력': { bg: '#fff4e0', text: '#b8740a' },
+  '자기개발능력': { bg: '#e3f6f1', text: '#1f7a63' },
+  '자원관리능력': { bg: '#fdeee8', text: '#c1481f' },
+  '대인관계능력': { bg: '#fdeaf3', text: '#b0296b' },
+  '정보능력':     { bg: '#e5f7fb', text: '#0f7ea3' },
+  '기술능력':     { bg: '#eef1f5', text: '#45577a' },
+  '조직이해능력': { bg: '#eaf7e6', text: '#3c7a1e' },
+  '직업윤리':     { bg: '#f7e9ec', text: '#8a2f43' }
+};
+function applyDomainColor(cat) {
+  const c = DOMAIN_COLORS[cat] || { bg: '#e8f0fe', text: '#1a3a5c' };
+  const card = document.querySelector('.question-card');
+  if (card) {
+    card.style.setProperty('--domain-accent', c.text);
+    card.style.setProperty('--domain-bg', c.bg);
+    card.style.setProperty('--domain-text', c.text);
+  }
+}
+
+let current = 0;
+let answers = [];
+let startTime = null;
+let timerInterval = null;
+let elapsed = 0;
+let examMinutes = 60;
+let remaining = examMinutes * 60;
+let studentInfo = {};
+let currentUser = null;
+let attemptRef = null;
+let isSubmitting = false;
+let saveQueue = Promise.resolve();
+
+function valueAsDate(value) {
+  if (!value) return null;
+  if (typeof value.toDate === 'function') return value.toDate();
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function localAttemptKey() {
+  if (!currentUser || !studentInfo.examCode) return null;
+  return `cbt_attempt_${currentUser.uid}_${studentInfo.examCode}`;
+}
+
+function updateSaveStatus(message, isError = false) {
+  const el = document.getElementById('save-status');
+  if (!el) return;
+  el.textContent = message;
+  el.style.color = isError ? '#e63946' : '#6b7a8d';
+}
+
+function saveProgress() {
+  if (!attemptRef || isSubmitting) return;
+  const answerSnapshot = [...answers];
+  const elapsedSnapshot = Math.max(0, elapsed);
+  const key = localAttemptKey();
+  if (key) {
+    localStorage.setItem(key, JSON.stringify({
+      answers: answerSnapshot,
+      savedAt: Date.now()
+    }));
+  }
+
+  updateSaveStatus('저장 중...');
+  saveQueue = saveQueue
+    .catch(() => {})
+    .then(async () => {
+      const { setDoc, serverTimestamp } = window.__firebase;
+      await setDoc(attemptRef, {
+        answers: answerSnapshot,
+        answeredCount: answerSnapshot.filter(a => a !== -1).length,
+        elapsedSeconds: elapsedSnapshot,
+        lastSavedAt: serverTimestamp()
+      }, { merge: true });
+      updateSaveStatus('자동저장 완료');
+    })
+    .catch(error => {
+      console.error('자동저장 실패:', error);
+      updateSaveStatus('자동저장 실패 · 인터넷 연결을 확인하세요', true);
+      throw error;
+    });
+  return saveQueue;
+}
+
+async function startExam() {
+  const school = document.getElementById('inp-school').value.trim();
+  const grade  = document.getElementById('inp-grade').value;
+  const cls    = document.getElementById('inp-class').value.trim();
+  const num    = document.getElementById('inp-num').value.trim();
+  const name   = document.getElementById('inp-name').value.trim();
+  const code   = document.getElementById('inp-code').value.trim();
+  const errorEl = document.getElementById('start-error');
+  const btn = document.getElementById('btn-start');
+  errorEl.style.display = 'none';
+
+  if (!school || !grade || !cls || !num || !name || !code) {
+    errorEl.textContent = '모든 항목을 입력해 주세요.';
+    errorEl.style.display = 'block';
+    return;
+  }
+  if (!/^[A-Za-z0-9_-]{3,40}$/.test(code)) {
+    errorEl.textContent = '시험 코드는 영문, 숫자, -, _만 입력해 주세요.';
+    errorEl.style.display = 'block';
+    return;
+  }
+  // (시험 코드는 Firestore에서 해당 코드로 등록된 문제가 있는지로 검증합니다)
+
+  // ── 문제 불러오기 ──
+  btn.disabled = true;
+  btn.textContent = '문제를 불러오는 중...';
+
+  let waited = 0;
+  while ((!window.__firebase || !window.__firebase.ready) && waited < 5000) {
+    if (window.__firebase && window.__firebase.error) break;
+    await new Promise(r => setTimeout(r, 200));
+    waited += 200;
+  }
+
+  if (!window.__firebase || !window.__firebase.ready) {
+    errorEl.textContent = '서버 연결에 실패했습니다. 인터넷 연결을 확인하고 새로고침 후 다시 시도해 주세요.';
+    errorEl.style.display = 'block';
+    btn.disabled = false;
+    btn.textContent = '시험 시작하기 →';
+    return;
+  }
+
+  try {
+    currentUser = await window.__firebase.ensureAnonymousUser();
+  } catch (e) {
+    console.error(e);
+    errorEl.textContent = '응시자 인증에 실패했습니다. 관리자에게 문의해 주세요.';
+    errorEl.style.display = 'block';
+    btn.disabled = false;
+    btn.textContent = '시험 시작하기 →';
+    return;
+  }
+
+  try {
+    const { db, doc, getDoc } = window.__firebase;
+    const examSnap = await getDoc(doc(db, "exams", code));
+    if (!examSnap.exists()) {
+      errorEl.textContent = '시험 코드가 올바르지 않습니다.';
+      errorEl.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = '시험 시작하기 →';
+      return;
+    }
+
+    const exam = examSnap.data();
+    const now = new Date();
+    if (exam.openAt) {
+      const openAt = valueAsDate(exam.openAt);
+      if (openAt && now < openAt) {
+        errorEl.textContent = `아직 시작 전인 시험입니다. 시작 예정: ${openAt.toLocaleString('ko-KR')}`;
+        errorEl.style.display = 'block';
+        btn.disabled = false;
+        btn.textContent = '시험 시작하기 →';
+        return;
+      }
+    }
+    if (exam.closeAt) {
+      const closeAt = valueAsDate(exam.closeAt);
+      if (closeAt && now > closeAt) {
+        errorEl.textContent = '종료된 시험입니다.';
+        errorEl.style.display = 'block';
+        btn.disabled = false;
+        btn.textContent = '시험 시작하기 →';
+        return;
+      }
+    }
+  } catch (e) {
+    console.error(e);
+    errorEl.textContent = '시험 정보를 확인하지 못했습니다. 잠시 후 다시 시도해 주세요.';
+    errorEl.style.display = 'block';
+    btn.disabled = false;
+    btn.textContent = '시험 시작하기 →';
+    return;
+  }
+
+  try {
+    const { db, collection, getDocs, query, where } = window.__firebase;
+    const questionQuery = query(
+      collection(db, "questions"),
+      where("examCode", "==", code)
+    );
+    const snap = await getDocs(questionQuery);
+    questions = [];
+    snap.forEach(d => {
+      const data = d.data();
+      questions.push({
+        num: data.num,
+        cat: data.cat,
+        setRange: data.setRange || '',
+        text: data.text,
+        data: data.data || '',
+        choices: data.choices || []
+      });
+    });
+    questions.sort((a, b) => (a.num || 0) - (b.num || 0));
+
+    if (questions.length === 0) {
+      errorEl.textContent = '시험 코드가 올바르지 않습니다.';
+      errorEl.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = '시험 시작하기 →';
+      return;
+    }
+  } catch (e) {
+    console.error(e);
+    errorEl.textContent = '문제를 불러오는 중 오류가 발생했습니다. 다시 시도해 주세요.';
+    errorEl.style.display = 'block';
+    btn.disabled = false;
+    btn.textContent = '시험 시작하기 →';
+    return;
+  }
+
+  if (questions.length === 0) {
+    errorEl.textContent = '등록된 문제가 없습니다. 관리자에게 문의해 주세요.';
+    errorEl.style.display = 'block';
+    btn.disabled = false;
+    btn.textContent = '시험 시작하기 →';
+    return;
+  }
+
+  studentInfo = { school, grade, cls, num, name, examCode: code };
+  const { db, doc, getDoc, setDoc, serverTimestamp } = window.__firebase;
+  attemptRef = doc(db, 'users', currentUser.uid, 'attempts', code);
+
+  try {
+    const existingAttempt = await getDoc(attemptRef);
+    if (existingAttempt.exists() && existingAttempt.data().status === 'submitted') {
+      errorEl.textContent = '이 기기에서는 이미 제출이 완료된 시험입니다.';
+      errorEl.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = '시험 시작하기 →';
+      return;
+    }
+
+    if (existingAttempt.exists()) {
+      const saved = existingAttempt.data();
+      answers = Array.isArray(saved.answers)
+        ? saved.answers.slice(0, questions.length)
+        : new Array(questions.length).fill(-1);
+      while (answers.length < questions.length) answers.push(-1);
+      studentInfo = {
+        school: saved.school || school,
+        grade: saved.grade || grade,
+        cls: saved.class || cls,
+        num: saved.number || num,
+        name: saved.name || name,
+        examCode: code
+      };
+      const localKey = localAttemptKey();
+      const localSaved = localKey ? localStorage.getItem(localKey) : null;
+      if (localSaved) {
+        try {
+          const parsed = JSON.parse(localSaved);
+          const serverSavedAt = valueAsDate(saved.lastSavedAt)?.getTime() || 0;
+          if (
+            parsed.savedAt > serverSavedAt
+            && Array.isArray(parsed.answers)
+            && parsed.answers.length === questions.length
+          ) {
+            answers = parsed.answers;
+          }
+        } catch (error) {
+          console.warn('로컬 답안 복구 실패:', error);
+        }
+      }
+      const savedStart = valueAsDate(saved.startedAt);
+      startTime = savedStart || new Date();
+    } else {
+      answers = new Array(questions.length).fill(-1);
+      await setDoc(attemptRef, {
+        ownerUid: currentUser.uid,
+        examCode: code,
+        school,
+        grade,
+        class: cls,
+        number: num,
+        name,
+        answers,
+        answeredCount: 0,
+        totalQuestions: questions.length,
+        elapsedSeconds: 0,
+        timeUp: false,
+        status: 'inProgress',
+        startedAt: serverTimestamp(),
+        lastSavedAt: serverTimestamp()
+      });
+      const createdAttempt = await getDoc(attemptRef);
+      startTime = valueAsDate(createdAttempt.data()?.startedAt) || new Date();
+    }
+  } catch (error) {
+    console.error(error);
+    errorEl.textContent = '응시 정보를 저장하지 못했습니다. 잠시 후 다시 시도해 주세요.';
+    errorEl.style.display = 'block';
+    btn.disabled = false;
+    btn.textContent = '시험 시작하기 →';
+    return;
+  }
+
+  elapsed = Math.max(0, Math.floor((new Date() - startTime) / 1000));
+  remaining = Math.max(0, examMinutes * 60 - elapsed);
+
+  document.getElementById('screen-login').style.display = 'none';
+  document.getElementById('screen-exam').style.display = 'block';
+  document.getElementById('header-title').style.display = 'block';
+  document.getElementById('timer').style.visibility = 'visible';
+
+  buildGrid();
+  renderQ(0);
+  document.getElementById('timer').textContent =
+    `${Math.floor(remaining / 60).toString().padStart(2, '0')}:${(remaining % 60).toString().padStart(2, '0')}`;
+  updateSaveStatus('자동저장 완료');
+  if (remaining <= 0) {
+    submitExam(true);
+    return;
+  }
+  timerInterval = setInterval(tickTimer, 1000);
+}
+
+function tickTimer() {
+  remaining--;
+  elapsed++;
+  if (remaining <= 0) {
+    clearInterval(timerInterval);
+    document.getElementById('timer').textContent = '00:00';
+    submitExam(true);
+    return;
+  }
+  const m = Math.floor(remaining / 60).toString().padStart(2,'0');
+  const s = (remaining % 60).toString().padStart(2,'0');
+  document.getElementById('timer').textContent = `${m}:${s}`;
+}
+
+function buildGrid() {
+  const grid = document.getElementById('q-grid');
+  grid.innerHTML = '';
+  questions.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'q-dot' + (i === current ? ' current' : '');
+    d.textContent = i + 1;
+    d.onclick = () => renderQ(i);
+    d.id = `dot-${i}`;
+    grid.appendChild(d);
+  });
+}
+
+function renderQ(idx) {
+  current = idx;
+  const q = questions[idx];
+
+  document.getElementById('q-num').textContent = q.num;
+  document.getElementById('q-cat').textContent = q.cat;
+  document.getElementById('q-text').textContent = q.text;
+  applyDomainColor(q.cat);
+
+  const setBadge = document.getElementById('q-setbanner');
+  if (q.setRange) {
+    setBadge.style.display = 'block';
+    setBadge.textContent = `📎 ${q.setRange}`;
+  } else {
+    setBadge.style.display = 'none';
+  }
+
+  const dataEl = document.getElementById('q-data');
+  if (q.data) {
+    dataEl.style.display = 'block';
+    dataEl.innerHTML = q.data;
+  } else {
+    dataEl.style.display = 'none';
+  }
+
+  const choicesEl = document.getElementById('choices');
+  choicesEl.innerHTML = '';
+  q.choices.forEach((c, i) => {
+    const div = document.createElement('div');
+    div.className = 'choice' + (answers[idx] === i ? ' selected' : '');
+    div.innerHTML = `<div class="choice-num">${i+1}</div><span>${c}</span>`;
+    div.onclick = () => selectChoice(idx, i);
+    choicesEl.appendChild(div);
+  });
+
+  document.getElementById('btn-prev').disabled = idx === 0;
+  const isLast = idx === questions.length - 1;
+  const nextBtn = document.getElementById('btn-next');
+  nextBtn.textContent = isLast ? '마지막 문제' : '다음 →';
+  nextBtn.disabled = isLast;
+
+  // 그리드 갱신
+  document.querySelectorAll('.q-dot').forEach((d,i) => {
+    d.className = 'q-dot' + (answers[i] !== -1 ? ' answered' : '') + (i === idx ? ' current' : '');
+  });
+
+  updateProgress();
+}
+
+function selectChoice(qIdx, choiceIdx) {
+  answers[qIdx] = choiceIdx;
+  renderQ(qIdx);
+  saveProgress();
+}
+
+function goQ(dir) {
+  const next = current + dir;
+  if (next >= 0 && next < questions.length) renderQ(next);
+}
+
+function updateProgress() {
+  const done = answers.filter(a => a !== -1).length;
+  const total = questions.length;
+  document.getElementById('progress-text').textContent = `${done} / ${total} 문제 완료`;
+  document.getElementById('progress-fill').style.width = `${(done/total)*100}%`;
+}
+
+async function submitExam(timeUp) {
+  if (isSubmitting) return;
+  if (!timeUp) {
+    const unanswered = answers.filter(a => a === -1).length;
+    if (unanswered > 0) {
+      if (!confirm(`아직 ${unanswered}문제에 답하지 않았습니다. 그래도 제출하시겠습니까?`)) return;
+    }
+  }
+  isSubmitting = true;
+  clearInterval(timerInterval);
+
+  const elapsedSec = Math.floor((new Date() - startTime) / 1000);
+  const em = Math.floor(elapsedSec / 60);
+  const es = elapsedSec % 60;
+
+  // ── Firestore에 저장 ──
+  try {
+    // Firebase 모듈이 아직 로드 중일 수 있으므로 최대 5초 대기
+    let waited = 0;
+    while ((!window.__firebase || !window.__firebase.ready) && waited < 5000) {
+      if (window.__firebase && window.__firebase.error) break;
+      await new Promise(r => setTimeout(r, 200));
+      waited += 200;
+    }
+
+    if (!window.__firebase || !window.__firebase.ready) {
+      throw new Error('Firebase 연결 준비가 되지 않았습니다. 인터넷 연결을 확인하거나 페이지를 새로고침 후 다시 시도해 주세요.');
+    }
+
+    await saveQueue.catch(() => {});
+    const { setDoc, serverTimestamp } = window.__firebase;
+    await setDoc(attemptRef, {
+      answers: answers,                 // 문제별 선택한 보기 (0~4, -1은 미응답)
+      answeredCount: answers.filter(a => a !== -1).length,
+      totalQuestions: questions.length,
+      elapsedSeconds: elapsedSec,
+      timeUp: !!timeUp,
+      status: 'submitted',
+      lastSavedAt: serverTimestamp(),
+      submittedAt: serverTimestamp()
+    }, { merge: true });
+    const key = localAttemptKey();
+    if (key) localStorage.removeItem(key);
+  } catch (e) {
+    console.error("저장 실패:", e);
+    alert("제출 중 오류가 발생했습니다: " + e.message + "\n네트워크를 확인하고 다시 시도해 주세요.");
+    isSubmitting = false;
+    if (!timeUp) timerInterval = setInterval(tickTimer, 1000);
+    return;
+  }
+
+  document.getElementById('screen-exam').style.display = 'none';
+  document.getElementById('screen-result').style.display = 'flex';
+
+  const icon = document.querySelector('.result-icon');
+  const title = document.querySelector('.result-card h2');
+  const desc = document.querySelector('.result-card p');
+  if (timeUp) {
+    icon.textContent = '⏰';
+    title.textContent = '시간 종료 - 자동 제출되었습니다';
+    desc.innerHTML = '응시 시간이 모두 종료되어<br/>자동으로 답안이 제출되었습니다.';
+  } else {
+    icon.textContent = '✅';
+    title.textContent = '답안 제출 완료';
+    desc.innerHTML = '시험이 종료되었습니다.<br/>수고하셨습니다!';
+  }
+
+  document.getElementById('res-name').textContent = studentInfo.name;
+  document.getElementById('res-class').textContent = `${studentInfo.school} ${studentInfo.grade} ${studentInfo.cls}반 ${studentInfo.num}번`;
+  document.getElementById('res-answered').textContent = answers.filter(a => a !== -1).length;
+  document.getElementById('res-time').textContent = `${em}분 ${es}초`;
+}
+</script>
+</body>
+</html>
