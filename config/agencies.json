@@ -1,0 +1,10 @@
+[
+  {"name":"한국전력공사","type":"공기업","officialDomain":"kepco.co.kr","board":null,"status":"연결 규칙 필요"},
+  {"name":"한국수자원공사","type":"공기업","officialDomain":"kwater.or.kr","board":null,"status":"연결 규칙 필요"},
+  {"name":"한국도로공사","type":"공기업","officialDomain":"ex.co.kr","board":null,"status":"동적 게시판 전용 규칙 필요"},
+  {"name":"인천국제공항공사","type":"공기업","officialDomain":"airport.kr","board":null,"status":"연결 규칙 필요"},
+  {"name":"한국철도공사","type":"공기업","officialDomain":"korail.com","board":null,"status":"연결 규칙 필요"},
+  {"name":"국민건강보험공단","type":"준정부기관","officialDomain":"nhis.or.kr","board":null,"status":"연결 규칙 필요"},
+  {"name":"한국산업인력공단","type":"준정부기관","officialDomain":"hrdkorea.or.kr","board":null,"status":"연결 규칙 필요"},
+  {"name":"한국장학재단","type":"준정부기관","officialDomain":"kosaf.go.kr","status":"연결됨","board":{"url":"https://www.kosaf.go.kr/ko/info.do?pg=press01_01","parser":"kosaf_press_table","titlePattern":"\\[(?:인사)?보도자료\\]","datePattern":"20\\d{2}\\.\\d{2}\\.\\d{2}\\."}}
+]
