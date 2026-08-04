@@ -1,0 +1,176 @@
+{
+  "generatedAt": "2026-08-04T02:29:15.565154+00:00",
+  "source": "verified official press-release boards only",
+  "configuredAgencyCount": 1,
+  "totalAgencyCount": 8,
+  "itemCount": 10,
+  "health": [
+    {
+      "agency": "한국전력공사",
+      "status": "not_configured",
+      "message": "연결 규칙 필요"
+    },
+    {
+      "agency": "한국수자원공사",
+      "status": "not_configured",
+      "message": "연결 규칙 필요"
+    },
+    {
+      "agency": "한국도로공사",
+      "status": "not_configured",
+      "message": "동적 게시판 전용 규칙 필요"
+    },
+    {
+      "agency": "인천국제공항공사",
+      "status": "not_configured",
+      "message": "연결 규칙 필요"
+    },
+    {
+      "agency": "한국철도공사",
+      "status": "not_configured",
+      "message": "연결 규칙 필요"
+    },
+    {
+      "agency": "국민건강보험공단",
+      "status": "not_configured",
+      "message": "연결 규칙 필요"
+    },
+    {
+      "agency": "한국산업인력공단",
+      "status": "not_configured",
+      "message": "연결 규칙 필요"
+    },
+    {
+      "agency": "한국장학재단",
+      "status": "ok",
+      "itemCount": 10,
+      "boardUrl": "https://www.kosaf.go.kr/ko/info.do?pg=press01_01"
+    }
+  ],
+  "items": [
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026.07.31",
+      "title": "한국장학재단, 2026년 드림장학생 캠프 개최",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21147&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026.07.31",
+      "title": "한국장학재단 인사[승진]",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21145&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026.07.30",
+      "title": "한국장학재단, 공공데이터와 AI로 청년 주거 문제 해결에 도전한 청년창업가들에게 한국장학재단 이사장상 수여",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21142&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026.07.28",
+      "title": "한국장학재단, 2026 복권기금 꿈사다리 페스티벌 개막식 개최",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21140&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026.07.28",
+      "title": "취업 후 상환 학자금대출, 중도 상환 수수료 없는 자발적 상환 제도 상시 운영",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21138&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026.07.28",
+      "title": "한국장학재단, 「고졸 후학습자 장학금」 신규장학생 4,235명 선발 완료",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21135&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026.07.27",
+      "title": "한국장학재단, 용산 기숙사 건설현장 종사자 대상 온열질환 예방 캠페인 전개",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21128&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026.07.27",
+      "title": "조상기(曺相淇) 한국장학재단 선임본부장 한국장학재단 상임이사 취임",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21126&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026.07.24",
+      "title": "한국장학재단, 한국교육과정평가원과 「청년 학업 지원 및 미래인재 양성을 위한 업무협약」 체결",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21123&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "청년",
+        "인재"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026.07.24",
+      "title": "한국장학재단 대전청년창업센터 입주기업 다함께차차茶(차), 「2026년 글로벌 소상공인 육성 사업」 최종 선정",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21118&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    }
+  ]
+}
