@@ -209,7 +209,7 @@ def collect_agency(agency: dict) -> tuple[list[dict], dict]:
     try:
         if agency.get("jsonApi"):
             items = collect_json_api(agency)
-        elif agency.get("boardUrls"):
+        elif agency.get("boardUrls") and agency.get("domain"):
             items = []
             for url in agency["boardUrls"]:
                 items.extend(collect_generic_html(agency, url))
@@ -217,7 +217,7 @@ def collect_agency(agency: dict) -> tuple[list[dict], dict]:
             return [], {
                 "agency": name,
                 "status": "not_configured",
-                "message": "공식 게시판 규칙 미확인 (boardUrls 필요)",
+                "message": "공식 게시판 규칙 미확인 (boardUrls/domain 필요)",
             }
         if not items:
             return [], {
