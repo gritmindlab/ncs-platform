@@ -11,13 +11,12 @@
      - 없으면: href 자체를 상세 URL로 쓴다 (officialDomain 소속만 인정)
      날짜는 같은 표(tr) 또는 인접 텍스트에서 YYYY-MM-DD / YYYY.MM.DD 패턴으로 찾는다.
 - 이미 저장된 자료는 절대 삭제하지 않고 계속 누적한다 (title+agency+date 기준 중복만 제거).
-- OPENAI_API_KEY가 있으면 "새로 추가된" 항목에 한해 핵심정리를 생성한다(선택 기능).
+- 핵심정리(AI 요약) 기능은 사용하지 않는다. 공식 원문 링크만 제공한다.
 """
 from __future__ import annotations
 
 import html
 import json
-import os
 import re
 import ssl
 import time
@@ -244,48 +243,6 @@ def dedupe_key(item: dict) -> tuple:
     return (item["agency"], item["title"], item["date"])
 
 
-def maybe_summarize(new_items: list[dict], cap: int) -> None:
-    api_key = os.environ.get("OPENAI_API_KEY")
-    if not api_key or not new_items:
-        return
-    model = os.environ.get("OPENAI_MODEL", "gpt-5-mini")
-    for item in new_items[:cap]:
-        prompt = (
-            "다음은 공공기관 보도자료 제목이다. NCS 필기시험 대비 관점에서 "
-            "핵심 내용(2~3문장), 핵심 용어(최대4개), 필기 포인트(최대3개)를 "
-            "JSON으로만 답하라. 키: summary, keyTerms, examPoints.\n"
-            f"기관: {item['agency']}\n제목: {item['title']}"
-        )
-        try:
-            body = json.dumps(
-                {
-                    "model": model,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "max_tokens": 500,
-                }
-            ).encode("utf-8")
-            req = urllib.request.Request(
-                "https://api.openai.com/v1/chat/completions",
-                data=body,
-                headers={
-                    "Authorization": f"Bearer {api_key}",
-                    "Content-Type": "application/json",
-                },
-            )
-            with urllib.request.urlopen(req, timeout=30) as res:
-                payload = json.loads(res.read().decode("utf-8"))
-            content = payload["choices"][0]["message"]["content"]
-            content = re.sub(r"^```json\s*|\s*```$", "", content.strip())
-            parsed = json.loads(content)
-            item["summary"] = parsed.get("summary", "")
-            item["keyTerms"] = parsed.get("keyTerms", [])
-            item["examPoints"] = parsed.get("examPoints", [])
-            item["summaryStatus"] = "complete"
-        except Exception as exc:  # noqa: BLE001
-            item["summaryStatus"] = "error"
-            item["caution"] = str(exc)[:150]
-
-
 def main() -> None:
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     agencies = config["agencies"]
@@ -305,11 +262,8 @@ def main() -> None:
             if dedupe_key(item) in existing_keys:
                 continue
             existing_keys.add(dedupe_key(item))
-            item["summaryStatus"] = "pending"
             all_new_items.append(item)
         time.sleep(0.3)
-
-    maybe_summarize(all_new_items, config.get("maxNewSummariesPerRun", 40))
 
     combined = existing_items + all_new_items
     combined.sort(key=lambda i: i.get("date", ""), reverse=True)
