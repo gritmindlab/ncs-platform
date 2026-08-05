@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-05T04:55:37.616870+00:00",
+  "generatedAt": "2026-08-05T05:17:30.370849+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 34,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 197,
+  "successfulAgencyCount": 16,
+  "itemCount": 207,
   "health": [
     {
       "agency": "한국전력공사",
@@ -58,8 +58,8 @@
     },
     {
       "agency": "한국수력원자력",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국남동발전",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -589,7 +589,7 @@
     },
     {
       "agency": "한국수자원공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-08-05",
       "title": "한국수자원공사, 가뭄 극복 총력 대응… 전사 비상대책본...",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140854&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -601,7 +601,7 @@
     },
     {
       "agency": "한국철도공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-08-05",
       "title": "--> 코레일, 9월부터 고속철도 통합 운영 새글",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=01Ene5aX1l69dNG78AA7MaXZpBajl1EAYcgBC6BDV62Kp6M3TG4AEZUsohKJEN5W?key=911&bbsNo=199&nttNo=27135&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -637,7 +637,7 @@
     },
     {
       "agency": "한전KPS",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-08-05",
       "title": "한전KPS, 자립준비청년 ‘취준’ 지원…기술인재로 양성 새 글 2026-08-05",
       "url": "https://www.kps.co.kr/web/Board/47457/detailView.do?pageIndex=1&menu=2468",
@@ -651,7 +651,7 @@
     },
     {
       "agency": "한국수자원공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-08-04",
       "title": "한국수자원공사, 미국 캘리포니아 주립대에 ‘AI·디지털...",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140851&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -663,7 +663,7 @@
     },
     {
       "agency": "한국수자원공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-08-04",
       "title": "한국수자원공사, 경북창조경제혁신센터와 경북지역 기후테크...",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140853&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -675,7 +675,7 @@
     },
     {
       "agency": "한국남동발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-08-04",
       "title": "(08.04) KOEN 한국남동발전, 8월 전력피크 대비 전사 전력수급 ...",
       "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64147",
@@ -711,7 +711,7 @@
     },
     {
       "agency": "한국철도공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-08-03",
       "title": "--> 코레일 “수요일 점심 먹으며 AI 배워요” 새글",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=01Ene5aX1l69dNG78AA7MaXZpBajl1EAYcgBC6BDV62Kp6M3TG4AEZUsohKJEN5W?key=911&bbsNo=199&nttNo=27114&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -824,8 +824,20 @@
       ]
     },
     {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-08-03",
+      "title": "기보, RnD사업화 유동화보증 신설해 기술사업화 금융지원 확대",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65131&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국철도공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-08-02",
       "title": "--> 하나의 앱에서 KTX·SRT 예매한다…통합 앱 ‘코레일+’ 8월 3일 출시 새글",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=01Ene5aX1l69dNG78AA7MaXZpBajl1EAYcgBC6BDV62Kp6M3TG4AEZUsohKJEN5W?key=911&bbsNo=199&nttNo=27109&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -837,7 +849,7 @@
     },
     {
       "agency": "한국수자원공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-31",
       "title": "윤석대 한국수자원공사 사장, 역대급 폭염 속 전국 건설...",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140843&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -923,7 +935,7 @@
     },
     {
       "agency": "한전KPS",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-31",
       "title": "한전KPS, 신입사원 252명 입사…“에너지인재 성장” 다짐 새 글 2026-07-31",
       "url": "https://www.kps.co.kr/web/Board/47443/detailView.do?pageIndex=1&menu=2468",
@@ -972,8 +984,20 @@
       ]
     },
     {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-07-31",
+      "title": "기보, 한국광해광업공단과 ESG 감사역량 및 내부통제 강화 협력",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65119&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국수자원공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-30",
       "title": "한국수자원공사, 경기주택도시공사와 하남교산 수열공급 시...",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140837&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -985,7 +1009,7 @@
     },
     {
       "agency": "한국철도공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-30",
       "title": "--> 코레일-SR, 통합회원 전환 이벤트…1천명 추첨해 KTX 20% 할인쿠폰 증정 새글",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=01Ene5aX1l69dNG78AA7MaXZpBajl1EAYcgBC6BDV62Kp6M3TG4AEZUsohKJEN5W?key=911&bbsNo=199&nttNo=27088&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -997,7 +1021,7 @@
     },
     {
       "agency": "한국수력원자력",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-30",
       "title": "--> 보도 한국수력원자력, 폭염 대비‘기후약자 긴급 지원’전사적 추진 한국수력원자력, 폭염 대비‘기후약자 긴급 지원’전사적 추진 - 전 사업소 참여, 쪽방촌 현장 방문해 안심키트 및 기부금 전달 - 한국수력원자력(사장 김회천, 이하 한수원)이 연일 이어지는 기록적인 폭염으로 어려움을 겪고 있는 기후약자를 돕기 위해 전사적인 긴급 지원에 나섰다. 한수원은 7월과 8월 두 달간 전 사업소가 참여하는 ‘기후약자 폭염 대비 긴급 지원 사업’을 추진한다고 3... 작성일 : 2026-07-30",
       "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=75952&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1131,8 +1155,20 @@
       ]
     },
     {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-07-30",
+      "title": "기보, 현대차-기아-기업은행과 반도체 협력기업 금융지원에 나서",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65099&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국수자원공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-29",
       "title": "윤석대 한국수자원공사 사장, 밀양댐 현장점검",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140834&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -1144,7 +1180,7 @@
     },
     {
       "agency": "한국수력원자력",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-29",
       "title": "--> 보도 한국수력원자력, 영덕군과‘원전 상생발전’첫걸음 한국수력원자력, 영덕군과‘원전 상생발전’첫걸음 - \"영덕의 백년대계 연다\" 신규원전 건설 통한 상생발전 협약 - 한국수력원자력(사장 김회천, 이하 한수원)이 29일 경북 영덕군과 ‘신규 원전 건설 및 영덕군 발전을 위한 상생협약’을 체결했다. 한수원 본사에서 개최된 이날 행사에는 최일경 한수원 사업총괄본부장(부사장)을 비롯해 조주홍 영덕군수, 조상준 영덕군의장 등 20여 명이 참석... 작성일 : 2026-07-29",
       "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=75967&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1206,7 +1242,7 @@
     },
     {
       "agency": "한전KPS",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-29",
       "title": "한전KPS, 범죄 피해가정 일상회복 위한 지원사업 시행 2026-07-29",
       "url": "https://www.kps.co.kr/web/Board/47433/detailView.do?pageIndex=1&menu=2468",
@@ -1254,7 +1290,7 @@
     },
     {
       "agency": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-29",
       "title": "[보도자료] 한국석유공사, 폭염 속 고위험 작업 현장 ..",
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=996&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
@@ -1266,7 +1302,7 @@
     },
     {
       "agency": "한국철도공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-28",
       "title": "--> 코레일, ‘대한민국 올해의 녹색상품’ 15년 연속 수상",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=01Ene5aX1l69dNG78AA7MaXZpBajl1EAYcgBC6BDV62Kp6M3TG4AEZUsohKJEN5W?key=911&bbsNo=199&nttNo=27068&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1278,7 +1314,7 @@
     },
     {
       "agency": "한국수력원자력",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-28",
       "title": "--> 보도 한국수력원자력, 노·사·협력사 합동 현장 안전챙김 나서 한국수력원자력, 노·사·협력사 합동 현장 안전챙김 나서 - 산업안전보건의 달 맞아 '내 일터 안전하게, 내일 더 행복하게' 구현 다짐 - 한국수력원자력(사장 김회천, 이하 한수원)이 ‘산업안전보건의 달’을 맞아 28일 노·사·협력사 합동으로 현장 안전점검을 실시했다. 김회천 한수원 사장은 이날 강창호 노조위원장을 비롯한 임직원들과 함께 새울원자력본부를 ... 작성일 : 2026-07-28",
       "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=75926&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1291,7 +1327,7 @@
     },
     {
       "agency": "한국수력원자력",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-28",
       "title": "--> 보도 <인사> 한국수력원자력, 보직이동 <인사> 한국수력원자력, 보직이동 ◇본사 △감사실장 이희재 △방사선환경처장 한승혁 △기획처장 안형준 △상생협력처장 이한용 △조직평가실장 강태윤 △인사처장 남영규 △조달처장 최훈 △홍보실장 이진 △안전경영단장 하경석 △원전통합경영실장 최준녕 △발전처장 김덕헌 △규제협력처장 양승태 △원전사후관리처장 김병직 △연료실장 정윤창 △엔지니어링처장 조정래 △설비개선처장 최진혁 △구조기술처장 송창국 △원전건... 작성일 : 2026-07-28",
       "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=75947&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1304,7 +1340,7 @@
     },
     {
       "agency": "한국남동발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-28",
       "title": "(07.28) KOEN 한국남동발전, 차세대 발전설비관리시스템 ‘GENi...",
       "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64141",
@@ -1316,7 +1352,7 @@
     },
     {
       "agency": "한국남동발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-28",
       "title": "(07.28) KOEN 한국남동발전, 경영환경 변화 대응 역량 강화로 정...",
       "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64140",
@@ -1402,7 +1438,7 @@
     },
     {
       "agency": "한국수자원공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-27",
       "title": "한국수자원공사, 장마 이후 기상 변동 대비 녹조 대응 ...",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140824&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -1414,7 +1450,7 @@
     },
     {
       "agency": "주택도시보증공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-27",
       "title": "주택도시보증공사, 부산지역 주거·의료 취약 아동 위한 ‘골든타임 세이프홈 ...",
       "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38054&t_title=게시물 읽기 (주택도시보증공사, 부산지역 주거·의료 취약 아동 위한 ‘골든타임 세이프홈’사업 참여가정 모집)",
@@ -1426,7 +1462,7 @@
     },
     {
       "agency": "한국수력원자력",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-27",
       "title": "--> 보도 한국수력원자력, 2026년 신입사원 입사식 개최 한국수력원자력, 2026년 신입사원 입사식 개최 - '가족과 함께, 안전을 잇고 미래를 여는 한수원인(人)의 첫걸음' - 한국수력원자력(사장 김회천, 이하 한수원)이 27일 경주 본사에서 임직원과 신입사원, 신입사원의 가족 등 500여 명이 참석한 가운데 '2026년도 신입사원 입사식'을 개최했다. '가족과 함께, 안전을 잇고 미래를 여는 한수원인(人)의 첫걸음'이라는 슬로건으로 열린 이번 행사는 신입사원들이 한수원의 가족... 작성일 : 2026-07-27",
       "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=75906&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1439,7 +1475,7 @@
     },
     {
       "agency": "한국수력원자력",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-27",
       "title": "--> 보도 한국수력원자력 방사선보건원, 서울 중구 취약계층에 선풍기 150대 전달 한국수력원자력 방사선보건원, 서울 중구 취약계층에 선풍기 150대 전달 - 날개바람으로 혹서기를 날리다 - 한국수력원자력(사장 김회천, 이하 한수원) 방사선보건원 직원들이 27일 서울 중구 관내 주거 환경 취약계층을 위해 선풍기 150대를 전달했다. ‘방사선보건원, 날개바람으로 혹서기를 날리다’라는 이름으로 진행된 이번 행사는 방사선보건원 임직원들이 자발적으로 모은 기금을 활용, 서울시 중구청과 협력해 ... 작성일 : 2026-07-27",
       "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=75893&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1451,7 +1487,7 @@
     },
     {
       "agency": "한국수력원자력",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-27",
       "title": "--> 보도 한국수력원자력, 포천양수발전소 건설 지역 주민 이주대책 합의 한국수력원자력, 포천양수발전소 건설 지역 주민 이주대책 합의 한국수력원자력(사장 김회천, 이하 한수원)이 포천양수발전소 건설과 관련해 포천시 및 수몰 예정지역 이주대상 주민 28명과 이주대책에 최종 합의했다. 한수원과 포천시, 주민 등 3자협의체는 지난 2025년 4월부터 총 7차례에 걸쳐 주민 이주대책에 대해 논의해 왔으며, 장기간의 협의 끝에 이번에 최종 결실을 얻게 됐다. 포천양수발전소 건설사업은 2019년... 작성일 : 2026-07-27",
       "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=75886&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1463,7 +1499,7 @@
     },
     {
       "agency": "한국남동발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-27",
       "title": "(07.27) KOEN 한국남동발전, ‘2026년 뉴-KOEN 바다사랑지...",
       "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64137",
@@ -1621,7 +1657,7 @@
     },
     {
       "agency": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-27",
       "title": "[보도자료] 한국석유공사, 공사 방문한 김상욱 울산시장..",
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=995&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
@@ -1632,8 +1668,20 @@
       ]
     },
     {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-07-27",
+      "title": "기보, 미국 실리콘밸리에서 글로벌 K-벤처 혁신 간담회 개최",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65007&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국철도공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-24",
       "title": "--> 코레일, 가족돌봄 청소년(영케어러)과 ‘해피트레인’ 기차여행",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=01Ene5aX1l69dNG78AA7MaXZpBajl1EAYcgBC6BDV62Kp6M3TG4AEZUsohKJEN5W?key=911&bbsNo=199&nttNo=27051&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1746,7 +1794,7 @@
     },
     {
       "agency": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-24",
       "title": "[보도자료] 한국석유공사, 석유 수급위기 선제적 대응을..",
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=994&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
@@ -1758,7 +1806,7 @@
     },
     {
       "agency": "한국수자원공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-23",
       "title": "한국수자원공사, 안동댐 50주년 맞아 ‘로컬브랜드포럼 ...",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140817&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -1770,7 +1818,7 @@
     },
     {
       "agency": "한국철도공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-23",
       "title": "--> 코레일, AI 기반 ‘선로작업 실습 시뮬레이터’ 개발 착수",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=01Ene5aX1l69dNG78AA7MaXZpBajl1EAYcgBC6BDV62Kp6M3TG4AEZUsohKJEN5W?key=911&bbsNo=199&nttNo=27050&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1782,7 +1830,7 @@
     },
     {
       "agency": "주택도시보증공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-23",
       "title": "주택도시보증공사, AI감사 전문성 강화를 위해 기술보증기금, 한국자산관리 ...",
       "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38047&t_title=게시물 읽기 (주택도시보증공사, AI감사 전문성 강화를 위해 기술보증기금, 한국자산관리공사와 업무협약 체결)",
@@ -1794,7 +1842,7 @@
     },
     {
       "agency": "한국수력원자력",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-23",
       "title": "--> 보도 한국수력원자력, CEO 협력기업 간담회 시행 김회천 한국수력원자력 사장, 협력중소기업 방문 애로사항 청취 한국수력원자력(이하 한수원) 김회천 사장이 23일 서울 가산디지털단지 내에 위치한 협력기업 와이피피㈜를 방문했다. 와이피피㈜(대표 백종만)는 1982년에 설립된 전력설비 보호제어 전문기업으로, 한수원 국산화 연구개발(R&D) 지원을 통해 원전 핵심 설비의 국산화에 성공, UAE 바라카 원전에 수출까지 이뤄낸 우수 중소기업이다. 이날 김회... 작성일 : 2026-07-23",
       "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=75844&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1806,7 +1854,7 @@
     },
     {
       "agency": "한국수력원자력",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-23",
       "title": "--> 보도 한국수력원자력, 고온수전해(SOEC) 기술협력 추진 한국수력원자력, 고온수전해(SOEC) 산·학·연 전문가들과 머리 맞대 - 한국세라믹학회 '제3회 K-SOC 심포지엄'서 특별세션 운영 - 한국수력원자력(사장 김회천, 이하 한수원)이 23일 청주 오스코에서 열린 한국세라믹학회 주최 ‘제3회 K-SOC 심포지엄’에 참가해 고온수전해(SOEC) 분야 특별세션을 운영하고, 산·학·연 전문가들의 의견을 청취했다.&nb... 작성일 : 2026-07-23",
       "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=75843&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1818,7 +1866,7 @@
     },
     {
       "agency": "한국수력원자력",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-23",
       "title": "--> 보도 한국수력원자력, 사내 생성형 인공지능(AI) 플랫폼 활용 스마트 문서 혁신 시동 한국수력원자력, 사내 생성형 인공지능(AI) 플랫폼 활용 스마트 문서 혁신 시동 - 자연어 명령으로 보고서 초안 생성·교정... 업무 효율성 극대화 및 원전 보안 유지 - 한국수력원자력(사장 김회천, 이하 한수원)이 자체 구축한 사내 자료 기반 생성형 인공지능(AI) 플랫폼인 ‘하이누리(Hy-NuRI)’에 한컴의 인공지능(AI) 지능형 문서 작성 도구인 ‘한컴어시스턴트’를 결합해 현업에... 작성일 : 2026-07-23",
       "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=75820&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1918,8 +1966,20 @@
       ]
     },
     {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-07-23",
+      "title": "기보, 주택도시보증공사-한국자산관리공사와 감사분야 협력 강화",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=64910&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국철도공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-22",
       "title": "--> 코레일, 성희롱·괴롭힘 예방 위한 ‘뮤지컬 교육’ 진행",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=01Ene5aX1l69dNG78AA7MaXZpBajl1EAYcgBC6BDV62Kp6M3TG4AEZUsohKJEN5W?key=911&bbsNo=199&nttNo=27049&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1932,7 +1992,7 @@
     },
     {
       "agency": "한국철도공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-22",
       "title": "--> 코레일, 지하역 외부 ‘엘리베이터 안내표지’ 바꾼다",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=01Ene5aX1l69dNG78AA7MaXZpBajl1EAYcgBC6BDV62Kp6M3TG4AEZUsohKJEN5W?key=911&bbsNo=199&nttNo=27047&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -1993,7 +2053,7 @@
     },
     {
       "agency": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-22",
       "title": "[보도자료] 한국석유공사, 산업·기후부 소관 ‘2026..",
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=993&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
@@ -2005,7 +2065,7 @@
     },
     {
       "agency": "한국남동발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-21",
       "title": "(07.21) KOEN 한국남동발전, 제4기 갈등관리심의위원회 개최......",
       "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64131",
@@ -2041,8 +2101,20 @@
       ]
     },
     {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-07-21",
+      "title": "기보, 한국수입협회-하나은행과 수입기업 성장 지원 위해 맞손",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=64841&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국수자원공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-20",
       "title": "한국수자원공사-한국산업안전보건공단, 자체감사기구 간 A...",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140810&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -2055,7 +2127,7 @@
     },
     {
       "agency": "한국철도공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-20",
       "title": "--> 코레일, 아세안 교통공무원 초청연수 진행",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=01Ene5aX1l69dNG78AA7MaXZpBajl1EAYcgBC6BDV62Kp6M3TG4AEZUsohKJEN5W?key=911&bbsNo=199&nttNo=27044&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -2067,7 +2139,7 @@
     },
     {
       "agency": "주택도시보증공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-20",
       "title": "비아파트 자금조달 부담 등 완화 전면 시행, HUG 非아파트 공급 확대를 ...",
       "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=37999&t_title=게시물 읽기 (비아파트 자금조달 부담 등 완화 전면 시행, HUG 非아파트 공급 확대를 위한 '초기사업비 지원구조' 도입 신축매입임대 자금조달 부담 완화 나선다)",
@@ -2079,7 +2151,7 @@
     },
     {
       "agency": "한국남동발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-20",
       "title": "(07.16) KOEN 한국남동발전, 국립공원공단과 감사 전문성 제고 및...",
       "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64130",
@@ -2091,7 +2163,7 @@
     },
     {
       "agency": "한국남동발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-20",
       "title": "(07.16) KOEN 한국남동발전, 중동정세 불안에 따른 에너지 위기극...",
       "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64129",
@@ -2164,7 +2236,7 @@
     },
     {
       "agency": "주택도시보증공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-16",
       "title": "주거든든 마음든든 HUG 든든전세주택 7월 24일부터 총 300호 수시 ...",
       "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=37973&t_title=게시물 읽기 (주거든든 마음든든 HUG 든든전세주택 7월 24일부터 총 300호 수시 입주자 모집(제11차) 시작)",
@@ -2176,7 +2248,7 @@
     },
     {
       "agency": "주택도시보증공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-16",
       "title": "주택도시보증공사(HUG), 한국노인인력개발원과 손잡고 시니어 인력 일자리 ...",
       "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=37972&t_title=게시물 읽기 (주택도시보증공사(HUG), 한국노인인력개발원과 손잡고 시니어 인력 일자리 지원사업 2년째 이어나가)",
@@ -2238,8 +2310,33 @@
       ]
     },
     {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-07-16",
+      "title": "기보, 산단공-녹산산단경영자협의회와 재난 안전 대응에 상호 협력",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=64725&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-07-16",
+      "title": "기보, 아이엠뱅크와 미래전략산업 육성 위한 금융지원에 나서",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=64724&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "주택도시보증공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-15",
       "title": "주택도시보증공사, 중대재해 발생 예방 위해 공사 중단 분양보증 이행사업장 ...",
       "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=37967&t_title=게시물 읽기 (주택도시보증공사, 중대재해 발생 예방 위해 공사 중단 분양보증 이행사업장 현장 특별점검)",
@@ -2251,7 +2348,7 @@
     },
     {
       "agency": "주택도시보증공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-15",
       "title": "HUG, 전세사기 위험 정보 개방한다 유관기관과 MOU 체결",
       "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=37966&t_title=게시물 읽기 (HUG, 전세사기 위험 정보 개방한다 유관기관과 MOU 체결)",
@@ -2314,7 +2411,7 @@
     },
     {
       "agency": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-15",
       "title": "[보도자료] 한국석유공사, 가스공사·한수원과 업무협약…..",
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=992&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
@@ -2326,8 +2423,20 @@
       ]
     },
     {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-07-15",
+      "title": "기술보증기금 이사장에 권형택 임명",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=64723&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "주택도시보증공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-14",
       "title": "주택도시보증공사, 新비전 및 혁신 선포 전월세 시장 안정화와 주택공급 지 ...",
       "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=37953&t_title=게시물 읽기 (주택도시보증공사, 新비전 및 혁신 선포 전월세 시장 안정화와 주택공급 지원을 위한 미래 청사진 제시)",
@@ -2436,8 +2545,20 @@
       ]
     },
     {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-07-14",
+      "title": "기보, 광주회생법원과 기업 재도약 기술거래 활성화 지원 협력",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=64720&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국수자원공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-13",
       "title": "한국수자원공사, 55개 회원국 아우르는 국제기구 GGG...",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140801&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -2449,7 +2570,7 @@
     },
     {
       "agency": "주택도시보증공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-13",
       "title": "HUG, 공공주택 공급 확대 위해 민간참여 공공주택사업 금융보증 출시",
       "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=37944&t_title=게시물 읽기 (HUG, 공공주택 공급 확대 위해 민간참여 공공주택사업 금융보증 출시)",
@@ -2473,7 +2594,7 @@
     },
     {
       "agency": "한국남동발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-10",
       "title": "(07.10) KOEN 한국남동발전, 영흥에서 피어난 ′동심동덕′ 청렴 ...",
       "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64123",
@@ -2523,7 +2644,7 @@
     },
     {
       "agency": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-10",
       "title": "[보도자료] 실무·이론 다 잡았다… 한국석유공사·지자연..",
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=991&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
@@ -2535,7 +2656,7 @@
     },
     {
       "agency": "한국남동발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-09",
       "title": "(07.08) KOEN 한국남동발전, 7월은 ‘안전의식 개선 강조의 달’",
       "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64122",
@@ -2548,7 +2669,7 @@
     },
     {
       "agency": "한국남동발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-09",
       "title": "(07.07) KOEN 한국남동발전, 여름철 안정적 전력공급 위한 총력 ...",
       "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64121",
@@ -2610,7 +2731,7 @@
     },
     {
       "agency": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-09",
       "title": "[보도자료] 한국석유공사, 재난관리 분야 3대 정부평가..",
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=990&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
@@ -2622,7 +2743,7 @@
     },
     {
       "agency": "주택도시보증공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-08",
       "title": "HUG, '26.7월 미분양관리지역 정정 공고",
       "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=37922&t_title=게시물 읽기 (HUG, '26.7월 미분양관리지역 정정 공고)",
@@ -2634,7 +2755,7 @@
     },
     {
       "agency": "한전KPS",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-08",
       "title": "한전기술-한전KPS-한전KDN, ‘AI 청년 서포터즈’ 공동모집 2026-07-08",
       "url": "https://www.kps.co.kr/web/Board/47325/detailView.do?pageIndex=1&menu=2468",
@@ -2659,7 +2780,7 @@
     },
     {
       "agency": "한전KPS",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-07",
       "title": "한전KPS, 고위직 대상 ‘상임감사 청렴코칭’ 실시 2026-07-07",
       "url": "https://www.kps.co.kr/web/Board/47322/detailView.do?pageIndex=1&menu=2468",
@@ -2683,7 +2804,7 @@
     },
     {
       "agency": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-07",
       "title": "[보도자료] 한국석유공사-한국수산자원공단, 해양생태계 ..",
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=989&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
@@ -2695,7 +2816,7 @@
     },
     {
       "agency": "한전KPS",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-06",
       "title": "한전KPS, 윤리-인권 통합 거버넌스 구축 2026-07-06",
       "url": "https://www.kps.co.kr/web/Board/47290/detailView.do?pageIndex=1&menu=2468",
@@ -2719,7 +2840,7 @@
     },
     {
       "agency": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-06",
       "title": "[보도자료] 한국석유공사, 해외 생산 원유 국내 반입으..",
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=988&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
@@ -2731,7 +2852,7 @@
     },
     {
       "agency": "한전KPS",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-07-03",
       "title": "한전KPS, 감사 슬로건 ‘IMPACT-UP, 2026’ 선포 2026-07-03",
       "url": "https://www.kps.co.kr/web/Board/47289/detailView.do?pageIndex=1&menu=2468",
@@ -2755,7 +2876,7 @@
     },
     {
       "agency": "한전KPS",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-06-30",
       "title": "한전KPS, 여름철 전력수급 안정 비상대비태세 점검 2026-06-30",
       "url": "https://www.kps.co.kr/web/Board/47247/detailView.do?pageIndex=1&menu=2468",
@@ -2767,7 +2888,7 @@
     },
     {
       "agency": "한전KPS",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-06-29",
       "title": "한전KPS, 내부통제 고도화 추진…리스크 예방체계 강화 2026-06-29",
       "url": "https://www.kps.co.kr/web/Board/47246/detailView.do?pageIndex=1&menu=2468",
@@ -2779,7 +2900,7 @@
     },
     {
       "agency": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-06-29",
       "title": "[보도자료] 에너지 소외계층의 시원한 여름 책임진다 한..",
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=987&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
@@ -2791,7 +2912,7 @@
     },
     {
       "agency": "한전KPS",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "date": "2026-06-26",
       "title": "한전KPS, 지역인재 육성 장학금 2천만원 기탁 2026-06-26",
       "url": "https://www.kps.co.kr/web/Board/47245/detailView.do?pageIndex=1&menu=2468",
@@ -2804,7 +2925,7 @@
     },
     {
       "agency": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-06-23",
       "title": "[보도자료] 한국석유공사, 울산민관청렴협의체와 공동회의..",
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=986&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
@@ -2876,7 +2997,7 @@
     },
     {
       "agency": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "date": "2026-06-10",
       "title": "[보도자료] 한국석유공사, 한국광해광업공단과 맞손… 환..",
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=985&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
