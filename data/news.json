@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-08-04T02:29:15.565154+00:00",
+  "generatedAt": "2026-08-05T04:28:27.138725+00:00",
   "source": "verified official press-release boards only",
-  "configuredAgencyCount": 1,
+  "configuredAgencyCount": 0,
   "totalAgencyCount": 8,
+  "successfulAgencyCount": 0,
   "itemCount": 10,
   "health": [
     {
       "agency": "한국전력공사",
       "status": "not_configured",
-      "message": "연결 규칙 필요"
+      "message": "공식 게시판 규칙 미확인 (boardUrls 필요)"
     },
     {
       "agency": "한국수자원공사",
       "status": "not_configured",
-      "message": "연결 규칙 필요"
+      "message": "공식 게시판 규칙 미확인 (boardUrls 필요)"
     },
     {
       "agency": "한국도로공사",
       "status": "not_configured",
-      "message": "동적 게시판 전용 규칙 필요"
+      "message": "공식 게시판 규칙 미확인 (boardUrls 필요)"
     },
     {
       "agency": "인천국제공항공사",
       "status": "not_configured",
-      "message": "연결 규칙 필요"
+      "message": "공식 게시판 규칙 미확인 (boardUrls 필요)"
     },
     {
       "agency": "한국철도공사",
       "status": "not_configured",
-      "message": "연결 규칙 필요"
+      "message": "공식 게시판 규칙 미확인 (boardUrls 필요)"
     },
     {
       "agency": "국민건강보험공단",
       "status": "not_configured",
-      "message": "연결 규칙 필요"
+      "message": "공식 게시판 규칙 미확인 (boardUrls 필요)"
     },
     {
       "agency": "한국산업인력공단",
       "status": "not_configured",
-      "message": "연결 규칙 필요"
+      "message": "공식 게시판 규칙 미확인 (boardUrls 필요)"
     },
     {
       "agency": "한국장학재단",
-      "status": "ok",
-      "itemCount": 10,
-      "boardUrl": "https://www.kosaf.go.kr/ko/info.do?pg=press01_01"
+      "status": "not_configured",
+      "message": "공식 게시판 규칙 미확인 (boardUrls 필요)"
     }
   ],
   "items": [
