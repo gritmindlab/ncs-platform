@@ -6,13 +6,13 @@
   "agencies": [
     {
       "name": "한국전력공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "kepco.co.kr",
       "homepage": "https://www.kepco.co.kr/home/index.do"
     },
     {
       "name": "한국수자원공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "kwater.or.kr",
       "homepage": "https://www.kwater.or.kr/",
       "boardUrls": [
@@ -22,7 +22,7 @@
     },
     {
       "name": "한국도로공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "ex.co.kr",
       "homepage": "https://www.ex.co.kr/",
       "boardUrls": [
@@ -34,7 +34,7 @@
     },
     {
       "name": "한국철도공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "korail.com",
       "homepage": "https://info.korail.com/",
       "boardUrls": [
@@ -44,13 +44,13 @@
     },
     {
       "name": "한국토지주택공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "domain": "lh.or.kr",
       "homepage": "https://www.lh.or.kr/"
     },
     {
       "name": "주택도시보증공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "domain": "khug.or.kr",
       "homepage": "https://www.khug.or.kr/",
       "boardUrls": [
@@ -60,13 +60,13 @@
     },
     {
       "name": "인천국제공항공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "airport.kr",
       "homepage": "https://www.airport.kr/co/ko/index.do"
     },
     {
       "name": "한국공항공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "airport.co.kr",
       "homepage": "https://www.airport.co.kr/www/index.do",
       "boardUrls": [
@@ -90,7 +90,7 @@
     },
     {
       "name": "한국가스공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "kogas.or.kr",
       "homepage": "https://www.kogas.or.kr/",
       "boardUrls": [
@@ -103,7 +103,7 @@
     },
     {
       "name": "한국지역난방공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "kdhc.co.kr",
       "homepage": "https://www.kdhc.co.kr/",
       "boardUrls": [
@@ -113,7 +113,7 @@
     },
     {
       "name": "한국수력원자력",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "khnp.co.kr",
       "homepage": "https://www.khnp.co.kr/",
       "boardUrls": [
@@ -123,7 +123,7 @@
     },
     {
       "name": "한국남동발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "koenergy.kr",
       "homepage": "https://www.koenergy.kr/",
       "boardUrls": [
@@ -135,19 +135,19 @@
     },
     {
       "name": "한국남부발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "kospo.co.kr",
       "homepage": "https://www.kospo.co.kr/"
     },
     {
       "name": "한국동서발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "ewp.co.kr",
       "homepage": "https://www.ewp.co.kr/"
     },
     {
       "name": "한국서부발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "iwest.co.kr",
       "homepage": "https://www.iwest.co.kr/",
       "boardUrls": [
@@ -159,7 +159,7 @@
     },
     {
       "name": "한국중부발전",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "domain": "komipo.co.kr",
       "homepage": "https://www.komipo.co.kr/",
       "boardUrls": [
@@ -318,7 +318,7 @@
     },
     {
       "name": "한전KPS",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "domain": "kps.co.kr",
       "homepage": "https://www.kps.co.kr/",
       "boardUrls": [
@@ -463,7 +463,7 @@
     },
     {
       "name": "한전KDN",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "domain": "kdn.com",
       "homepage": "https://www.kdn.com/"
     },
@@ -479,12 +479,12 @@
     },
     {
       "name": "강원랜드",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "ministry": "산업통상부"
     },
     {
       "name": "한국가스기술공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "ministry": "산업통상부"
     },
     {
@@ -499,7 +499,7 @@
     },
     {
       "name": "그랜드코리아레저",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "ministry": "문화체육관광부"
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "name": "제주국제자유도시개발센터",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "ministry": "국토교통부"
     },
     {
@@ -544,7 +544,7 @@
     },
     {
       "name": "한국광해광업공단",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "ministry": "산업통상부"
     },
     {
@@ -574,7 +574,7 @@
     },
     {
       "name": "한국마사회",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "ministry": "농림축산식품부"
     },
     {
@@ -599,7 +599,7 @@
     },
     {
       "name": "한국부동산원",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "ministry": "국토교통부"
     },
     {
@@ -624,7 +624,7 @@
     },
     {
       "name": "한국석유공사",
-      "type": "시장형 공기업",
+      "type": "공기업",
       "ministry": "산업통상부",
       "domain": "knoc.co.kr",
       "boardUrls": [
@@ -674,12 +674,12 @@
     },
     {
       "name": "한국전력기술",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "ministry": "기후에너지환경부"
     },
     {
       "name": "한국조폐공사",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "ministry": "재정경제부"
     },
     {
@@ -699,7 +699,7 @@
     },
     {
       "name": "해양환경공단",
-      "type": "준시장형 공기업",
+      "type": "공기업",
       "ministry": "해양수산부"
     },
     {
