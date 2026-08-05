@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-05T06:39:26.640089+00:00",
+  "generatedAt": "2026-08-05T09:18:02.423037+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 207,
+  "successfulAgencyCount": 16,
+  "itemCount": 209,
   "health": [
     {
       "agency": "한국전력공사",
@@ -88,8 +88,8 @@
     },
     {
       "agency": "국민건강보험공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "국민연금공단",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -523,6 +523,30 @@
         "보도자료",
         "청년",
         "인재"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-05",
+      "title": "--> 코레일, 폭염 대비 선로 현장 점검…온열질환 예방에 총력 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=8qmFcgaMK231a0wVFZSjdAumm3raQOihYOhyrF7syqklM3IXTFhOrpHWWWdmn4Q1?key=911&bbsNo=199&nttNo=27140&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-08-05",
+      "title": "--> 보도 한국수력원자력, 필리핀 대표 에너지기업 아보이티즈 파워와 원전 사업 협력 양해각서 체결 한국수력원자력, 필리핀 대표 에너지기업 아보이티즈 파워와 원전 사업 협력 양해각서 체결 - 필리핀 원전사업 협력 기반 확대 및 양국 에너지 협력 강화 - 한국수력원자력(사장 김회천, 이하 한수원)이 지난달 31일 경주 본사에서 필리핀 대표 에너지기업인 아보이티즈 파워(Aboitiz Power Corporation)와 원전 사업 협력을 위한 양해각서(MOU)를 체결했다. 이날 체결식에는 최일경 한수원 ... 작성일 : 2026-08-05",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76113&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
       ]
     },
     {
