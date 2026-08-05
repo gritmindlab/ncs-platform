@@ -245,8 +245,14 @@ def dedupe_key(item: dict) -> tuple:
 
 def main() -> None:
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
-    agencies = config["agencies"]
-    backfill_months = config.get("backfillMonths", 4)
+    if isinstance(config, list):
+        agencies = config
+        backfill_months = 4
+        max_new_summaries = 40
+    else:
+        agencies = config["agencies"]
+        backfill_months = config.get("backfillMonths", 4)
+        max_new_summaries = config.get("maxNewSummariesPerRun", 40)
     cutoff = datetime.now(timezone.utc) - timedelta(days=backfill_months * 31)
 
     existing = load_existing()
