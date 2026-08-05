@@ -230,10 +230,19 @@ def collect_agency(agency: dict) -> tuple[list[dict], dict]:
         return [], {"agency": name, "status": "error", "message": str(exc)[:200]}
 
 
+TYPE_NORMALIZE = {
+    "시장형 공기업": "공기업",
+    "준시장형 공기업": "공기업",
+}
+
+
 def load_existing() -> dict:
     if OUTPUT_PATH.exists():
         try:
-            return json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+            data = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+            for item in data.get("items", []):
+                item["type"] = TYPE_NORMALIZE.get(item.get("type"), item.get("type"))
+            return data
         except json.JSONDecodeError:
             pass
     return {"items": []}
