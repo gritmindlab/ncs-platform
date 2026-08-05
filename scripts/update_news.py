@@ -236,12 +236,24 @@ TYPE_NORMALIZE = {
 }
 
 
+def normalize_date(raw: str) -> str:
+    """'2026.07.31', '2026/07/31', '2026-7-31' 등을 'YYYY-MM-DD'로 통일한다."""
+    if not raw:
+        return raw
+    m = DATE_RE.search(raw)
+    if not m:
+        return raw
+    y, mo, d = m.groups()
+    return f"{y}-{int(mo):02d}-{int(d):02d}"
+
+
 def load_existing() -> dict:
     if OUTPUT_PATH.exists():
         try:
             data = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
             for item in data.get("items", []):
                 item["type"] = TYPE_NORMALIZE.get(item.get("type"), item.get("type"))
+                item["date"] = normalize_date(item.get("date", ""))
             return data
         except json.JSONDecodeError:
             pass
