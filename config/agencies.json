@@ -8,7 +8,12 @@
       "name": "한국전력공사",
       "type": "공기업",
       "domain": "kepco.co.kr",
-      "homepage": "https://www.kepco.co.kr/home/index.do"
+      "homepage": "https://www.kepco.co.kr/home/index.do",
+      "boardUrls": [
+        "https://www.kepco.co.kr/home/media/newsroom/pr/boardList.do"
+      ],
+      "jsIdPattern": "fn_Detail\\('\\d+','(\\d+)'\\)",
+      "detailTemplate": "https://www.kepco.co.kr/home/media/newsroom/pr/boardView.do?boardSeq={id}"
     },
     {
       "name": "한국수자원공사",
