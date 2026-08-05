@@ -1,10 +1,716 @@
-[
-  {"name":"한국전력공사","type":"공기업","officialDomain":"kepco.co.kr","board":null,"status":"연결 규칙 필요"},
-  {"name":"한국수자원공사","type":"공기업","officialDomain":"kwater.or.kr","board":null,"status":"연결 규칙 필요"},
-  {"name":"한국도로공사","type":"공기업","officialDomain":"ex.co.kr","board":null,"status":"동적 게시판 전용 규칙 필요"},
-  {"name":"인천국제공항공사","type":"공기업","officialDomain":"airport.kr","board":null,"status":"연결 규칙 필요"},
-  {"name":"한국철도공사","type":"공기업","officialDomain":"korail.com","board":null,"status":"연결 규칙 필요"},
-  {"name":"국민건강보험공단","type":"준정부기관","officialDomain":"nhis.or.kr","board":null,"status":"연결 규칙 필요"},
-  {"name":"한국산업인력공단","type":"준정부기관","officialDomain":"hrdkorea.or.kr","board":null,"status":"연결 규칙 필요"},
-  {"name":"한국장학재단","type":"준정부기관","officialDomain":"kosaf.go.kr","status":"연결됨","board":{"url":"https://www.kosaf.go.kr/ko/info.do?pg=press01_01","parser":"kosaf_press_table","titlePattern":"\\[(?:인사)?보도자료\\]","datePattern":"20\\d{2}\\.\\d{2}\\.\\d{2}\\."}}
-]
+{
+  "backfillMonths": 4,
+  "maxPagesPerAgency": 30,
+  "maxNewSummariesPerRun": 40,
+  "recruitFeedUrl": "https://gritmindlab.github.io/gritmindlab-recruit/data/recruit.json",
+  "agencies": [
+    {
+      "name": "한국전력공사",
+      "type": "시장형 공기업",
+      "domain": "kepco.co.kr",
+      "homepage": "https://www.kepco.co.kr/home/index.do"
+    },
+    {
+      "name": "한국수자원공사",
+      "type": "시장형 공기업",
+      "domain": "kwater.or.kr",
+      "homepage": "https://www.kwater.or.kr/",
+      "boardUrls": [
+        "https://www.kwater.or.kr/news/repoList.do?brdId=KO26&s_mid=36"
+      ],
+      "pageParameter": "pageNo"
+    },
+    {
+      "name": "한국도로공사",
+      "type": "시장형 공기업",
+      "domain": "ex.co.kr",
+      "homepage": "https://www.ex.co.kr/",
+      "boardUrls": [
+        "https://www.ex.co.kr/portal/biz/bbs/layout1/selectBoardList.do?bbsId=BBSMSTR_000000000183"
+      ],
+      "pageParameter": "pageIndex",
+      "jsIdPattern": "fn_egov_inqire_notice\\('?(\\d+)",
+      "detailTemplate": "https://www.ex.co.kr/portal/biz/bbs/layout1/selectBoardArticle.do?bbsId=BBSMSTR_000000000183&nttId={id}"
+    },
+    {
+      "name": "한국철도공사",
+      "type": "시장형 공기업",
+      "domain": "korail.com",
+      "homepage": "https://info.korail.com/",
+      "boardUrls": [
+        "https://info.korail.com/info/selectBbsNttList.do?bbsNo=199&key=911&pageIndex=1"
+      ],
+      "pageParameter": "pageIndex"
+    },
+    {
+      "name": "한국토지주택공사",
+      "type": "준시장형 공기업",
+      "domain": "lh.or.kr",
+      "homepage": "https://www.lh.or.kr/"
+    },
+    {
+      "name": "주택도시보증공사",
+      "type": "준시장형 공기업",
+      "domain": "khug.or.kr",
+      "homepage": "https://www.khug.or.kr/",
+      "boardUrls": [
+        "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45"
+      ],
+      "pageParameter": "currentPage"
+    },
+    {
+      "name": "인천국제공항공사",
+      "type": "시장형 공기업",
+      "domain": "airport.kr",
+      "homepage": "https://www.airport.kr/co/ko/index.do"
+    },
+    {
+      "name": "한국공항공사",
+      "type": "시장형 공기업",
+      "domain": "airport.co.kr",
+      "homepage": "https://www.airport.co.kr/www/index.do",
+      "boardUrls": [
+        "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=1060"
+      ],
+      "jsonApi": {
+        "url": "https://www.airport.co.kr/www/ajaxf/frBoardSvc/bbsViewList.do",
+        "form": {
+          "pagePerCnt": 16,
+          "MENU_ID": 1060,
+          "SITE_NO": 2,
+          "BOARD_SEQ": 41
+        },
+        "pageField": "pageNo",
+        "listPath": "data.list",
+        "titleField": "SUBJECT",
+        "dateField": "WRITE_DATE",
+        "idField": "BBS_SEQ",
+        "detailTemplate": "https://www.airport.co.kr/www/cms/frBoardCon/boardView.do?BBS_SEQ={id}&BOARD_SEQ=41&MENU_ID=1060&SITE_NO=2"
+      }
+    },
+    {
+      "name": "한국가스공사",
+      "type": "시장형 공기업",
+      "domain": "kogas.or.kr",
+      "homepage": "https://www.kogas.or.kr/",
+      "boardUrls": [
+        "https://www.kogas.or.kr/site/koGas/goBoard.do?boardNo=41&Key=1010202000000&pageIndex=1"
+      ],
+      "pageOffsetParameter": "pageOffset",
+      "pageSize": 10,
+      "jsIdPattern": "readPermissionChk\\((\\d+)",
+      "detailTemplate": "https://www.kogas.or.kr/site/koGas/bbs/View.do?Key=1010202000000&cbIdx=41&boardIdx={id}"
+    },
+    {
+      "name": "한국지역난방공사",
+      "type": "시장형 공기업",
+      "domain": "kdhc.co.kr",
+      "homepage": "https://www.kdhc.co.kr/",
+      "boardUrls": [
+        "https://kdhc.co.kr/kdhc/bbs/B0000038/list.do?menuNo=200125&pageIndex=1"
+      ],
+      "pageParameter": "pageIndex"
+    },
+    {
+      "name": "한국수력원자력",
+      "type": "시장형 공기업",
+      "domain": "khnp.co.kr",
+      "homepage": "https://www.khnp.co.kr/",
+      "boardUrls": [
+        "https://www.khnp.co.kr/main/selectBbsNttList.do?bbsNo=71&key=2289&pageIndex=1"
+      ],
+      "pageParameter": "pageIndex"
+    },
+    {
+      "name": "한국남동발전",
+      "type": "시장형 공기업",
+      "domain": "koenergy.kr",
+      "homepage": "https://www.koenergy.kr/",
+      "boardUrls": [
+        "https://www.koenergy.kr/kosep/fr/bo/board/main.do?menuCd=FN030905&pageIndex=1"
+      ],
+      "pageParameter": "pageIndex",
+      "jsIdPattern": "fncGoView\\('(\\d+)'",
+      "detailTemplate": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq={id}"
+    },
+    {
+      "name": "한국남부발전",
+      "type": "시장형 공기업",
+      "domain": "kospo.co.kr",
+      "homepage": "https://www.kospo.co.kr/"
+    },
+    {
+      "name": "한국동서발전",
+      "type": "시장형 공기업",
+      "domain": "ewp.co.kr",
+      "homepage": "https://www.ewp.co.kr/"
+    },
+    {
+      "name": "한국서부발전",
+      "type": "시장형 공기업",
+      "domain": "iwest.co.kr",
+      "homepage": "https://www.iwest.co.kr/",
+      "boardUrls": [
+        "https://www.iwest.co.kr/iwest/432/subview.do"
+      ],
+      "pageParameter": "page",
+      "jsIdPattern": "jf_viewArtcl\\('iwest',\\s*'1',\\s*'(\\d+)'",
+      "detailTemplate": "https://www.iwest.co.kr/kogl/iwest/1/{id}/artclView.do"
+    },
+    {
+      "name": "한국중부발전",
+      "type": "시장형 공기업",
+      "domain": "komipo.co.kr",
+      "homepage": "https://www.komipo.co.kr/",
+      "boardUrls": [
+        "https://www.komipo.co.kr/kor/board/BRD_000021/boardMain.do?mnCd=FN120101&pageSize=12&pageIndex=1"
+      ],
+      "pageParameter": "pageIndex",
+      "jsIdPattern": "board\\.view\\('(\\d+)'",
+      "detailTemplate": "https://www.komipo.co.kr/kor/board/BRD_000021/boardView.do?mnCd=FN120101&boardSeq={id}&pageIndex=1",
+      "stripTrailingKoreanName": true
+    },
+    {
+      "name": "국민건강보험공단",
+      "type": "준정부기관",
+      "domain": "nhis.or.kr",
+      "homepage": "https://www.nhis.or.kr/",
+      "boardUrls": [
+        "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=list&articleLimit=10"
+      ],
+      "pageOffsetParameter": "article.offset",
+      "pageSize": 10
+    },
+    {
+      "name": "국민연금공단",
+      "type": "준정부기관",
+      "domain": "nps.or.kr",
+      "homepage": "https://www.nps.or.kr/main.do",
+      "boardUrls": [
+        "https://www.nps.or.kr/pnsgdnc/nscvrgdata/getOHAE0002M0List.do?menuId=MN24000898"
+      ],
+      "pageParameter": "pageIndex"
+    },
+    {
+      "name": "근로복지공단",
+      "type": "준정부기관",
+      "domain": "comwel.or.kr",
+      "homepage": "https://www.comwel.or.kr/",
+      "boardUrls": [
+        "https://www.comwel.or.kr/comwel/noti/pres.jsp?mode=list&board_no=892&pager.offset=0"
+      ],
+      "pageOffsetParameter": "pager.offset",
+      "pageSize": 10,
+      "detailUrlPattern": "mode=view.*article_no="
+    },
+    {
+      "name": "한국산업인력공단",
+      "type": "준정부기관",
+      "domain": "hrdkorea.or.kr",
+      "homepage": "https://www.hrdkorea.or.kr/"
+    },
+    {
+      "name": "한국장학재단",
+      "type": "준정부기관",
+      "domain": "kosaf.go.kr",
+      "homepage": "https://www.kosaf.go.kr/",
+      "boardUrls": [
+        "https://www.kosaf.go.kr/ko/info.do?pg=press01_01"
+      ]
+    },
+    {
+      "name": "신용보증기금",
+      "type": "준정부기관",
+      "domain": "kodit.co.kr",
+      "homepage": "https://www.kodit.co.kr/",
+      "boardUrls": [
+        "https://www.kodit.co.kr/kodit/na/ntt/selectNttList.do?bbsId=47&mi=2639"
+      ],
+      "pageParameter": "currPage",
+      "dataIdTemplate": "https://www.kodit.co.kr/kodit/na/ntt/selectNttInfo.do?bbsId=47&mi=2639&nttSn={id}"
+    },
+    {
+      "name": "기술보증기금",
+      "type": "준정부기관",
+      "domain": "kibo.or.kr",
+      "homepage": "https://www.kibo.or.kr/",
+      "boardUrls": [
+        "https://www.kibo.or.kr/main/board/boardType05.do?mode=list&articleLimit=10"
+      ],
+      "pageOffsetParameter": "article.offset",
+      "pageSize": 10
+    },
+    {
+      "name": "예금보험공사",
+      "type": "기타공공기관",
+      "domain": "kdic.or.kr",
+      "homepage": "https://www.kdic.or.kr/",
+      "boardUrls": [
+        "https://www.kdic.or.kr/di/medi/selectPbcrBbsList.do?bbsSeCd=bodo&cdVl=bodo"
+      ],
+      "pageParameter": "curPage",
+      "jsIdPattern": "detailView\\('(\\d+)'",
+      "detailTemplate": "https://www.kdic.or.kr/di/medi/selectPbcrBbsDtl.do?bbsSeCd=bodo&cdVl=bodo&pstNo={id}"
+    },
+    {
+      "name": "한국자산관리공사",
+      "type": "준정부기관",
+      "domain": "kamco.or.kr",
+      "homepage": "https://www.kamco.or.kr/",
+      "boardUrls": [
+        "https://www.kamco.or.kr/portal/bbs/list.do?mId=0701030000&ptIdx=282"
+      ],
+      "pageParameter": "page",
+      "jsIdPattern": "goTo\\.view\\('list','(\\d+)'",
+      "detailTemplate": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx={id}&mId=0701030000&ptIdx=282"
+    },
+    {
+      "name": "한국가스안전공사",
+      "type": "준정부기관",
+      "domain": "kgs.or.kr",
+      "homepage": "https://www.kgs.or.kr/",
+      "boardUrls": [
+        "https://www.kgs.or.kr/kgs/agc/board.do"
+      ],
+      "pageParameter": "pageIndex",
+      "jsIdPattern": "fn_egov_boardDetail\\((\\d+)\\)",
+      "detailTemplate": "https://www.kgs.or.kr/kgs/agc/board.do?searchBoardSn={id}"
+    },
+    {
+      "name": "국립공원공단",
+      "type": "준정부기관",
+      "domain": "knps.or.kr",
+      "homepage": "https://www.knps.or.kr/"
+    },
+    {
+      "name": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "domain": "kotra.or.kr",
+      "homepage": "https://www.kotra.or.kr/",
+      "boardUrls": [
+        "https://www.kotra.or.kr/module/ntt/unity/selectNttListAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N"
+      ],
+      "pageParameter": "pageIndex",
+      "jsIdPattern": "fnView\\('(\\d+)'",
+      "detailTemplate": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq={id}"
+    },
+    {
+      "name": "한국농수산식품유통공사",
+      "type": "준정부기관",
+      "domain": "at.or.kr",
+      "homepage": "https://www.at.or.kr/"
+    },
+    {
+      "name": "국가철도공단",
+      "type": "준정부기관",
+      "domain": "kr.or.kr",
+      "homepage": "https://www.kr.or.kr/"
+    },
+    {
+      "name": "에스알",
+      "type": "기타공공기관",
+      "domain": "srail.or.kr",
+      "homepage": "https://www.srail.or.kr/main.do?language=KR",
+      "boardUrls": [
+        "https://www.srail.or.kr/cms/article/list.do?pageId=KR0502000000"
+      ],
+      "pageParameter": "pageIndex"
+    },
+    {
+      "name": "한전KPS",
+      "type": "준시장형 공기업",
+      "domain": "kps.co.kr",
+      "homepage": "https://www.kps.co.kr/",
+      "boardUrls": [
+        "https://www.kps.co.kr/web/communication/kpsnews/press.do?pageIndex=1"
+      ],
+      "pageParameter": "pageIndex",
+      "jsIdPattern": "pf_DetailMove\\('(\\d+)'",
+      "detailTemplate": "https://www.kps.co.kr/web/Board/{id}/detailView.do?pageIndex=1&menu=2468",
+      "detailUrlPattern": "/web/Board/\\d+/detailView\\.do"
+    },
+    {
+      "name": "한국전기안전공사",
+      "type": "준정부기관",
+      "domain": "kesco.or.kr",
+      "homepage": "https://www.kesco.or.kr/",
+      "boardUrls": [
+        "https://www.kesco.or.kr/bbs/selectPageListBbs.do?bbs_code=MKB00002&currentPage=1"
+      ],
+      "pageParameter": "currentPage",
+      "jsIdPattern": "fnDetail\\('(\\d+)'",
+      "detailTemplate": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq={id}&currentPage=1",
+      "detailUrlPattern": "/bbs/selectBbs\\.do.*bbs_code=MKB00002"
+    },
+    {
+      "name": "건강보험심사평가원",
+      "type": "준정부기관",
+      "domain": "hira.or.kr",
+      "homepage": "https://www.hira.or.kr/",
+      "boardUrls": [
+        "https://www.hira.or.kr/bbsDummy.do?brdScnBl=&pgmid=HIRAA020041000100&pageIndex=1&pageIndex2=1"
+      ],
+      "pageParameter": "pageIndex2"
+    },
+    {
+      "name": "공무원연금공단",
+      "type": "준정부기관",
+      "domain": "geps.or.kr",
+      "homepage": "https://www.geps.or.kr/",
+      "boardUrls": [
+        "https://www.geps.or.kr/notiCommunication_news?curPage=1"
+      ],
+      "pageParameter": "curPage",
+      "detailUrlPattern": "/notiCommunication_news/\\d+"
+    },
+    {
+      "name": "정보통신기획평가원",
+      "type": "기타공공기관",
+      "domain": "iitp.kr",
+      "homepage": "https://www.iitp.kr/",
+      "boardUrls": [
+        "https://www.iitp.kr/web/lay1/bbs/S1T11C31/A/4/list.do"
+      ],
+      "jsonApi": {
+        "url": "https://www.iitp.kr/board-svc/api/bbs/A/list.do",
+        "method": "json",
+        "form": {
+          "cms_menu_seq": 31,
+          "rows": 10,
+          "keyword": "",
+          "condition": "",
+          "sort": "latest"
+        },
+        "pageField": "cpage",
+        "listPath": "list",
+        "titleField": "title",
+        "dateField": "reg_dt",
+        "idField": "article_seq",
+        "detailTemplate": "https://www.iitp.kr/web/lay1/bbs/S1T11C31/A/4/view.do?article_seq={id}"
+      }
+    },
+    {
+      "name": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "domain": "fowi.or.kr",
+      "homepage": "https://www.fowi.or.kr/",
+      "boardUrls": [
+        "https://www.fowi.or.kr/user/bbs/bbsList.do?bbsManageId=23"
+      ],
+      "pageParameter": "iPage",
+      "jsIdPattern": "goView\\('(\\d+)'",
+      "detailTemplate": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId={id}"
+    },
+    {
+      "name": "한국산업안전보건공단",
+      "type": "준정부기관",
+      "domain": "kosha.or.kr",
+      "homepage": "https://www.kosha.or.kr/"
+    },
+    {
+      "name": "한국석유관리원",
+      "type": "준정부기관",
+      "domain": "kpetro.or.kr",
+      "homepage": "https://www.kpetro.or.kr/",
+      "boardUrls": [
+        "https://www.kpetro.or.kr/lay1/bbs/S1T8C53/A/4/list.do?cpage=1&rows=10"
+      ],
+      "pageParameter": "cpage",
+      "detailUrlPattern": "/view\\.do\\?article_seq="
+    },
+    {
+      "name": "한국연구재단",
+      "type": "준정부기관",
+      "domain": "nrf.re.kr",
+      "homepage": "https://www.nrf.re.kr/",
+      "boardUrls": [
+        "https://www.nrf.re.kr/page/95?menuNo=95&pageNum=1"
+      ],
+      "pageParameter": "pageNum",
+      "dataIdAttribute": "data-post_no",
+      "dataIdTemplate": "https://www.nrf.re.kr/page/95?ac=view&menuNo=95&postNo={id}",
+      "detailUrlPattern": "postNo="
+    },
+    {
+      "name": "한국장애인고용공단",
+      "type": "준정부기관",
+      "domain": "kead.or.kr",
+      "homepage": "https://www.kead.or.kr/",
+      "boardUrls": [
+        "https://www.kead.or.kr/bbs/bodo/bbsPage.do?menuId=MENU0893"
+      ],
+      "pageParameter": "pageIndex",
+      "jsIdPattern": "fn_bbsView\\('(\\d+)'",
+      "detailTemplate": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId={id}"
+    },
+    {
+      "name": "한국주택금융공사",
+      "type": "준정부기관",
+      "domain": "hf.go.kr",
+      "homepage": "https://www.hf.go.kr/"
+    },
+    {
+      "name": "한국해양교통안전공단",
+      "type": "준정부기관",
+      "domain": "komsa.or.kr",
+      "homepage": "https://www.komsa.or.kr/",
+      "boardUrls": [
+        "https://www.komsa.or.kr/bbs/BBSMSTR_000000000744/list.do?mno=sub06_0101"
+      ],
+      "pageParameter": "pageIndex",
+      "jsIdPattern": "fn_search_detail\\('(B[^']+)'",
+      "detailTemplate": "https://www.komsa.or.kr/bbs/BBSMSTR_000000000744/view.do?mno=sub06_0101&nttId={id}"
+    },
+    {
+      "name": "한전KDN",
+      "type": "준시장형 공기업",
+      "domain": "kdn.com",
+      "homepage": "https://www.kdn.com/"
+    },
+    {
+      "name": "(재)우체국금융개발원",
+      "type": "준정부기관",
+      "ministry": "과학기술정보통신부"
+    },
+    {
+      "name": "(재)우체국물류지원단",
+      "type": "준정부기관",
+      "ministry": "과학기술정보통신부"
+    },
+    {
+      "name": "강원랜드",
+      "type": "시장형 공기업",
+      "ministry": "산업통상부"
+    },
+    {
+      "name": "한국가스기술공사",
+      "type": "준시장형 공기업",
+      "ministry": "산업통상부"
+    },
+    {
+      "name": "국립생태원",
+      "type": "준정부기관",
+      "ministry": "기후에너지환경부"
+    },
+    {
+      "name": "국토안전관리원",
+      "type": "준정부기관",
+      "ministry": "국토교통부"
+    },
+    {
+      "name": "그랜드코리아레저",
+      "type": "준시장형 공기업",
+      "ministry": "문화체육관광부"
+    },
+    {
+      "name": "서울올림픽기념국민체육진흥공단",
+      "type": "준정부기관",
+      "ministry": "문화체육관광부"
+    },
+    {
+      "name": "소상공인시장진흥공단",
+      "type": "준정부기관",
+      "ministry": "중소벤처기업부"
+    },
+    {
+      "name": "제주국제자유도시개발센터",
+      "type": "준시장형 공기업",
+      "ministry": "국토교통부"
+    },
+    {
+      "name": "중소벤처기업진흥공단",
+      "type": "준정부기관",
+      "ministry": "중소벤처기업부"
+    },
+    {
+      "name": "축산물품질평가원",
+      "type": "준정부기관",
+      "ministry": "농림축산식품부"
+    },
+    {
+      "name": "한국고용정보원",
+      "type": "준정부기관",
+      "ministry": "고용노동부"
+    },
+    {
+      "name": "한국관광공사",
+      "type": "준정부기관",
+      "ministry": "문화체육관광부",
+      "domain": "knto.or.kr",
+      "boardUrls": [
+        "https://knto.or.kr/pressRelease"
+      ],
+      "pageParameter": "curPage"
+    },
+    {
+      "name": "한국광해광업공단",
+      "type": "준시장형 공기업",
+      "ministry": "산업통상부"
+    },
+    {
+      "name": "한국교통안전공단",
+      "type": "준정부기관",
+      "ministry": "국토교통부"
+    },
+    {
+      "name": "한국국제협력단",
+      "type": "준정부기관",
+      "ministry": "외교부"
+    },
+    {
+      "name": "한국국토정보공사",
+      "type": "준정부기관",
+      "ministry": "국토교통부"
+    },
+    {
+      "name": "한국농어촌공사",
+      "type": "준정부기관",
+      "ministry": "농림축산식품부"
+    },
+    {
+      "name": "한국도로교통공단",
+      "type": "준정부기관",
+      "ministry": "경찰청"
+    },
+    {
+      "name": "한국마사회",
+      "type": "준시장형 공기업",
+      "ministry": "농림축산식품부"
+    },
+    {
+      "name": "한국무역보험공사",
+      "type": "준정부기관",
+      "ministry": "산업통상부"
+    },
+    {
+      "name": "한국방송통신전파진흥원",
+      "type": "준정부기관",
+      "ministry": "과학기술정보통신부"
+    },
+    {
+      "name": "한국법무보호복지공단",
+      "type": "준정부기관",
+      "ministry": "법무부"
+    },
+    {
+      "name": "한국보훈복지의료공단",
+      "type": "준정부기관",
+      "ministry": "국가보훈부"
+    },
+    {
+      "name": "한국부동산원",
+      "type": "준시장형 공기업",
+      "ministry": "국토교통부"
+    },
+    {
+      "name": "한국사회보장정보원",
+      "type": "준정부기관",
+      "ministry": "보건복지부"
+    },
+    {
+      "name": "한국산업기술기획평가원",
+      "type": "준정부기관",
+      "ministry": "산업통상부"
+    },
+    {
+      "name": "한국산업기술진흥원",
+      "type": "준정부기관",
+      "ministry": "산업통상부"
+    },
+    {
+      "name": "한국산업단지공단",
+      "type": "준정부기관",
+      "ministry": "산업통상부"
+    },
+    {
+      "name": "한국석유공사",
+      "type": "시장형 공기업",
+      "ministry": "산업통상부",
+      "domain": "knoc.co.kr",
+      "boardUrls": [
+        "https://www.knoc.co.kr/sub11/sub11_1.jsp?bid=NEWS"
+      ],
+      "pageParameter": "page"
+    },
+    {
+      "name": "한국소비자원",
+      "type": "준정부기관",
+      "ministry": "공정거래위원회"
+    },
+    {
+      "name": "한국수목원정원관리원",
+      "type": "준정부기관",
+      "ministry": "산림청"
+    },
+    {
+      "name": "한국승강기안전공단",
+      "type": "준정부기관",
+      "ministry": "행정안전부"
+    },
+    {
+      "name": "한국에너지공단",
+      "type": "준정부기관",
+      "ministry": "기후에너지환경부"
+    },
+    {
+      "name": "한국원자력환경공단",
+      "type": "준정부기관",
+      "ministry": "기후에너지환경부"
+    },
+    {
+      "name": "한국인터넷진흥원",
+      "type": "준정부기관",
+      "ministry": "과학기술정보통신부"
+    },
+    {
+      "name": "한국재정정보원",
+      "type": "준정부기관",
+      "ministry": "기획예산처"
+    },
+    {
+      "name": "한국전력거래소",
+      "type": "준정부기관",
+      "ministry": "기후에너지환경부"
+    },
+    {
+      "name": "한국전력기술",
+      "type": "준시장형 공기업",
+      "ministry": "기후에너지환경부"
+    },
+    {
+      "name": "한국조폐공사",
+      "type": "준시장형 공기업",
+      "ministry": "재정경제부"
+    },
+    {
+      "name": "한국지능정보사회진흥원",
+      "type": "준정부기관",
+      "ministry": "과학기술정보통신부"
+    },
+    {
+      "name": "한국환경공단",
+      "type": "준정부기관",
+      "ministry": "기후에너지환경부"
+    },
+    {
+      "name": "한국환경산업기술원",
+      "type": "준정부기관",
+      "ministry": "기후에너지환경부"
+    },
+    {
+      "name": "해양환경공단",
+      "type": "준시장형 공기업",
+      "ministry": "해양수산부"
+    },
+    {
+      "name": "국민건강보험공단 일산병원",
+      "type": "준정부기관",
+      "ministry": "보건복지부"
+    },
+    {
+      "name": "서울요양원",
+      "type": "준정부기관",
+      "ministry": "보건복지부"
+    }
+  ]
+}
