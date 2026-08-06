@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-05T14:42:43.018067+00:00",
+  "generatedAt": "2026-08-06T03:45:05.253331+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 209,
+  "successfulAgencyCount": 19,
+  "itemCount": 214,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 8
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -463,6 +463,56 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-06",
+      "title": "--> 철도 통합 앱 ‘코레일+’에서 여행 서비스 한눈에 확인하세요 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=E1GC0sd61XggEe0cD4h7zlOXoi37r4zrda8UK0PPzU02F3ubTa0dYit98NsGWL0e?key=911&bbsNo=199&nttNo=27146&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-08-06",
+      "title": "HUG, '26.8월 미분양관리지역 선정",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38118&t_title=게시물 읽기 (HUG, '26.8월 미분양관리지역 선정)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-08-06",
+      "title": "--> 보도 한국수력원자력, 산업안전보건 강조기간 8월말까지 자체 연장 운영 한국수력원자력, 산업안전보건 강조기간 8월말까지 자체 연장 운영 - 폭염 장기화 대응, 근로자 보호 체계 강화 - 한국수력원자력(사장 김회천, 이하 한수원)이 지속되는 폭염으로부터 근로자의 건강과 안전을 지키기 위해 정부의 산업안전보건 강조기간(7월 6일~8월 1일) 종료 이후에도 자체적으로 강조기간을 8월 31일까지 연장 운영하며 현장 안전관리를 한층 강화한다. 최근 폭염이 장기화됨에 따라 사장 특별지시로 현장의 안전관리 공백이 발생하지 ... 작성일 : 2026-08-06",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76117&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-08-06",
+      "title": "공무원연금공단, 2026년 후반기 퇴직준비교육 운영",
+      "url": "https://www.geps.or.kr/notiCommunication_news/42655?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
     {
       "agency": "한국수자원공사",
       "type": "공기업",
@@ -1099,6 +1149,18 @@
       "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65099&article.offset=0&articleLimit=10",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-07-30",
+      "title": "--> 코레일-SR, 통합회원 전환 이벤트…1천명 추첨해 KTX 20% 할인쿠폰 증정",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=E1GC0sd61XggEe0cD4h7zlOXoi37r4zrda8UK0PPzU02F3ubTa0dYit98NsGWL0e?key=911&bbsNo=199&nttNo=27088&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
