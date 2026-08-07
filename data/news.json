@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-07T03:23:33.939837+00:00",
+  "generatedAt": "2026-08-07T07:56:45.087536+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 226,
+  "successfulAgencyCount": 15,
+  "itemCount": 231,
   "health": [
     {
       "agency": "한국전력공사",
@@ -24,7 +24,7 @@
     {
       "agency": "한국철도공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 9
     },
     {
       "agency": "한국토지주택공사",
@@ -44,7 +44,7 @@
     {
       "agency": "한국공항공사",
       "status": "error",
-      "message": "Expecting value: line 2 column 1 (char 1)"
+      "message": "POST 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스공사",
@@ -114,12 +114,12 @@
     {
       "agency": "신용보증기금",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "기술보증기금",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 9
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -173,13 +173,13 @@
     },
     {
       "agency": "건강보험심사평가원",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -510,6 +510,56 @@
       "officialDomain": "hira.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-07",
+      "title": "--> 코레일, 하반기 신입사원 600명 모집…21일까지 접수 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=u9HwIYy0uad5hf6rZbrCLm79YLWceKpRcuJp0NK61E3mfhmKTmO7YmnWpTaIxC1H?key=911&bbsNo=199&nttNo=27159&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-07",
+      "title": "[보도자료] 대학생 연합기숙사 부가세 면제 결실 통한 주거비 부담 완화 2026.08.07.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21171&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-07",
+      "title": "[보도자료] 한국장학재단, iM뱅크와 함께 직업계고 청년 취업 및 지역 정착 협력 2026.08.07.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21170&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-08-07",
+      "title": "한국전기안전공사 ‘폭염 대책 회의’ 개최…근로자 보호 총력",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171682&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
       ]
     },
     {
@@ -1113,6 +1163,19 @@
       "officialDomain": "kibo.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-07-31",
+      "title": "한전KPS, 신입사원 252명 입사…“에너지인재 성장” 다짐 2026-07-31",
+      "url": "https://www.kps.co.kr/web/Board/47443/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
+      "tags": [
+        "보도자료",
+        "인재"
       ]
     },
     {
