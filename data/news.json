@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-07T07:56:45.087536+00:00",
+  "generatedAt": "2026-08-07T13:46:44.619721+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 15,
-  "itemCount": 231,
+  "successfulAgencyCount": 19,
+  "itemCount": 233,
   "health": [
     {
       "agency": "한국전력공사",
@@ -44,7 +44,7 @@
     {
       "agency": "한국공항공사",
       "status": "error",
-      "message": "POST 실패: <urlopen error timed out>"
+      "message": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "agency": "한국가스공사",
@@ -114,12 +114,12 @@
     {
       "agency": "신용보증기금",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 9
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -173,13 +173,13 @@
     },
     {
       "agency": "건강보험심사평가원",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한전KDN",
@@ -560,6 +560,30 @@
       "tags": [
         "보도자료",
         "안전"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-08-07",
+      "title": "--> 보도 한국수력원자력, 유소년 크리에이터 양성캠프 \"아이수(水)크림\" 개최 한국수력원자력, 유소년 크리에이터 양성캠프 \"아이수(水)크림\" 개최 - 수력·양수발전소 인근 초등학생 크리에이터 체험 기회 제공 - 한국수력원자력(사장 김회천, 이하 한수원)이 수력ㆍ양수발전소 주변 지역 유소년 대상 크리에이터 양성캠프인 ‘아이수(水)크림’을 개최했다. ‘아이수(水)크림’은 문화 체험 기회가 상대적으로 적은 수력ㆍ양수발전소 주변 지역 학생들의 꿈을 지원... 작성일 : 2026-08-07",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76170&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-07",
+      "title": "캠코, 인공지능(AI)·드론 실태조사 기술협력으로 농지 전수조사 지원한다 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28248&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
       ]
     },
     {
