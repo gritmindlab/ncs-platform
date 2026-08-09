@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-09T02:38:25.019414+00:00",
+  "generatedAt": "2026-08-09T07:25:20.150083+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 16,
-  "itemCount": 236,
+  "successfulAgencyCount": 18,
+  "itemCount": 237,
   "health": [
     {
       "agency": "한국전력공사",
@@ -108,8 +108,8 @@
     },
     {
       "agency": "한국장학재단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "신용보증기금",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스안전공사",
@@ -188,8 +188,8 @@
     },
     {
       "agency": "한국산림복지진흥원",
-      "status": "error",
-      "message": "GET 실패: <urlopen error [Errno 111] Connection refused>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국산업안전보건공단",
@@ -1047,6 +1047,18 @@
       "date": "2026-08-02",
       "title": "--> 하나의 앱에서 KTX·SRT 예매한다…통합 앱 ‘코레일+’ 8월 3일 출시 새글",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=01Ene5aX1l69dNG78AA7MaXZpBajl1EAYcgBC6BDV62Kp6M3TG4AEZUsohKJEN5W?key=911&bbsNo=199&nttNo=27109&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-02",
+      "title": "--> 하나의 앱에서 KTX·SRT 예매한다…통합 앱 ‘코레일+’ 8월 3일 출시",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=2HLfh8o4wLsICHt4tRUl4DmFt4InLwHFklEt32GmIhUeaLvDTxF6sKiIqXVSbClG?key=911&bbsNo=199&nttNo=27109&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "korail.com",
       "tags": [
