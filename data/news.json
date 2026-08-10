@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-09T13:21:45.104767+00:00",
+  "generatedAt": "2026-08-10T02:46:38.001076+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 237,
+  "successfulAgencyCount": 18,
+  "itemCount": 244,
   "health": [
     {
       "agency": "한국전력공사",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국수자원공사",
@@ -44,7 +44,7 @@
     {
       "agency": "한국공항공사",
       "status": "error",
-      "message": "Expecting value: line 2 column 1 (char 1)"
+      "message": "POST 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스공사",
@@ -173,8 +173,8 @@
     },
     {
       "agency": "건강보험심사평가원",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "공무원연금공단",
@@ -464,6 +464,67 @@
   ],
   "items": [
     {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-10",
+      "title": "--> 더 똑똑해진 철도 통합 앱,‘코레일+’의 모든 것 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=X1qnce0tNUmCNdht5hnQZb2UrOPjEBao5IeRVQN72SloWNvTTZLW9GbUMmtjf7Xy?key=911&bbsNo=199&nttNo=27169&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-08-10",
+      "title": "--> 보도 한국수력원자력, \"폭염 속 전력수급 이상 무\"... 김회천 사장 원전 현장 긴급 점검 한국수력원자력, \"폭염 속 전력수급 이상 무\"... 김회천 사장 원전 현장 긴급 점검 - 폭염 장기화 대응 총력, 종사자 안전 최우선 - 한국수력원자력(이하 한수원) 김회천 사장이 7일 고리원자력본부를 찾아 폭염 취약 현장을 직접 점검하고, 계속되는 무더위 속에서 현장 근무자의 온열질환 예방과 안전 확보 현황을 살폈다. 이번 현장경영은 정부의 폭염 중대경보 대응 기조에 발맞춰 발전설비의 안정... 작성일 : 2026-08-10",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76225&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국남동발전",
+      "type": "공기업",
+      "date": "2026-08-10",
+      "title": "(08.07) KOEN 한국남동발전, 국내 최대 규모 400MW 태양광발...",
+      "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64151",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "koenergy.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-10",
+      "title": "[보도자료] 한국장학재단, 2026년 장학금 부정수급 자진신고 캠페인 운영 2026.08.10.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21172&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-08-10",
+      "title": "공무원연금공단, 'AI·공공데이터 대국민 시각화 경진대회' 개최",
+      "url": "https://www.geps.or.kr/notiCommunication_news/42636?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "국민건강보험공단",
       "type": "준정부기관",
       "date": "2026-08-07",
@@ -618,6 +679,18 @@
       "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29346",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-08-07",
+      "title": "한국관광공사, 크루즈 기항지 찾아가는 ‘지역 순회형’ 협의체 첫 개최",
+      "url": "https://knto.or.kr/pressRelease/550726?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1037,6 +1110,18 @@
       "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65131&article.offset=0&articleLimit=10",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-03",
+      "title": "--> 코레일 “수요일 점심 먹으며 AI 배워요”",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=X1qnce0tNUmCNdht5hnQZb2UrOPjEBao5IeRVQN72SloWNvTTZLW9GbUMmtjf7Xy?key=911&bbsNo=199&nttNo=27114&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
