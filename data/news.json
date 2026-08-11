@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-11T07:45:07.219679+00:00",
+  "generatedAt": "2026-08-11T13:49:48.954779+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 19,
-  "itemCount": 263,
+  "itemCount": 264,
   "health": [
     {
       "agency": "한국전력공사",
@@ -646,6 +646,18 @@
       "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21183&pg=press01_02",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "심평원, 김애련 신임 심사평가상임이사 임명",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11876&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
       "tags": [
         "보도자료"
       ]
