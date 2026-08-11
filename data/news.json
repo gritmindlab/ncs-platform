@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-10T13:57:07.685233+00:00",
+  "generatedAt": "2026-08-11T02:37:31.386580+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 16,
-  "itemCount": 246,
+  "successfulAgencyCount": 17,
+  "itemCount": 260,
   "health": [
     {
       "agency": "한국전력공사",
@@ -108,8 +108,8 @@
     },
     {
       "agency": "한국장학재단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "신용보증기금",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한전KDN",
@@ -464,6 +464,168 @@
   ],
   "items": [
     {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-08-11",
+      "title": "주택도시보증공사, 부조리 행위 근절을 위한 신고자 포상 운영계획 실행",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38156&t_title=게시물 읽기 (주택도시보증공사, 부조리 행위 근절을 위한 신고자 포상 운영계획 실행)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "국민건강보험공단, 보호아동에게 건강과 꿈을 응원하는 ‘힘내YOU+ in 광주’ 콘서트 개최",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11012800&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "국립대전숲체원, 'SNS 구독·이용후기 이벤트' 운영",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9081",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "국립대전숲체원, 특수교사 직무연수 '숲이 그린 교실' 하계 1기 성료",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9080",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "\"아빠! 오늘은 숲에서 놀아요\" 국립 대전 숲체원, 가족 참여형 숲체험 프로그램 운영",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9078",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "국립대전숲체원, 경계선지능청년과 더 나은 내일을 향한 발걸음",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9077",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "국립익산치유의숲-원광대학교 WON웰니스센터, 웰티스·산림치유분야 활성화 위해 맞손",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9076",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "국립대전숲체원 세 번재 테마객실 '꿈스테이 포레스트' 오픈",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9075",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "국립대전숲체원-대전광역시사회서비스원 업무협약",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9074",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료",
+        "협약"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "현장에서 바로 활용하는 산림복지 전문교육, 국립대전숲체원 하반기 교육생 모집",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9073",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "국립대전숲체원, 8~9일 집중호우에 따른 프로그램 운영 중단 등 고객안전 선제적 조치",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9072",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "국립대전숲체원, 대전광역시 및 5개 구 정신건강복지센터와 자살고위험군 지원 업무협약 체결",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9071",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료",
+        "협약"
+      ]
+    },
+    {
+      "agency": "한국석유공사",
+      "type": "공기업",
+      "date": "2026-08-11",
+      "title": "[보도자료] 한국석유공사, 지역사회 안전문화 확산 위한..",
+      "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=997&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knoc.co.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
       "agency": "한국철도공사",
       "type": "공기업",
       "date": "2026-08-10",
@@ -544,6 +706,18 @@
       "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11874&pageIndex=1&pageIndex2=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-10",
+      "title": "해외비즈니스에 꼭 필요한 정보, 손안에 빠르게 「세계이슈톡톡」 17개월 만에 ...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29348",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
