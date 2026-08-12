@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-12T08:04:00.684853+00:00",
+  "generatedAt": "2026-08-12T13:54:39.407401+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 16,
-  "itemCount": 273,
+  "successfulAgencyCount": 19,
+  "itemCount": 275,
   "health": [
     {
       "agency": "한국전력공사",
@@ -108,8 +108,8 @@
     },
     {
       "agency": "한국장학재단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "신용보증기금",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 8
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -520,6 +520,18 @@
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140882&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-12",
+      "title": "[보도자료] 한국장학재단, 푸른등대 NH농협은행 초록사다리 여름캠프 개최 2026.08.12.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21188&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
       "tags": [
         "보도자료"
       ]
@@ -1285,6 +1297,18 @@
         "보도자료",
         "청년",
         "인재"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-05",
+      "title": "--> 코레일, 폭염 대비 선로 현장 점검…온열질환 예방에 총력",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=SMKHExZP80XWAVKUfyeIMJl5XcrUa06VhstUcSvrTj5eZNixTr1IV5jBjKprfG7h?key=911&bbsNo=199&nttNo=27140&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
       ]
     },
     {
