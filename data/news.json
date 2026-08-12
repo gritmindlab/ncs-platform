@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-11T13:49:48.954779+00:00",
+  "generatedAt": "2026-08-12T02:55:30.866021+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 264,
+  "successfulAgencyCount": 17,
+  "itemCount": 271,
   "health": [
     {
       "agency": "한국전력공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 9
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -464,6 +464,55 @@
   ],
   "items": [
     {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-12",
+      "title": "--> 코레일, ‘살수’로 선로 식히고, ‘서행’으로 안전 지키고 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=aKDs8Bvs9Nl3qiES4TtHSr5z7npP1BBkmrRitjRSYKwgjdx0TAnR3ELFhg81cnQT?key=911&bbsNo=199&nttNo=27177&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-08-12",
+      "title": "국민건강보험공단, 내부전문가 활용한 ‘사내 강사 제도’로 현장 역량 높인다",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11012819&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-12",
+      "title": "캠코, 온비드에 ‘AI 예상 낙찰가 서비스’ 도입 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28288&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-08-12",
+      "title": "제11회 국제장애인기능올림픽대회 국가대표선수 선발전 개최",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=215502",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "주택도시보증공사",
       "type": "공기업",
       "date": "2026-08-11",
@@ -660,6 +709,19 @@
       "officialDomain": "hira.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "기보, 부산시 등 5개 기관과 부산지역 민관공 청년협력체 출범",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65335&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료",
+        "청년"
       ]
     },
     {
@@ -1173,6 +1235,32 @@
       "officialDomain": "khnp.co.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-05",
+      "title": "--> 코레일, 9월부터 고속철도 통합 운영",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=aKDs8Bvs9Nl3qiES4TtHSr5z7npP1BBkmrRitjRSYKwgjdx0TAnR3ELFhg81cnQT?key=911&bbsNo=199&nttNo=27135&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-08-05",
+      "title": "한전KPS, 자립준비청년 ‘취준’ 지원…기술인재로 양성 2026-08-05",
+      "url": "https://www.kps.co.kr/web/Board/47457/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
+      "tags": [
+        "보도자료",
+        "청년",
+        "인재"
       ]
     },
     {
