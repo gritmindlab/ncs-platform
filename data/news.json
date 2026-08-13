@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-12T13:54:39.407401+00:00",
+  "generatedAt": "2026-08-13T02:53:44.291798+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 19,
-  "itemCount": 275,
+  "itemCount": 282,
   "health": [
     {
       "agency": "한국전력공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 10
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -464,6 +464,30 @@
   ],
   "items": [
     {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-13",
+      "title": "[보도자료] 한국장학재단, 지역과 함께 미래세대 성장 지원 2026.08.13.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21190&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-13",
+      "title": "캠코, 신임 상임이사 선임 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28306&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국철도공사",
       "type": "공기업",
       "date": "2026-08-12",
@@ -532,6 +556,54 @@
       "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21188&pg=press01_02",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-08-12",
+      "title": "HUG, 안심전세앱에서 임대차 정보 한눈에 확인할 수 있는 통합정보 시스 ...",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38169&t_title=게시물 읽기 (HUG, 안심전세앱에서 임대차 정보 한눈에 확인할 수 있는 통합정보 시스템 구축한다)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-12",
+      "title": "캠코, 온비드에 ‘AI 예상 낙찰가 서비스’ 도입",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28288&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-12",
+      "title": "中 최대 e커머스 플랫폼, K소비재 구매 확대 가속화 한국에 구매사무소 설치하...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29353",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-12",
+      "title": "코트라, 수출 1조 달러·수출 4강 조기 달성을 위한 수출 다변화에 박차【8....",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29352",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1183,6 +1255,18 @@
       "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29341",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-06",
+      "title": "--> 철도 통합 앱 ‘코레일+’에서 여행 서비스 한눈에 확인하세요",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=DLzGxmchgFO945COoz2jT99XMSalxQk4FjLhMw4sX1cQI1wpTXaRbsg4w1I5NARZ?key=911&bbsNo=199&nttNo=27146&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
