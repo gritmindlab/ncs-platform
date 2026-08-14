@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-14T02:58:38.809857+00:00",
+  "generatedAt": "2026-08-14T07:59:12.815887+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
-  "itemCount": 292,
+  "successfulAgencyCount": 18,
+  "itemCount": 307,
   "health": [
     {
       "agency": "한국전력공사",
@@ -84,7 +84,7 @@
     {
       "agency": "한국중부발전",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "국민건강보험공단",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 9
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한전KDN",
@@ -507,6 +507,177 @@
       "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=215570",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-08-14",
+      "title": "한국수자원공사-경찰청, 행정기관·공공기관 간 감사 협력...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140887&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "캠코, 8,742억원 규모 압류재산 2,392건 공매 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28325&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "심평원 전북본부, 더위에 지친 어르신을 위한 ‘사랑의 밥차’ 봉사활동 실시",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11879&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "공무원연금공단, 서귀포서 보호자와 함께하는 어린이 생존수영 교육 운영",
+      "url": "https://www.geps.or.kr/notiCommunication_news/42552?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "청년에게 숲휴가를, 국립산림복지시설 9월 숙박요금 최대 30% 할인",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9105",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "산림복지종합교육센터 지역 주민 독서문화 배움터로... ‘독서골든벨’ 성료",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9104",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "프랑스 명장셰프들에게 산림치유를 선보이다",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9103",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "국가산림문화자산과 AI가 만났다",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9102",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "그림책 들고 숲으로! ‘꼼지락 숲속탐험대’ 출발",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9101",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "마음까지 채우는 숲의 한끼...‘2026 산림치유음식 공모전’ 본선 경연 성료",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9100",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "한국산림복지진흥원 ‘수의계약 상한제’ 전격 도입...계약 투명성 대폭 강화",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9099",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "국내 최고층 목조건축물서 자체 소방훈련 실시",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9098",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "27년도 복권기금 녹색자금 지원사업 공모",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9097",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "한국산림복지진흥원-대전교통공사, 장애인 가족캠프 운영",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9096",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1231,6 +1402,18 @@
       "url": "https://knto.or.kr/pressRelease/550726?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-07",
+      "title": "--> 코레일, 하반기 신입사원 600명 모집…21일까지 접수",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=VUgtgcIo4hBOX7gb1EF1Epak1TiIl6MlKCY1w2naFPBT5cD5TcJvMARKgM9aODCj?key=911&bbsNo=199&nttNo=27159&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
