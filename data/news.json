@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-13T14:03:05.451546+00:00",
+  "generatedAt": "2026-08-14T02:58:38.809857+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 13,
-  "itemCount": 287,
+  "successfulAgencyCount": 17,
+  "itemCount": 292,
   "health": [
     {
       "agency": "한국전력공사",
@@ -33,8 +33,8 @@
     },
     {
       "agency": "주택도시보증공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "인천국제공항공사",
@@ -84,7 +84,7 @@
     {
       "agency": "한국중부발전",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "국민건강보험공단",
@@ -108,8 +108,8 @@
     },
     {
       "agency": "한국장학재단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "신용보증기금",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "status": "ok",
+      "itemCount": 15
     },
     {
       "agency": "한국광해광업공단",
@@ -464,6 +464,54 @@
   ],
   "items": [
     {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-14",
+      "title": "--> 코레일, 추석 연휴 승차권 9월 3일부터 예매 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=8pC1DLtKfo3py9jNDRuJ3ClEoO0u1DFqKEZO8Idsf7GLEjV1TPeszJpFrSw1pSjY?key=911&bbsNo=199&nttNo=27180&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "국민건강보험공단, 폭염 이어 가뭄 피해지역 전사적 지원 나서",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11012860&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "심평원 강원본부, 인제군 백담마을 찾아 합동 한의의료봉사 실시",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11878&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "금융권 취업 꿈꾸는 장애인 구직자, 전문 취업코칭 받는다",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=215570",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국장학재단",
       "type": "준정부기관",
       "date": "2026-08-13",
@@ -548,6 +596,18 @@
       "tags": [
         "보도자료",
         "협약"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-13",
+      "title": "캠코, 신임 상임이사 선임",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28306&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
       ]
     },
     {
