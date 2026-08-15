@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-14T13:55:56.787133+00:00",
+  "generatedAt": "2026-08-15T01:56:02.358234+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 16,
-  "itemCount": 307,
+  "successfulAgencyCount": 19,
+  "itemCount": 309,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한전KDN",
@@ -678,6 +678,30 @@
       "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9096",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "캠코, 8,742억원 규모 압류재산 2,392건 공매",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28325&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "K-서비스, 프랜차이즈가 잇는 K-라이프스타일 열풍 아세안 교두보 싱가포르로 ...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29356",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
