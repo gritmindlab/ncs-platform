@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-18T13:23:00.462995+00:00",
+  "generatedAt": "2026-08-19T02:05:39.212977+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 14,
-  "itemCount": 322,
+  "successfulAgencyCount": 15,
+  "itemCount": 328,
   "health": [
     {
       "agency": "한국전력공사",
@@ -58,8 +58,8 @@
     },
     {
       "agency": "한국수력원자력",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 9
     },
     {
       "agency": "한국남동발전",
@@ -88,8 +88,8 @@
     },
     {
       "agency": "국민건강보험공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "국민연금공단",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "agency": "예금보험공사",
@@ -463,6 +463,66 @@
     }
   ],
   "items": [
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-08-19",
+      "title": "국민건강보험공단, 건강보험 이의신청 이제 모바일로 간편하게 신청하세요",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11012893&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "예금보험공사",
+      "type": "기타공공기관",
+      "date": "2026-08-19",
+      "title": "예금보험공사, 서울보증보험 지분 0.6%를 매각하여 공적자금 190억원 회수",
+      "url": "https://www.kdic.or.kr/di/medi/selectPbcrBbsDtl.do?bbsSeCd=bodo&cdVl=bodo&pstNo=60221",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kdic.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-08-19",
+      "title": "심평원, 희귀질환 치료제 신속등재 시범사업 상담회 개최",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11881&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-08-19",
+      "title": "셀럽 목소리 따라 떠나는 한국여행… 하이커 그라운드서 만난다",
+      "url": "https://knto.or.kr/pressRelease/550743?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국석유공사",
+      "type": "공기업",
+      "date": "2026-08-19",
+      "title": "[보도자료] 비축 확대·국제공동비축 전담 부서 신설… ..",
+      "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=998&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knoc.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국철도공사",
       "type": "공기업",
@@ -1068,6 +1128,19 @@
       "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-12",
+      "title": "--> 코레일, ‘살수’로 선로 식히고, ‘서행’으로 안전 지키고",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=RMBhTZVetcP2tkB9r803Rf1M24HkPP6CGPgO8j1r2hMUYK3gTZd2d3pn55OuJg8s?key=911&bbsNo=199&nttNo=27177&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "안전"
       ]
     },
     {
