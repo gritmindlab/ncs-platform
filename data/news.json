@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-20T02:02:13.826841+00:00",
+  "generatedAt": "2026-08-20T07:14:29.490196+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 15,
-  "itemCount": 341,
+  "successfulAgencyCount": 18,
+  "itemCount": 342,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스안전공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 9
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한전KDN",
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "status": "ok",
+      "itemCount": 15
     },
     {
       "agency": "한국광해광업공단",
@@ -1064,6 +1064,18 @@
       "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65387&article.offset=0&articleLimit=10",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-14",
+      "title": "K-서비스, 프랜차이즈가 잇는 K-라이프스타일 열풍【8.14.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29356",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
