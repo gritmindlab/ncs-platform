@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-19T13:22:00.960086+00:00",
+  "generatedAt": "2026-08-20T02:02:13.826841+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 15,
-  "itemCount": 335,
+  "itemCount": 341,
   "health": [
     {
       "agency": "한국전력공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "ok",
-      "itemCount": 15
+      "status": "error",
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한국광해광업공단",
@@ -464,6 +464,55 @@
   ],
   "items": [
     {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-20",
+      "title": "--> 코레일, 철도 인프라 활용 ‘태양광 발전사업’ 속도 낸다 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=7aSRYbr5GarFZuVC4uYUEbsUDtsl1LvXPRoDwt8bXb3zOwWgT8aKZobJowHbgrb6?key=911&bbsNo=199&nttNo=27195&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-20",
+      "title": "[보도자료] 2026학년도 2학기 국가장학금 2차 신청하세요 2026.08.20.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21216&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-08-20",
+      "title": "“요양병원 대상 특화 교육”...심평원 부산본부, 제13기 심사·평가 아카데미 참여 모집",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11883&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-08-20",
+      "title": "장애인 노동자 마음건강, 쉬운 글로 지킨다",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=215701",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "국민건강보험공단",
       "type": "준정부기관",
       "date": "2026-08-19",
@@ -568,6 +617,30 @@
       "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11882&pageIndex=1&pageIndex2=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-19",
+      "title": "[보도자료] 한국장학재단, 2026년 AI 온이음 사업 신청 접수 2026.08.19.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21203&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "예금보험공사",
+      "type": "기타공공기관",
+      "date": "2026-08-19",
+      "title": "[보도설명자료] 예금보호한도 상향 등을 반영한 예보료율 인상 관련 설명",
+      "url": "https://www.kdic.or.kr/di/medi/selectPbcrBbsDtl.do?bbsSeCd=bodo&cdVl=bodo&pstNo=60231",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kdic.or.kr",
       "tags": [
         "보도자료"
       ]
