@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T07:18:12.041721+00:00",
+  "generatedAt": "2026-08-21T13:23:04.174470+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
@@ -114,7 +114,7 @@
     {
       "agency": "신용보증기금",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "기술보증기금",
@@ -184,7 +184,7 @@
     {
       "agency": "정보통신기획평가원",
       "status": "error",
-      "message": "POST 실패: HTTP Error 415: "
+      "message": "POST 실패: Remote end closed connection without response"
     },
     {
       "agency": "한국산림복지진흥원",
