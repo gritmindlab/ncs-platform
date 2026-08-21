@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-21T02:04:28.172041+00:00",
+  "generatedAt": "2026-08-21T07:18:12.041721+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 352,
+  "successfulAgencyCount": 17,
+  "itemCount": 357,
   "health": [
     {
       "agency": "한국전력공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 9
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -521,6 +521,56 @@
       "officialDomain": "hira.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-21",
+      "title": "--> 코레일 비상임이사, 전주역서 현장 안전경영 활동 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=KOat52Ph08OQWItp5Fdk2SxdsL5rajwy39PcGNpI0tpaxauYTyo2cqN9dPOulgAw?key=911&bbsNo=199&nttNo=27200&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-21",
+      "title": "--> “올 여름 휴가철 기차로 730만 명 떠났다” 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=KOat52Ph08OQWItp5Fdk2SxdsL5rajwy39PcGNpI0tpaxauYTyo2cqN9dPOulgAw?key=911&bbsNo=199&nttNo=27199&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-21",
+      "title": "“현장에서 답 찾는다” 캠코, 14.7만 명 지원 ‘새출발기금’ 고객 간담회 개최 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28389&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-08-21",
+      "title": "한국장애인고용공단-현대제철(주) ‘장애인 고용을 통한 ESG경영 실천’ 업무협약",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=215764",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료",
+        "협약"
       ]
     },
     {
@@ -1196,6 +1246,18 @@
       "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29356",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-14",
+      "title": "--> 코레일, 추석 연휴 승차권 9월 3일부터 예매",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=KOat52Ph08OQWItp5Fdk2SxdsL5rajwy39PcGNpI0tpaxauYTyo2cqN9dPOulgAw?key=911&bbsNo=199&nttNo=27180&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
