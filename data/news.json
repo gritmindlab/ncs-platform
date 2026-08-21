@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-20T13:17:29.522989+00:00",
+  "generatedAt": "2026-08-21T02:04:28.172041+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 19,
-  "itemCount": 345,
+  "itemCount": 352,
   "health": [
     {
       "agency": "한국전력공사",
@@ -464,6 +464,66 @@
   ],
   "items": [
     {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-08-21",
+      "title": "국민건강보험공단, 스스로 점검하고 함께 높이는 장기요양서비스",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11012957&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-08-21",
+      "title": "기보, 민관협력 MnA 플랫폼으로 245억원 규모 MnA 성사 지원",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65425&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-08-21",
+      "title": "기보, 신약개발 바이오 벤처 2개사 IP-Value 강소기업 선정",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65424&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-21",
+      "title": "캠코, 5,967억원 규모 압류재산 1,659건 공매 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28385&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-08-21",
+      "title": "심평원, 올여름 강릉 경포호에서 국민과 만난다 8월 22~25일「심평원’s 건강스토어」운영",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11885&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국철도공사",
       "type": "공기업",
       "date": "2026-08-20",
@@ -544,6 +604,30 @@
       "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11884&pageIndex=1&pageIndex2=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-20",
+      "title": "새출발기금 채무조정 신청 현황(’26.7월말 기준)",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28368&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-20",
+      "title": "코트라, 더현대와 일본 중심부에 K-패션 진출 허브 마련【8.20.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29361",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
