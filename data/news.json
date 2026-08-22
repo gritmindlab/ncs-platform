@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-21T13:23:04.174470+00:00",
+  "generatedAt": "2026-08-22T02:03:25.289995+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
-  "itemCount": 357,
+  "successfulAgencyCount": 16,
+  "itemCount": 359,
   "health": [
     {
       "agency": "한국전력공사",
@@ -114,12 +114,12 @@
     {
       "agency": "신용보증기금",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -184,7 +184,7 @@
     {
       "agency": "정보통신기획평가원",
       "status": "error",
-      "message": "POST 실패: Remote end closed connection without response"
+      "message": "POST 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국산림복지진흥원",
@@ -571,6 +571,30 @@
       "tags": [
         "보도자료",
         "협약"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-21",
+      "title": "“현장에서 답 찾는다” 캠코, 14.7만 명 지원 ‘새출발기금’ 고객 간담회 개최",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28389&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-21",
+      "title": "캠코, 5,967억원 규모 압류재산 1,659건 공매",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28385&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
       ]
     },
     {
