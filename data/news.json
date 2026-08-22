@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T02:03:25.289995+00:00",
+  "generatedAt": "2026-08-22T07:11:22.838441+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
@@ -184,7 +184,7 @@
     {
       "agency": "정보통신기획평가원",
       "status": "error",
-      "message": "POST 실패: <urlopen error timed out>"
+      "message": "POST 실패: HTTP Error 415: "
     },
     {
       "agency": "한국산림복지진흥원",
