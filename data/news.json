@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-24T07:39:28.328358+00:00",
+  "generatedAt": "2026-08-24T13:20:30.265034+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
-  "itemCount": 369,
+  "successfulAgencyCount": 18,
+  "itemCount": 373,
   "health": [
     {
       "agency": "한국전력공사",
@@ -24,7 +24,7 @@
     {
       "agency": "한국철도공사",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 10
     },
     {
       "agency": "한국토지주택공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 6
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한전KDN",
@@ -560,6 +560,55 @@
         "보도자료",
         "청년",
         "협약"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-24",
+      "title": "--> 코레일, ‘사내 화이트해킹 대회’ 개최 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=zBtRY4lhNXnUFM9QEZKqxsY7nuVyiFY9ZzonUCjq4vxhSQl0T1RJNDwNBgVfA1so?key=911&bbsNo=199&nttNo=27208&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국남동발전",
+      "type": "공기업",
+      "date": "2026-08-24",
+      "title": "(08.24) KOEN 한국남동발전, 여름철 전력수급 안정 위한 재난대비...",
+      "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64162",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "koenergy.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-08-24",
+      "title": "한국전기안전공사, 제주 재생에너지 전력설비 안전협력 강화",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171765&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-08-24",
+      "title": "공무원연금공단, 공상공무원 맞춤형 직무복귀훈련 첫 운영",
+      "url": "https://www.geps.or.kr/notiCommunication_news/42761?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
       ]
     },
     {
