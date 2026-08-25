@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-24T13:20:30.265034+00:00",
+  "generatedAt": "2026-08-25T02:00:55.138161+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 18,
-  "itemCount": 373,
+  "itemCount": 385,
   "health": [
     {
       "agency": "한국전력공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 6
+      "itemCount": 8
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -464,6 +464,91 @@
   ],
   "items": [
     {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-25",
+      "title": "--> 코레일, ‘고속철도 통합과 한국철도의 미래’ 포럼 개최 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=bLv1E9T9mzNy3UwFc1kawLDKHpw7FeQcZ3Jr9M5JbB0uJGDXTHKFOI4gnP8O8FQ9?key=911&bbsNo=199&nttNo=27209&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-08-25",
+      "title": "--> 보도 한국수력원자력, 스스로 실천하고 변화하는 '조직문화혁신 주니어보드' 출범 한국수력원자력, 스스로 실천하고 변화하는 '조직문화혁신 주니어보드' 출범 - 현장의 목소리를 담아내고, 새로운 시각으로 혁신을 주도 - 한국수력원자력(사장 김회천, 이하 한수원) 김회천 사장은 젊은 직원들의 창의적인 시각과 현장의 다양한 목소리를 회사경영에 반영하기 위해 조직문화혁신 주니어보드를 신설했다. 차장, 과장, 대리·주임 등 세 그룹으로 이루어진 주니어보드는 각 그룹별 리더를 스스로 선정하... 작성일 : 2026-08-25",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76548&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-08-25",
+      "title": "--> 보도 한국수력원자력, 노·사·협력사 함께 현장 안전 챙김 한국수력원자력, 노·사·협력사 함께 현장 안전 챙김 - 삼랑진양수발전소 찾아 현장 위험요인 점검·근로자 소통 - 한국수력원자력(사장 김회천, 이하 한수원)이 ‘산업안전보건 강조기간’을 맞아 24일 삼랑진양수발전소에서 노·사·협력사 합동 현장 안전점검을 실시했다. 이번 점검은 노·사와 협력사가 함께 현장 위험요인을 발굴... 작성일 : 2026-08-25",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76547&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-08-25",
+      "title": "--> 보도 전남광주 해남군 지역 지진에 의한 원전 영향 없어 전남광주 해남군 지역 지진에 의한 원전 영향 없어 - 전남광주 해남군 서북서쪽 21km 지역, 규모 3.1 지진 발생 관련 - 한국수력원자력은 23일 오전 6시 43분경 전남광주 해남군 서북서쪽 21km 지역에서 발생한 규모 3.1 지진과 관련해 원자력발전소에 미친 영향은 없다고 밝혔다. 현재 가동 중인 모든 원전은 정상 운전중이며, 이들 원전에서 계측된 지진 계측값은 지진 경보 설정값(0.01g) 미만인 것으로... 작성일 : 2026-08-25",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76512&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-08-25",
+      "title": "--> 보도 한국수력원자력, 2026년 을지연습 실시...원전 비상 대비 태세 확립 한국수력원자력, 2026년 을지연습 실시...원전 비상 대비 태세 확립 - 변화하는 안보 환경 반영, 드론 침투 대비 방호 훈련 전개 - 한국수력원자력(사장 김회천, 이하 한수원)이 18일부터 21일까지 나흘간 ‘2026년 을지연습’에 참여해 전시 및 비상사태에 대비한 전사적 대응 역량을 점검하고 통합 방호 태세를 강화했다. 올해 을지연습은 최근 러시아-우크라이나 전쟁 등에서 현실... 작성일 : 2026-08-25",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76546&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "국민건강보험공단 사칭, '보안 고지서 확인 문자 발송 및 악성 앱 설치 유도'에 따른 주의 안내",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013141&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "캠코, 스탠다드차타드은행 싱가포르법인과 국내 중소？중견 해운사 선박금융 지원 확대 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28425&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "예금보험공사",
       "type": "기타공공기관",
       "date": "2026-08-24",
@@ -609,6 +694,55 @@
       "officialDomain": "geps.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-24",
+      "title": "정상 남미 방문 후광 효과 활용 아르헨티나서 역대 최대 K푸드 판촉 주간 운영...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29373",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-24",
+      "title": "보수적인 독일계 대형 하이퍼마켓도 반한 K-푸드 코트라, 글로부스와 협력해 3...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29372",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-24",
+      "title": "수출기업, EU 포장재 규정 대응 비상, 코트라, 실무해법 웨비나에 높은 관심...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29369",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-24",
+      "title": "K-컬처·소비재 열풍, K-인재 수요로 확산【8.24.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29368",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료",
+        "인재"
       ]
     },
     {
@@ -1175,6 +1309,18 @@
       "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29359",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-18",
+      "title": "--> K-철도·항공 ‘국민체감 AI 서비스 혁신’ 위해 맞손",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=bLv1E9T9mzNy3UwFc1kawLDKHpw7FeQcZ3Jr9M5JbB0uJGDXTHKFOI4gnP8O8FQ9?key=911&bbsNo=199&nttNo=27188&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
