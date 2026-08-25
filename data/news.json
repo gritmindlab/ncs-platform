@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-25T07:19:07.324246+00:00",
+  "generatedAt": "2026-08-25T13:19:15.487765+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
-  "itemCount": 391,
+  "successfulAgencyCount": 18,
+  "itemCount": 393,
   "health": [
     {
       "agency": "한국전력공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스안전공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 6
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한전KDN",
@@ -609,6 +609,30 @@
       "tags": [
         "보도자료",
         "협약"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-25",
+      "title": "--> 코레일, 프랑스 철도기업과 AI 기반 유지보수 기술 교류 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=kfJPRf7mEnfy82fNqsI9dNg9L0w4IQlarNPY9MoDS8cAxMs8TJeXXvg1s4A0tuZ8?key=911&bbsNo=199&nttNo=27211&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "공무원연금공단, 인공지능 수어 번역 서비스 제공",
+      "url": "https://www.geps.or.kr/notiCommunication_news/42796?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
       ]
     },
     {
