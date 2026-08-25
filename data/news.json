@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-25T02:00:55.138161+00:00",
+  "generatedAt": "2026-08-25T07:19:07.324246+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 385,
+  "successfulAgencyCount": 17,
+  "itemCount": 391,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 8
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -546,6 +546,69 @@
       "officialDomain": "kamco.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-25",
+      "title": "--> 코레일, 추석 승차권 암표 거래 집중 단속 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=naEHDDrq1PRyxTlGa6U2y6l9XibbfV1KrGzLfXDao3TKqjICTUgMQcrOQvk1pBzi?key=911&bbsNo=199&nttNo=27210&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "국민건강보험공단, 거제 수해 피해지역 찾아 긴급구호 봉사활동 펼쳐",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013147&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "국민건강보험공단, 안동？의성, 거제？통영 특별재난지역에 보험료 경감 및 추가 급여 지원",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013145&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "[보도자료] 한국장학재단 서울청년창업센터, 입주 기업과 함께 지역아동 AI 교육 사회 공헌 활동 2년 연속 추진 2026.08.25.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21228&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "청년",
+        "교육"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "심평원 울산경남본부, 마산시니어클럽과 폐의약품 안심처리 업무협약 체결",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11887&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료",
+        "협약"
       ]
     },
     {
@@ -1319,6 +1382,18 @@
       "date": "2026-08-18",
       "title": "--> K-철도·항공 ‘국민체감 AI 서비스 혁신’ 위해 맞손",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=bLv1E9T9mzNy3UwFc1kawLDKHpw7FeQcZ3Jr9M5JbB0uJGDXTHKFOI4gnP8O8FQ9?key=911&bbsNo=199&nttNo=27188&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-18",
+      "title": "--> 코레일, AI 통번역기 개발…13개 언어 음성인식 지원",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=naEHDDrq1PRyxTlGa6U2y6l9XibbfV1KrGzLfXDao3TKqjICTUgMQcrOQvk1pBzi?key=911&bbsNo=199&nttNo=27192&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "korail.com",
       "tags": [
