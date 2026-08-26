@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-26T02:07:05.828035+00:00",
+  "generatedAt": "2026-08-26T07:16:45.222831+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 18,
-  "itemCount": 400,
+  "itemCount": 409,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "ok",
-      "itemCount": 15
+      "status": "error",
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한국광해광업공단",
@@ -487,6 +487,105 @@
         "보도자료",
         "청년",
         "교육"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-08-26",
+      "title": "한국수자원공사, ‘기록적 폭우’ 거제 등 수해 지역 수...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140905&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-08-26",
+      "title": "한국수자원공사, 가천대와 기후테크 혁신 이끌 '청년 창...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140904&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-26",
+      "title": "--> 코레일 “AI로 더 안전하고 편리한 철도 만든다” 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=ZOVgQFJHdy1dbcY6XlJqsC359xtis0nxHsPAZxlYijZtv10aTK3UnfA4X5hA4A6z?key=911&bbsNo=199&nttNo=27212&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-08-26",
+      "title": "국민건강보험공단, 2026년 장기요양기관(시설급여) 수시평가 실시",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013172&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-08-26",
+      "title": "기보, 우리은행과 미래 전략산업 육성 위한 생산적 금융지원 맞손",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65522&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-26",
+      "title": "캠코, 중소벤처기업진흥공단과 손잡고 위기징후기업 경영정상화ㆍ성장전환 돕는다 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28445&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-08-26",
+      "title": "심평원 강원본부, 지역 청년 공공기관 취업 돕는 ‘로컬기업탐방’ 개최",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11889&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-08-26",
+      "title": "심평원, 오주환 신임 심사평가정책연구소장 임명",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11888&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
       ]
     },
     {
@@ -717,6 +816,18 @@
       "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29374",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "기보, 콘진원과 콘텐츠기업 맞춤형 노무 컨설팅 지원 협력",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65512&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
       "tags": [
         "보도자료"
       ]
