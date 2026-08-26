@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-25T13:19:15.487765+00:00",
+  "generatedAt": "2026-08-26T02:07:05.828035+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 18,
-  "itemCount": 393,
+  "itemCount": 400,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 6
+      "itemCount": 9
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -464,6 +464,32 @@
   ],
   "items": [
     {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-08-26",
+      "title": "--> 보도 한국수력원자력, 국내 최초로 3D프린팅 제작 원전 부품 1주기(18개월) 운영 성공 한국수력원자력, 국내 최초로 3D프린팅 제작 원전 부품 1주기(18개월) 운영 성공 한국수력원자력(사장 김회천, 이하 한수원)이 국내 최초로 3D프린팅으로 제작한 원전 부품으로 18개월 운전에 성공했다. 이번에 18개월 운전에 성공한 부품은 원자력발전소의 발전기차단기 냉각을 위한 ‘다익형 임펠러’다. 이 부품은 고정판에 여러 개의 날개(블레이드)가 조립된 형식이어서 고정판과 블레이드 사이에 ... 작성일 : 2026-08-26",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76550&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-26",
+      "title": "[보도자료] 한국장학재단 광주청년창업센터 입주기업 LC, 2026 KDB 창업교육 프로그램 상반기 성과공유회 최우수상 수상 2026.08.26.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21233&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "청년",
+        "교육"
+      ]
+    },
+    {
       "agency": "한국철도공사",
       "type": "공기업",
       "date": "2026-08-25",
@@ -631,6 +657,66 @@
       "url": "https://www.geps.or.kr/notiCommunication_news/42796?curPage=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "캠코, 스탠다드차타드은행 싱가포르법인과 국내 중소？중견 해운사 선박금융 지원 확대",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28425&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "코트라, K-푸드 물류 원스톱 지원으로 美 수출 채널 다변화【8.25.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29377",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "코트라·소진공, 경남 소상공인의 AI 수출역량 높여 지역 수출·성장 기회 확대...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29376",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "코트라, 중남미 경협 계기 콜롬비아 K-뷰티 진출 확대【8.25.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29375",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "코트라, 외교부·조달청과 손잡고 유엔개발계획(UNDP) 조달 통한 시리아 재건...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29374",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
