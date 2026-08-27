@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-27T09:57:11.806808+00:00",
+  "generatedAt": "2026-08-27T22:27:21.095341+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 429,
+  "successfulAgencyCount": 16,
+  "itemCount": 432,
   "health": [
     {
       "agency": "한국전력공사",
@@ -79,7 +79,7 @@
     {
       "agency": "한국서부발전",
       "status": "error",
-      "message": "GET 실패: HTTP Error 404: Not Found"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한국중부발전",
@@ -119,7 +119,7 @@
     {
       "agency": "기술보증기금",
       "status": "error",
-      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 9
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -584,6 +584,42 @@
       "url": "https://www.geps.or.kr/notiCommunication_news/42641?curPage=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-27",
+      "title": "캠코, 한국수력원자력과 인공지능(AI) 기반 디지털 감사 혁신 맞손",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28465&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-08-27",
+      "title": "한국장애인고용공단, 2026 직장 내 장애인 인식개선 공감 콘테스트 개최",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=215890",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-08-27",
+      "title": "‘외국인 5명 중 1명 지방공항으로 들어온다’ 한국관광공사가 데이터로 풀어낸 요즘 지역관광",
+      "url": "https://knto.or.kr/pressRelease/550760?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
       "tags": [
         "보도자료"
       ]
