@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-27T22:27:21.095341+00:00",
+  "generatedAt": "2026-08-28T11:36:35.784110+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 16,
-  "itemCount": 432,
+  "itemCount": 451,
   "health": [
     {
       "agency": "한국전력공사",
@@ -114,12 +114,12 @@
     {
       "agency": "신용보증기금",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -134,7 +134,7 @@
     {
       "agency": "한국가스안전공사",
       "status": "error",
-      "message": "GET 실패: HTTP Error 404: Not Found"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "국립공원공단",
@@ -173,8 +173,8 @@
     },
     {
       "agency": "건강보험심사평가원",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "공무원연금공단",
@@ -199,7 +199,7 @@
     {
       "agency": "한국석유관리원",
       "status": "error",
-      "message": "GET 실패: timed out"
+      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "agency": "한국연구재단",
@@ -466,6 +466,177 @@
     {
       "agency": "한국수자원공사",
       "type": "공기업",
+      "date": "2026-08-28",
+      "title": "한국수자원공사, 글로벌 수자원 관리기업 이콜랩과 첨단산...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140910&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-28",
+      "title": "--> 코레일, 고속철도 통합 기념 ‘레일플러스 교통카드’ 출시 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=b8Wa11JioL4jbTB9oDDBEyIq6JuCrdDyXyxjb8mPvbSFtymhT612NeuGgRWLw6hh?key=911&bbsNo=199&nttNo=27218&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-08-28",
+      "title": "주택도시보증공사, 중대재해 발생 예방 위해 공사 중단 보증이행사업장 추가 ...",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38296&t_title=게시물 읽기 (주택도시보증공사, 중대재해 발생 예방 위해 공사 중단 보증이행사업장 추가 특별점검 실시)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-08-28",
+      "title": "국민건강보험공단, 신임 이사장 강청희 직무청렴계약 체결",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013229&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-28",
+      "title": "[보도자료] 한국장학재단, 2026년 푸른등대 우미희망재단 인재육성 프로그램 개최 2026.08.28.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21250&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "인재"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-28",
+      "title": "[보도자료] 한국장학재단 광주청년창업센터 입주기업 ‘KG방화솔루션’, 국방기술 활용 불연 외장패널로 창업대회 동상 수상 2026.08.28.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21249&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-08-28",
+      "title": "기보, 신한은행-우리은행-하나은행과 차세대 유니콘 금융지원 위해 맞손",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65578&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "예금보험공사",
+      "type": "기타공공기관",
+      "date": "2026-08-28",
+      "title": "예금보험공사, 「2026년도 정책심포지엄」 개최 - \"왜 지금 예금보험인가? 금융안정에 대한 새로운 이해\" -",
+      "url": "https://www.kdic.or.kr/di/medi/selectPbcrBbsDtl.do?bbsSeCd=bodo&cdVl=bodo&pstNo=60257",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kdic.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-28",
+      "title": "캠코, 11,552억원 규모 압류재산 2,655건 공매 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28506&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-28",
+      "title": "캠코, 「AI 활용 국유재산 홍보 콘텐츠 공모전」 수상작 선정 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28505&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-08-28",
+      "title": "‘2026 대한민국 전기안전 컨퍼런스’ 9월 8일 전북서 개막",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171783&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-08-28",
+      "title": "한국장애인고용공단, 장애대학생 스텝업 탐방캠프 3기 성과공유회 성료",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=215926",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-08-28",
+      "title": "세계로 향하는 K-굿즈… 2026 대한민국 대표 관광기념품 25점 선정",
+      "url": "https://knto.or.kr/pressRelease/550762?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-08-28",
+      "title": "한국관광공사, 원주옥상영화제 10주년… 지역 상생의 무대로",
+      "url": "https://knto.or.kr/pressRelease/550761?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
       "date": "2026-08-27",
       "title": "한국수자원공사, ‘최우수’ 기후테크 창업지원 기관으로서...",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140906&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -620,6 +791,30 @@
       "url": "https://knto.or.kr/pressRelease/550760?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-08-27",
+      "title": "기보, 국민은행과 산업단지 입주기업 경쟁력 강화 위해 맞손",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65577&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-08-27",
+      "title": "기보, 중소벤처기업 전용 기업승계 MnA 매칭시스템 구축",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65576&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -858,6 +1053,18 @@
       "url": "https://knto.or.kr/pressRelease/550757?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-08-26",
+      "title": "기보, 바이오기업 (주)에이엔제이사이언스 Kibo-Star밸리기업으로 선정",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65560&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1114,6 +1321,18 @@
       "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013145&article.offset=0&articleLimit=10",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-25",
+      "title": "캠코, 스탠다드차타드은행 싱가포르법인과 국내 중소·중견 해운사 선박금융 지원 확대",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28425&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1471,6 +1690,19 @@
       "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-21",
+      "title": "--> 코레일 비상임이사, 전주역서 현장 안전경영 활동",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=b8Wa11JioL4jbTB9oDDBEyIq6JuCrdDyXyxjb8mPvbSFtymhT612NeuGgRWLw6hh?key=911&bbsNo=199&nttNo=27200&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "안전"
       ]
     },
     {
