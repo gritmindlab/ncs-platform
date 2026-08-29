@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-28T22:28:55.288573+00:00",
+  "generatedAt": "2026-08-29T07:11:55.402897+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 456,
+  "successfulAgencyCount": 19,
+  "itemCount": 457,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -463,6 +463,18 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-29",
+      "title": "--> [보도참고자료] 의왕역 직원 사망 사고 관련 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=V1QrSmo8JFQVa0bmGpYhvYpHHbwzVaGz2SwbTvXpcx1TJiSYTHq0719w1yY0NaMN?key=911&bbsNo=199&nttNo=27220&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국수자원공사",
       "type": "공기업",
