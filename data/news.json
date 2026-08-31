@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-30T16:50:42.432012+00:00",
+  "generatedAt": "2026-08-31T05:50:01.599715+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
-  "itemCount": 458,
+  "successfulAgencyCount": 15,
+  "itemCount": 475,
   "health": [
     {
       "agency": "한국전력공사",
@@ -23,8 +23,8 @@
     },
     {
       "agency": "한국철도공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국토지주택공사",
@@ -108,8 +108,8 @@
     },
     {
       "agency": "한국장학재단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "신용보증기금",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -464,6 +464,188 @@
   ],
   "items": [
     {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-08-31",
+      "title": "한국수자원공사, ‘2026 에이팜쇼’서 댐주변지역 농특...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140913&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-08-31",
+      "title": "--> 보도 한국수력원자력, 전국 품질분임조 경진대회 19년 연속 금상 수상 쾌거 한국수력원자력, 전국 품질분임조 경진대회 19년 연속 금상 수상 쾌거 -‘제52회 국가품질혁신경진대회’금상3, 은상1, 동상2 수상 - 한국수력원자력(사장 김회천, 이하 한수원)이 ‘제52회 국가품질혁신경진대회(전국 품질분임조 경진대회)’에서 금상 3개, 은상 1개, 동상 2개를 수상하며 19년 연속 금상(대통령상) 수상이라는 대기록을 세웠다. 산업통상부와 전북특별자치... 작성일 : 2026-08-31",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76585&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국남동발전",
+      "type": "공기업",
+      "date": "2026-08-31",
+      "title": "(08.30) KOEN 한국남동발전, 네팔 현장에 2차 현지대응반 추가 ...",
+      "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64172",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "koenergy.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "국민건강보험공단-한국보건사회연구원, 「2026년 한국의료패널 지역 자료설명회」 공동 개최",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013250&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "국민건강보험공단, 「2025년 주요수술 통계연보」 발간",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013227&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "[보도자료] 2026학년도 복권기금 꿈사다리 우수 장학사업 SOS 장학금, 9월 1일부터 신청하세요 2026.08.31.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21261&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "[보도자료] 한국장학재단, 2026년 사회리더 대학생 멘토링 리더십 콘서트 개최 2026.08.31.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21255&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "예금보험공사",
+      "type": "기타공공기관",
+      "date": "2026-08-31",
+      "title": "예보, \"2026년도 신입직원 35명 공개 채용\"",
+      "url": "https://www.kdic.or.kr/di/medi/selectPbcrBbsDtl.do?bbsSeCd=bodo&cdVl=bodo&pstNo=60261",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kdic.or.kr",
+      "tags": [
+        "보도자료",
+        "채용"
+      ]
+    },
+    {
+      "agency": "예금보험공사",
+      "type": "기타공공기관",
+      "date": "2026-08-31",
+      "title": "내 예금, 보호될까? 9월부터 한 눈에 확인하세요",
+      "url": "https://www.kdic.or.kr/di/medi/selectPbcrBbsDtl.do?bbsSeCd=bodo&cdVl=bodo&pstNo=60258",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kdic.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "캠코, 20년 이상 장기연체채권 3.1조 원 특별소각...4.4만 명 취약채무자 재기 지원 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28525&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-08-31",
+      "title": "한전KPS, 국가품질혁신경진대회 30년 연속 대통령상 ‘금자탑’ 새 글 2026-08-31",
+      "url": "https://www.kps.co.kr/web/Board/47568/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "전기안전공사, 개인정보보호 인증 확대···관리역량 입증",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171793&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "한국관광공사, 포켓몬과 함께 지역 곳곳 알린다",
+      "url": "https://knto.or.kr/pressRelease/550764?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "1박의 이유는 숙소 밖에… 데이터로 본 요즘 숙박",
+      "url": "https://knto.or.kr/pressRelease/550763?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국석유공사",
+      "type": "공기업",
+      "date": "2026-08-31",
+      "title": "[보도자료] 한국석유공사, 거제 지역 집중호우 피해 복..",
+      "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=999&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knoc.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "국민건강보험공단",
       "type": "준정부기관",
       "date": "2026-08-30",
@@ -702,6 +884,18 @@
       "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11891&pageIndex=1&pageIndex2=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-08-28",
+      "title": "한전KPS, 감사원 자체감사활동 ‘최우수기관상’ 수상 새 글 2026-08-28",
+      "url": "https://www.kps.co.kr/web/Board/47567/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
       "tags": [
         "보도자료"
       ]
@@ -2219,6 +2413,18 @@
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=naEHDDrq1PRyxTlGa6U2y6l9XibbfV1KrGzLfXDao3TKqjICTUgMQcrOQvk1pBzi?key=911&bbsNo=199&nttNo=27192&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-08-18",
+      "title": "한전KPS, ‘작업자 밀착형 피지컬AI’ 기술개발 박차 새 글 2026-08-18",
+      "url": "https://www.kps.co.kr/web/Board/47566/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
       "tags": [
         "보도자료"
       ]
