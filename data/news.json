@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-31T05:50:01.599715+00:00",
+  "generatedAt": "2026-08-31T14:05:10.008651+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 15,
-  "itemCount": 475,
+  "successfulAgencyCount": 16,
+  "itemCount": 482,
   "health": [
     {
       "agency": "한국전력공사",
@@ -23,8 +23,8 @@
     },
     {
       "agency": "한국철도공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국토지주택공사",
@@ -59,7 +59,7 @@
     {
       "agency": "한국수력원자력",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 10
     },
     {
       "agency": "한국남동발전",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스안전공사",
@@ -646,6 +646,82 @@
       ]
     },
     {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-31",
+      "title": "--> 코레일, 고속철도 통합 앞두고 안전점검 총력 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=flBQzqPPJggwy4TF3jd2RbevOKjUG1hl61sakPDStJmyd6kNTdDheFa9GWjMEL4U?key=911&bbsNo=199&nttNo=27231&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-31",
+      "title": "--> 코레일-에스알 9월 1일 하나로…안전 최우선, 더 편리한 고속철도의 시작 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=flBQzqPPJggwy4TF3jd2RbevOKjUG1hl61sakPDStJmyd6kNTdDheFa9GWjMEL4U?key=911&bbsNo=199&nttNo=27228&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-08-31",
+      "title": "--> 보도 한국수력원자력, 경주지역 중소기업·소상공인과 10년의 따뜻한 동행 한국수력원자력, 경주지역 중소기업·소상공인과 10년의 따뜻한 동행 - 경주 지역 경제에 온기 전하는 살뜰한 상생 금융 지원 지속 - 한국수력원자력(사장 김회천, 이하 한수원)이 경주시, KB국민은행과 손잡고 경주 지역 중소기업 및 소상공인의 경영 안정을 돕는 ‘경주상생협력기금’ 사업을 지속 추진한다. ‘경주상생협력기금’은 한수원이 협약 은행에 기금을 예탁하고, 여기서 ... 작성일 : 2026-08-31",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76591&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "협약"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-08-31",
+      "title": "--> 보도 한국수력원자력, 독립유공자 및 후손 맞춤형 지원 '희망동행' 결실 한국수력원자력, 독립유공자 및 후손 맞춤형 지원 '희망동행' 결실 - 해외 거주 자녀 초청 애국지사와 만남 지원, 환아 회복지원금 전달 등 - 한국수력원자력(사장 김회천, 이하 한수원)이 8월 한 달간 국가를 위해 헌신한 독립유공자 및 그 후손을 지원하는 맞춤형 사회공헌 사업인 ‘희망동행’을 활발히 펼쳤다. ‘희망동행’은 독립유공자와 후손들의 소망과 삶의 이야기에 귀 기울여, 공모... 작성일 : 2026-08-31",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76589&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "심평원 부산본부, “청렴은 어렵지 않아요” 5일간 직접 참여하는 ‘청렴주간’ 운영",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11892&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "고용개발원, 한국장애인복지학회와 학술교류 및 협력을 위한 업무협약 체결",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=215951",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료",
+        "협약"
+      ]
+    },
+    {
       "agency": "국민건강보험공단",
       "type": "준정부기관",
       "date": "2026-08-30",
@@ -896,6 +972,18 @@
       "url": "https://www.kps.co.kr/web/Board/47567/detailView.do?pageIndex=1&menu=2468",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kps.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-08-28",
+      "title": "기보, 현대모비스-하나은행과 대/중소 상생협력 강화 나서",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65652&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
       "tags": [
         "보도자료"
       ]
