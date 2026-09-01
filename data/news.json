@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-01T11:46:17.976138+00:00",
+  "generatedAt": "2026-09-01T16:48:44.440408+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 501,
+  "successfulAgencyCount": 17,
+  "itemCount": 504,
   "health": [
     {
       "agency": "한국전력공사",
@@ -19,7 +19,7 @@
     {
       "agency": "한국도로공사",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한국철도공사",
@@ -58,8 +58,8 @@
     },
     {
       "agency": "한국수력원자력",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국남동발전",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 10
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -596,6 +596,45 @@
       "tags": [
         "보도자료",
         "안전"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-01",
+      "title": "예비 산업인력 안전 지킨다... 캠코, ‘드림On 캠코안전벨’ 개최",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28565&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-01",
+      "title": "글로벌 인재 집합지 중동 취업시장, 한국 청년에 문 열려【9.1.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29396",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료",
+        "청년",
+        "인재"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-01",
+      "title": "라오스 탄소크레딧법 제정, 탄소감축 사업 구체화 기대【9.1.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29394",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
       ]
     },
     {
