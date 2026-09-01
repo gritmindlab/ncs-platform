@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-31T14:05:10.008651+00:00",
+  "generatedAt": "2026-09-01T05:20:37.904512+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 16,
-  "itemCount": 482,
+  "successfulAgencyCount": 18,
+  "itemCount": 495,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 9
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한전KDN",
@@ -463,6 +463,92 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-01",
+      "title": "--> 보도 한국수력원자력, \"한수원, 미래 핵심역량은 무엇인가?\" 전사 조직장 대토론회 개최 한국수력원자력, \"한수원, 미래 핵심역량은 무엇인가?\" 전사 조직장 대토론회 개최 - 직면한 상황과 잠재적 위기를 되짚고, 미래 경영의 방향성을 모색 - 한국수력원자력(사장 김회천, 이하 한수원)이 8월 31일 본사에서 전사 주요 간부 50여 명이 참석한 가운데 ‘전사 조직장 대토론회’를 개최했다. 이번 대토론회는 김회천 사장이 취임 이후 현장경영과 국내외 사업 점검 과정에서 도출한 문제의... 작성일 : 2026-09-01",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76615&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-09-01",
+      "title": "[보도자료] 한국장학재단 부산청년창업센터 입주기업 마노아, 2026 BUSAN 90일 크루 챌린지 우수상 수상 2026.09.01.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21266&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-01",
+      "title": "예비 산업인력 안전 지킨다... 캠코, ‘드림On 캠코안전벨’ 개최 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28565&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-01",
+      "title": "심평원, 인공지능(AI) 의료 영상 판독 결과 ‘진료비 심사 업무’에 첫 적용",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11893&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-01",
+      "title": "모두가 보고 즐기는 포용적 여행, ‘2027 무장애 관광환경 조성’ 공모",
+      "url": "https://knto.or.kr/pressRelease/550775?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-01",
+      "title": "국민이 뽑은 대한민국 일만 개 명소, 이제 직접 찾아간다",
+      "url": "https://knto.or.kr/pressRelease/550774?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국석유공사",
+      "type": "공기업",
+      "date": "2026-09-01",
+      "title": "[보도자료] 한국석유공사, ‘2026년 통계업무진흥유공..",
+      "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=1000&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knoc.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국수자원공사",
       "type": "공기업",
@@ -719,6 +805,66 @@
       "tags": [
         "보도자료",
         "협약"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "캠코, 20년 이상 장기연체채권 3.1조 원 특별소각...4.4만 명 취약채무자 재기 지원",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28525&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "코트라, 넷플릭스 등 아프리카 대표 유통망 3개사와 신시장 확대【8.31.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29392",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "“사장님, 요즘 MZ는 이렇게 소통하고 AI 써요” 코트라 역멘토링, 경영진이...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29391",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "지역·상생·혁신 이끌 코트라 「모두의 성장 협의체」 출범【8.31.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29387",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-08-31",
+      "title": "소비재부터 반도체까지, 속도 붙는 한-인도 경제협력【8.31.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29386",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
       ]
     },
     {
@@ -1699,6 +1845,18 @@
       "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28425&mId=0701030000&ptIdx=282",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-25",
+      "title": "--> 코레일, 추석 승차권 암표 거래 집중 단속",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=ElayvBSzMEDnxXLC4u1QlwaALbP1QTi8O5gddvL66tq90yRaTClgrXo8Dhcp7Tmz?key=911&bbsNo=199&nttNo=27210&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
