@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-02T04:42:34.829448+00:00",
+  "generatedAt": "2026-09-02T11:28:03.675911+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 508,
+  "successfulAgencyCount": 18,
+  "itemCount": 522,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -507,6 +507,154 @@
       "url": "https://knto.or.kr/pressRelease/550780?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-02",
+      "title": "--> 고속철도 통합 첫날 이용객 21.3만명…수서축 좌석 30.5% 늘어 이용 편의 개선 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=rDjsoQyLhHyZ15JzPbmbo8r2nXJ2JMaXgTgqMdUffUbUTuR0Te9q1YCbvs0BsEnd?key=911&bbsNo=199&nttNo=27243&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-02",
+      "title": "--> 보도 한국수력원자력, 혁신제품 지정 위한 중소기업 대상 맞춤형 컨설팅 한국수력원자력, 혁신제품 지정 위한 중소기업 대상 맞춤형 컨설팅 한국수력원자력(사장 김회천, 이하 한수원)이 중소기업의 혁신제품 지정과 공공조달시장 진출을 지원하기 위해 2일 ‘혁신제품 올인원 컨설팅’을 시행했다. 이번 컨설팅은 우수한 기술과 제품을 보유하고도 혁신제품 신청 절차와 평가 준비 등에 어려움을 겪는 중소기업의 부담을 덜고, 기업별 준비 단계에 맞는 실질적인 ... 작성일 : 2026-09-02",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76653&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "국민건강보험공단, “청렴이 곧 신뢰다”",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013322&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "[보도자료] 한국장학재단, 2026년 희망사다리 장학사업 신규 장학생 선발 추진 2026.09.02.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21275&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "노래하고 체험하고…전기안전공사, 어린이 뮤지컬 공연",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171820&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "심평원 대전충청본부, ‘청렴나무 키우기’로 청렴 문화 확산",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11894&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "[보도 설명자료] 해양수산부 공무원 임대주택 지원 관련",
+      "url": "https://www.geps.or.kr/notiCommunication_news/42792?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "[포토] 국립대전숲체원, 에너지의날 맞아 에너지 절약 실천",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9157",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "[포토] 국립대전숲체원, 교보교육재단 연계 톡톡톡 가족 소통 숲 캠프 운영",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9156",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "유아작품 전시 및 숲체험 운영으로 유아숲교육 협업모델 구축",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9155",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "국립대전숲체원, 탄소중립 숲교육 활성화에 앞장",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9154",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "한국산림복지진흥원",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "국립대전숲체원 숲에서 웃음꽃 피운 북한이탈주민 가족",
+      "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9153",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "fowi.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1727,6 +1875,31 @@
       "officialDomain": "kibo.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-26",
+      "title": "--> 코레일, 철도 물류 고객사와 ‘소통 간담회’ 개최",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=rDjsoQyLhHyZ15JzPbmbo8r2nXJ2JMaXgTgqMdUffUbUTuR0Te9q1YCbvs0BsEnd?key=911&bbsNo=199&nttNo=27214&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-26",
+      "title": "--> 코레일 “AI로 더 안전하고 편리한 철도 만든다”",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=rDjsoQyLhHyZ15JzPbmbo8r2nXJ2JMaXgTgqMdUffUbUTuR0Te9q1YCbvs0BsEnd?key=911&bbsNo=199&nttNo=27212&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "안전"
       ]
     },
     {
