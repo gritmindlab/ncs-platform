@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-01T16:48:44.440408+00:00",
+  "generatedAt": "2026-09-02T04:42:34.829448+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
-  "itemCount": 504,
+  "successfulAgencyCount": 19,
+  "itemCount": 508,
   "health": [
     {
       "agency": "한국전력공사",
@@ -19,7 +19,7 @@
     {
       "agency": "한국도로공사",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국철도공사",
@@ -34,7 +34,7 @@
     {
       "agency": "주택도시보증공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 9
     },
     {
       "agency": "인천국제공항공사",
@@ -58,8 +58,8 @@
     },
     {
       "agency": "한국수력원자력",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국남동발전",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 8
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -463,6 +463,54 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-02",
+      "title": "--> 코레일, 내일(3일)부터 추석 승차권 예매 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=nGbbzlqka7bg0IeolA1oSolcSmstroKnQeSwRzvPAS74v0eXT8ViMKAPoNOzNgqS?key=911&bbsNo=199&nttNo=27238&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "국민건강보험공단, ‘급여정지 신고’ 온라인으로 간편하게…3개월 이상 해외 체류 예정자 대상",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013315&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "공무원연금공단, 규제 합리화 아이디어 공모전 개최",
+      "url": "https://www.geps.or.kr/notiCommunication_news/42855?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "하동군 지리산 쌍계사·화개장터 일원, AI 만나 더 새롭고 편리해진다",
+      "url": "https://knto.or.kr/pressRelease/550780?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국수력원자력",
       "type": "공기업",
