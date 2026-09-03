@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-03T04:42:40.819050+00:00",
+  "generatedAt": "2026-09-03T11:22:29.729004+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 18,
-  "itemCount": 531,
+  "itemCount": 541,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "ok",
-      "itemCount": 15
+      "status": "error",
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한국광해광업공단",
@@ -525,6 +525,103 @@
       ]
     },
     {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-03",
+      "title": "--> 보도 한국수력원자력, ‘2026 K-걸스데이’ 개최 한국수력원자력, ‘2026 K-걸스데이’ 개최 - 고등학생 대상 방사선 기술 체험 프로그램 운영 - 한국수력원자력(사장 김회천, 이하 한수원)이 3일 한수원 방사선보건원에서 신흥고등학교 학생 20여 명을 대상으로 ‘2026 케이(K)-걸스데이(K-Girls’ Day)’ 행사를 개최했다. 케이(K)-걸스데이는 독일이 2001년부터 여학생의 이공계 진학 및 관련분야 진출을 ... 작성일 : 2026-09-03",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76662&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-03",
+      "title": "국민건강보험공단, 복지용구 및 고령친화용품 전시·체험 기회 확대",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013324&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-09-03",
+      "title": "[보도자료] 한국장학재단, 2026년 하반기 종합직 13명 채용 실시 2026.09.03.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21280&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "채용"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-09-03",
+      "title": "기보, 2026년도 제2차 경영전략워크숍 개최",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65696&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-09-03",
+      "title": "기보, 한국수력원자력과 AI 감사 혁신 및 인권친화 감사 협력",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65695&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-03",
+      "title": "2026년 제9차 약제급여평가위원회 심의결과 공개",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11898&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-03",
+      "title": "심평원,「제22회 강원의료기기 전시회」강원특별자치도지사 감사패 수상",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11897&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-09-03",
+      "title": "한국장애인고용공단, 발달장애인 훈련생과 함께하는 ‘청렴골든벨’ 개최",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216028",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국철도공사",
       "type": "공기업",
       "date": "2026-09-02",
@@ -743,6 +840,30 @@
       "tags": [
         "보도자료",
         "청년"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "기보, 국정과제 이행을 위한 기술거래플랫폼 사업화 예산 1023억원 반영",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65687&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-09-02",
+      "title": "기보, NICE평가정보와 손잡고 기술기업 특화 신용정보사업 추진",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65686&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
       ]
     },
     {
