@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-02T16:44:41.220466+00:00",
+  "generatedAt": "2026-09-03T04:42:40.819050+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
-  "itemCount": 524,
+  "successfulAgencyCount": 18,
+  "itemCount": 531,
   "health": [
     {
       "agency": "한국전력공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 8
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -463,6 +463,67 @@
     }
   ],
   "items": [
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-03",
+      "title": "국민건강보험공단, 복지용구 및 고령친화용품 전시？체험 기회 확대",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013324&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-09-03",
+      "title": "[보도자료] 국가장학금 2차 신청 마감 임박 9월 9일(수) 18시까지 신청하세요 2026.09.03.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21278&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-03",
+      "title": "캠코 박성현 상임감사, 적극행정에 힘 싣고 현장 목소리 직접 챙긴다 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28605&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-03",
+      "title": "병·의원 비급여 진료비 미리 확인하세요",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11896&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-03",
+      "title": "심평원-국립암센터, 암관리 협력 강화 업무협약 체결",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11895&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료",
+        "협약"
+      ]
+    },
     {
       "agency": "한국철도공사",
       "type": "공기업",
@@ -1650,6 +1711,32 @@
       "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-27",
+      "title": "--> “KTX·SRT 고속철도 통합, 안전하고 빈틈없이 준비한다”",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=1IN0awR0XkTjWAR25D9qRWv6WJ1zpAXygEXhp7UawZBXpgDATQ0f1gq1gOr7pYLP?key=911&bbsNo=199&nttNo=27216&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-27",
+      "title": "--> 코레일, 고속철도 통합 대비 KTX 안전·서비스 강화",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=1IN0awR0XkTjWAR25D9qRWv6WJ1zpAXygEXhp7UawZBXpgDATQ0f1gq1gOr7pYLP?key=911&bbsNo=199&nttNo=27215&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "안전"
       ]
     },
     {
