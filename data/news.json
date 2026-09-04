@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-04T04:42:33.913666+00:00",
+  "generatedAt": "2026-09-04T11:28:26.621536+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 548,
+  "successfulAgencyCount": 17,
+  "itemCount": 553,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스안전공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 7
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -497,6 +497,68 @@
       "officialDomain": "nhis.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-04",
+      "title": "--> 코레일, 교통약자 사전예매 추석 승차권 18만 3천 매 팔려 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=wIIWN8CDagIv81Spt9o4wNiU0IjpmJhqMtAlGInLuCHDhS1AT7ABD3XF0wBaaIi8?key=911&bbsNo=199&nttNo=27258&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-09-04",
+      "title": "HUG, '26.9월 미분양관리지역 총 4곳 지정",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38352&t_title=게시물 읽기 (HUG, '26.9월 미분양관리지역 총 4곳 지정)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-04",
+      "title": "국민건강보험공단, 올바른 폐의약품 배출문화 확산 나서",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013377&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-09-04",
+      "title": "[설명자료] 장학재단, 공공기관 유일 사전채무조정 협약 외면 보도 관련 2026.09.04.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21281&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "협약"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-09-04",
+      "title": "전기안전공사,‘여수세계섬박람회’성공 개최 위해 힘 보탠다",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171833&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
       ]
     },
     {
