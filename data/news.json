@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-05T04:38:44.215832+00:00",
+  "generatedAt": "2026-09-05T10:43:13.793957+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 556,
+  "successfulAgencyCount": 19,
+  "itemCount": 557,
   "health": [
     {
       "agency": "한국전력공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -1559,6 +1559,18 @@
       "date": "2026-08-29",
       "title": "--> [보도참고자료] 의왕역 직원 사망 사고 관련 새글",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=V1QrSmo8JFQVa0bmGpYhvYpHHbwzVaGz2SwbTvXpcx1TJiSYTHq0719w1yY0NaMN?key=911&bbsNo=199&nttNo=27220&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-29",
+      "title": "--> [보도참고자료] 의왕역 직원 사망 사고 관련",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=gGh92DP1wCoASaWAa1a0ar2SUQ4sAaPC0QB1D4FEqKMUovXbTz9VEoUvcomAG3Jm?key=911&bbsNo=199&nttNo=27220&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "korail.com",
       "tags": [
