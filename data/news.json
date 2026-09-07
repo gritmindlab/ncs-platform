@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-07T04:57:17.027227+00:00",
+  "generatedAt": "2026-09-07T12:41:41.491181+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 14,
-  "itemCount": 570,
+  "successfulAgencyCount": 19,
+  "itemCount": 577,
   "health": [
     {
       "agency": "한국전력공사",
@@ -58,8 +58,8 @@
     },
     {
       "agency": "한국수력원자력",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국남동발전",
@@ -88,8 +88,8 @@
     },
     {
       "agency": "국민건강보험공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "국민연금공단",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한전KDN",
@@ -572,6 +572,66 @@
       ]
     },
     {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-07",
+      "title": "--> 보도 한국수력원자력 엔지니어링처, 추석맞이 온정 나눔 한국수력원자력 엔지니어링처, 추석맞이 온정 나눔 한국수력원자력(사장 김회천, 이하 한수원) 엔지니어링처 직원들이 추석 명절을 앞둔 7일 경주 보덕동 행정복지센터를 방문, 지역 취약계층을 위한 생필품을 전달했다. 엔지니어링처 직원들은 이날 임직원들이 매월 자발적으로 모금한 ‘러브펀드’를 활용해 생필품을 구입, 전달하고, 보덕동 주변 환경정화 활동도 펼쳤다. 또, 청렴의 의미를 새겨 업... 작성일 : 2026-09-07",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76696&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-07",
+      "title": "국민건강보험공단, 「부당청구 장기요양기관 신고·포상금 제도」 홍보",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013391&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-07",
+      "title": "국민건강보험공단, ‘리부트 건강보험’ 혁신토론회 개최",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013387&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-07",
+      "title": "국민건강보험공단, 「건강보험 국민참여위원회 제5기」 간담회 개최",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013386&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-07",
+      "title": "캠코, 동남아중앙은행기구(SEACEN)와 손잡고 아시아 금융안정 협력 확대 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28627&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국철도공사",
       "type": "공기업",
       "date": "2026-09-04",
@@ -704,6 +764,18 @@
       "tags": [
         "보도자료",
         "인재"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-09-04",
+      "title": "기보, 농협은행과 전북 미래산업 육성 위해 금융지원 협력",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65722&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
       ]
     },
     {
@@ -1672,6 +1744,19 @@
       "officialDomain": "kps.co.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-31",
+      "title": "--> 코레일, 고속철도 통합 앞두고 안전점검 총력",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=lNQ905kVFfgSX3FeComhXifiiS96Qy5t4wMOOP1hda53KIftTx1CJddkwgg3MIBW?key=911&bbsNo=199&nttNo=27231&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "안전"
       ]
     },
     {
