@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-06T15:35:12.877439+00:00",
+  "generatedAt": "2026-09-07T04:57:17.027227+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 557,
+  "successfulAgencyCount": 14,
+  "itemCount": 570,
   "health": [
     {
       "agency": "한국전력공사",
@@ -58,8 +58,8 @@
     },
     {
       "agency": "한국수력원자력",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국남동발전",
@@ -88,8 +88,8 @@
     },
     {
       "agency": "국민건강보험공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "국민연금공단",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "status": "ok",
+      "itemCount": 15
     },
     {
       "agency": "한국광해광업공단",
@@ -463,6 +463,114 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-07",
+      "title": "한국수자원공사, 물에너지 활용 국가 핵심 정책 이행을 ...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140951&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-07",
+      "title": "한국수자원공사, 중소기업 ESG 경쟁력 강화 지원사업 ...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140950&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-09-07",
+      "title": "전세보증 보증기관(HUG·HF·SGI), 보증금 대신 갚아준 임대인 정보 ...",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38358&t_title=게시물 읽기 (전세보증 보증기관(HUG·HF·SGI), 보증금 대신 갚아준 임대인 정보 공유 … 전세보증 금지에 활용할 예정)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국남동발전",
+      "type": "공기업",
+      "date": "2026-09-07",
+      "title": "(09.04) KOEN 한국남동발전, 네팔 현지서 전방위 수색활동으로 연...",
+      "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64179",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "koenergy.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-09-07",
+      "title": "[보도자료] 한국장학재단, 우간다 대상 학자금 관리 역량강화 3개년 연수사업 결실 맺는다 2026.09.07.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21285&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-07",
+      "title": "“나만의 온비드 활용법을 들려 주세요”... 캠코, 활용수기 공모전 연다 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28625&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-07",
+      "title": "심평원 서울본부-서울특별시의사회 협업, 외국인 근로자 지원 봉사활동 펼쳐",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11899&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-07",
+      "title": "한국관광공사·유나이티드 항공, 미 국적 항공사 유일 ‘뉴어크/뉴욕-인천’ 취항 기념행사 개최",
+      "url": "https://knto.or.kr/pressRelease/550791?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-07",
+      "title": "몽골 광산 도시까지 넓힌 K-의료관광… 고부가 방한 시장 정조준",
+      "url": "https://knto.or.kr/pressRelease/550790?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국철도공사",
       "type": "공기업",
@@ -1542,6 +1650,31 @@
       ]
     },
     {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-08-31",
+      "title": "--> 코레일-에스알 9월 1일 하나로…안전 최우선, 더 편리한 고속철도의 시작",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=4QLOueAYpVT3UeLF8pKTa7zXz1rPD4aD4r572XraZpxQrSHzTNLhNnI8BWfNVcqd?key=911&bbsNo=199&nttNo=27228&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-08-31",
+      "title": "한전KPS, 국가품질혁신경진대회 30년 연속 대통령상 ‘금자탑’ 2026-08-31",
+      "url": "https://www.kps.co.kr/web/Board/47568/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "국민건강보험공단",
       "type": "준정부기관",
       "date": "2026-08-30",
@@ -1828,6 +1961,18 @@
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=imO1Es6tKagJePtnRfN3aV47S370sJyaMh8bM08pR14m80j4TdL0O1O8ixdQge70?key=911&bbsNo=199&nttNo=27218&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-08-28",
+      "title": "한전KPS, 감사원 자체감사활동 ‘최우수기관상’ 수상 2026-08-28",
+      "url": "https://www.kps.co.kr/web/Board/47567/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
       "tags": [
         "보도자료"
       ]
@@ -3429,6 +3574,18 @@
       "type": "공기업",
       "date": "2026-08-18",
       "title": "한전KPS, ‘작업자 밀착형 피지컬AI’ 기술개발 박차 새 글 2026-08-18",
+      "url": "https://www.kps.co.kr/web/Board/47566/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-08-18",
+      "title": "한전KPS, ‘작업자 밀착형 피지컬AI’ 기술개발 박차 2026-08-18",
       "url": "https://www.kps.co.kr/web/Board/47566/detailView.do?pageIndex=1&menu=2468",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kps.co.kr",
