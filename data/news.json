@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-07T12:41:41.491181+00:00",
+  "generatedAt": "2026-09-08T04:47:32.979381+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 577,
+  "successfulAgencyCount": 17,
+  "itemCount": 586,
   "health": [
     {
       "agency": "한국전력공사",
@@ -108,8 +108,8 @@
     },
     {
       "agency": "한국장학재단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "신용보증기금",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 5
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -464,6 +464,79 @@
   ],
   "items": [
     {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-08",
+      "title": "--> 보도 한국수력원자력, 원자력 안전문화 및 리더십 역량 강화 워크숍 개최 한국수력원자력, 원자력 안전문화 및 리더십 역량 강화 워크숍 개최 - 인적오류 예방 및 신뢰 기반 안전문화 조성 - 한국수력원자력(사장 김회천, 이하 한수원)이 7일과 8일 이틀간 한수원 본사에서 ‘2026년 원자력 안전문화 및 리더십 역량 강화 워크숍’을 개최하고, 현장 중심 안전문화 정착과 관리자의 안전 리더십 강화를 위한 실천 방안을 논의했다. 이번 워크숍에는 조석진 한수원 ... 작성일 : 2026-09-08",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76705&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-08",
+      "title": "--> 보도 한국수력원자력, 체코수소협회(HYTEP)와 '원자력 청정수소' 성과공유회 개최 한국수력원자력, 체코수소협회(HYTEP)와 '원자력 청정수소' 성과공유회 개최 - 유럽연합(EU) 법·제도·정치 환경 분석 완료... 유럽 시장 진출 기반 마련 - 한국수력원자력(사장 김회천, 이하 한수원)이 체코수소협회(HYTEP, Hydrogen Technology Platform)와 손잡고 유럽 원자력 청정수소 시장 진출을 위한 구체적인 로드맵을 마련한다. 한수원은 7일 경주 황룡원에서 체코... 작성일 : 2026-09-08",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76702&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-08",
+      "title": "국민건강보험공단, 「정신건강 심리상담 바우처사업」 우수사례 공모전 개최",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013428&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-08",
+      "title": "심평원, 박래웅 신임 진료심사평가위원장 임명",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11901&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-08",
+      "title": "심평원, 임직원이 함께하는 ‘HIRA 청렴카페’ 운영",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11900&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-08",
+      "title": "\"올가을 제주여행은 중문에서”…역대급 혜택·축제 가득한 2026 중문데이",
+      "url": "https://knto.or.kr/pressRelease/550796?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국수자원공사",
       "type": "공기업",
       "date": "2026-09-07",
@@ -625,6 +698,42 @@
       "date": "2026-09-07",
       "title": "캠코, 동남아중앙은행기구(SEACEN)와 손잡고 아시아 금융안정 협력 확대 새 글",
       "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28627&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-07",
+      "title": "[보도설명자료] 2026.9.7.자 <서울경제> 「재산 숨겨 빚 깎은 채무자들...사후 채권회수율 고작 2.4%」 보도 관련 설명 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28645&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-07",
+      "title": "캠코, 동남아중앙은행기구(SEACEN)와 손잡고 아시아 금융안정 협력 확대",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28627&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-07",
+      "title": "“나만의 온비드 활용법을 들려 주세요”... 캠코, 활용수기 공모전 연다",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28625&mId=0701030000&ptIdx=282",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kamco.or.kr",
       "tags": [
