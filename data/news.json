@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-09T04:52:45.340130+00:00",
+  "generatedAt": "2026-09-09T11:35:16.829385+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 608,
+  "successfulAgencyCount": 16,
+  "itemCount": 614,
   "health": [
     {
       "agency": "한국전력공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스안전공사",
@@ -188,8 +188,8 @@
     },
     {
       "agency": "한국산림복지진흥원",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "agency": "한국산업안전보건공단",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "agency": "한전KDN",
@@ -556,6 +556,66 @@
       "url": "https://knto.or.kr/pressRelease/550799?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-09",
+      "title": "한국수자원공사, ‘대한민국 국제물주간 2026’서 첨단...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140962&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-09",
+      "title": "--> 코레일, “지역관광의 새 활로, 철도에서 찾는다” 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=5SvTeAh4edGaiHp4DVZU0vUAsGf5okMJpomyvcdZjYqZCrV2Tq1L4cjI6AEjmiUE?key=911&bbsNo=199&nttNo=27278&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-09",
+      "title": "--> 보도 한국수력원자력, \"대한민국 국제물주간 2026\" 에서 수력·양수발전 특별세션 운영 한국수력원자력, \"대한민국 국제물주간 2026\"에서 수력·양수발전 특별세션 운영 - 기후위기 대응을 위한 인공지능(AI) 기반 수력 기술 발전 제시 - 한국수력원자력(사장 김회천, 이하 한수원)이 대한민국 최대 규모의 국제 물 행사인 ‘대한민국 국제물주간(Korea International Water Week, KIWW) 2026’에 주최기관으로 참여, 기후에너지환경부, 대구광역시, 한국수자원공... 작성일 : 2026-09-09",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76730&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-09",
+      "title": "심평원 전남광주본부, 사회연대경제기업 1,619개소와 연대 기반 마련",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11903&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-09-09",
+      "title": "한국장애인고용공단, 「항공·수상 운송업종 장애인 고용 통합컨설팅」 개최",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216139",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1590,6 +1650,18 @@
       "date": "2026-09-02",
       "title": "--> 코레일, 내일(3일)부터 추석 승차권 예매",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=E3rndnGWsnRgR4rAxY8cVhKSONJ4wziLJ3enKhXq39QjbkjbTMlJlH12m4JACQgq?key=911&bbsNo=199&nttNo=27238&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-02",
+      "title": "--> 고속철도 통합 첫날 이용객 21.3만명…수서축 좌석 30.5% 늘어 이용 편의 개선",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=5SvTeAh4edGaiHp4DVZU0vUAsGf5okMJpomyvcdZjYqZCrV2Tq1L4cjI6AEjmiUE?key=911&bbsNo=199&nttNo=27243&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "korail.com",
       "tags": [
