@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-08T16:46:31.358440+00:00",
+  "generatedAt": "2026-09-09T04:52:45.340130+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 18,
-  "itemCount": 599,
+  "itemCount": 608,
   "health": [
     {
       "agency": "한국전력공사",
@@ -88,8 +88,8 @@
     },
     {
       "agency": "국민건강보험공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "국민연금공단",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 8
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -463,6 +463,103 @@
     }
   ],
   "items": [
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-09-09",
+      "title": "HUG, 든든전세주택 매입심사에 AI 자동분석 도입하여 업무 처리시간 9 ...",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38368&t_title=게시물 읽기 (HUG, 든든전세주택 매입심사에 AI 자동분석 도입하여 업무 처리시간 93% 감축)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-09",
+      "title": "--> 보도 한국수력원자력, 동료가 지키는 사내 마음건강 프로그램 운영 한국수력원자력, 동료가 지키는 사내 마음건강 프로그램 운영 - 기업 최초 자체 개발 자살예방준전문가 양성 프로그램 운영 - - 직원 심리적 안전망 조성하는 동료상담가 '마인드키퍼' - 9월 10일 세계 자살예방의 날을 맞아 한국수력원자력(사장 김회천, 이하 한수원)이 직원들의 마음 건강 증진을 위한 사내 동료상담가 제도인 ‘마인드키퍼(Mind Keeper)’ 활동을 강화하고 있다. 이 제도는 발전소 ... 작성일 : 2026-09-09",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76710&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-09",
+      "title": "--> 보도 한국수력원자력, 프랑스 오라노와 우라늄 농축 분야 협력의향서 체결 한국수력원자력, 프랑스 오라노와 우라늄 농축 분야 협력의향서 체결 - 한·프 정상 임석하에 핵연료 공급망 협력 확대 의의 - 한국수력원자력(사장 김회천, 이하 한수원)이 8일(현지시간) 프랑스 파리 엘리제궁에서 양국 대통령이 임석한 가운데 프랑스 오라노(Orano)사(社)와 우라늄 농축 분야의 장기 협력을 위한 협력의향서(LOI, Letter of Intent)를 체결했다. 이번 협력의향서 체결은 지... 작성일 : 2026-09-09",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76709&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-09",
+      "title": "병원급 의료기관 2025년 9월분 비급여 항목 1,251개 진료비 7,499억 원",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013437&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-09",
+      "title": "국민건강보험공단, ‘2026 카카오 공공혁신 어워즈’ 우수사례 선정",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013452&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-09",
+      "title": "캠코, 신임 상임이사 선임 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28708&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-09",
+      "title": "캠코, JDC 손잡고 감사 품질 높인다 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28705&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-09",
+      "title": "가을 걷기여행주간, ‘코리아둘레길x동서트레일’과 함께 대한민국을 걸어요",
+      "url": "https://knto.or.kr/pressRelease/550799?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국수력원자력",
       "type": "공기업",
@@ -1483,6 +1580,18 @@
       "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=65686&article.offset=0&articleLimit=10",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-02",
+      "title": "--> 코레일, 내일(3일)부터 추석 승차권 예매",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=E3rndnGWsnRgR4rAxY8cVhKSONJ4wziLJ3enKhXq39QjbkjbTMlJlH12m4JACQgq?key=911&bbsNo=199&nttNo=27238&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
