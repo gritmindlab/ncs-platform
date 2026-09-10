@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-10T11:29:43.693120+00:00",
+  "generatedAt": "2026-09-10T16:35:13.528441+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 636,
+  "successfulAgencyCount": 17,
+  "itemCount": 646,
   "health": [
     {
       "agency": "한국전력공사",
@@ -98,8 +98,8 @@
     },
     {
       "agency": "근로복지공단",
-      "status": "error",
-      "message": "GET 실패: HTTP Error 400: Bad Request"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국산업인력공단",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 7
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -188,8 +188,8 @@
     },
     {
       "agency": "한국산림복지진흥원",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error [Errno -5] No address associated with hostname>"
     },
     {
       "agency": "한국산업안전보건공단",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -464,6 +464,18 @@
   ],
   "items": [
     {
+      "agency": "근로복지공단",
+      "type": "준정부기관",
+      "date": "2026-09-11",
+      "title": "[보도자료] 인사동정(2026.9.11.)",
+      "url": "https://www.comwel.or.kr/comwel/noti/pres.jsp?mode=view&article_no=2262484&board_wrapper=%2Fcomwel%2Fnoti%2Fpres.jsp&pager.offset=0&board_no=892",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "comwel.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국수자원공사",
       "type": "공기업",
       "date": "2026-09-10",
@@ -654,6 +666,54 @@
       "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=1001&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "knoc.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "근로복지공단",
+      "type": "준정부기관",
+      "date": "2026-09-10",
+      "title": "[보도자료] 급성기 치료 마친 산재환자, 전문재활로 신속 연계한다",
+      "url": "https://www.comwel.or.kr/comwel/noti/pres.jsp?mode=view&article_no=2262490&board_wrapper=%2Fcomwel%2Fnoti%2Fpres.jsp&pager.offset=0&board_no=892",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "comwel.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "근로복지공단",
+      "type": "준정부기관",
+      "date": "2026-09-10",
+      "title": "[보도자료] 근로복지공단, 경인지역본부 신청사 개청으로 노동복지 서비스 강화",
+      "url": "https://www.comwel.or.kr/comwel/noti/pres.jsp?mode=view&article_no=2262481&board_wrapper=%2Fcomwel%2Fnoti%2Fpres.jsp&pager.offset=0&board_no=892",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "comwel.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "근로복지공단",
+      "type": "준정부기관",
+      "date": "2026-09-10",
+      "title": "[보도자료] 근로복지공단, 추석 앞두고 임금체불 근로자 지원 강화",
+      "url": "https://www.comwel.or.kr/comwel/noti/pres.jsp?mode=view&article_no=2262479&board_wrapper=%2Fcomwel%2Fnoti%2Fpres.jsp&pager.offset=0&board_no=892",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "comwel.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "근로복지공단",
+      "type": "준정부기관",
+      "date": "2026-09-10",
+      "title": "[보도자료] 1.9조원까지 성장한 푸른씨앗, 검증된 전문 운용체계 이어간다",
+      "url": "https://www.comwel.or.kr/comwel/noti/pres.jsp?mode=view&article_no=2262465&board_wrapper=%2Fcomwel%2Fnoti%2Fpres.jsp&pager.offset=0&board_no=892",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "comwel.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -3279,6 +3339,18 @@
       ]
     },
     {
+      "agency": "근로복지공단",
+      "type": "준정부기관",
+      "date": "2026-08-26",
+      "title": "[보도자료] '공단에서 먼저 가입하고 국민과 함께 키운다' 근로복지공단, 푸른씨앗 IRP 확산 본격화",
+      "url": "https://www.comwel.or.kr/comwel/noti/pres.jsp?mode=view&article_no=2261497&board_wrapper=%2Fcomwel%2Fnoti%2Fpres.jsp&pager.offset=0&board_no=892",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "comwel.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국철도공사",
       "type": "공기업",
       "date": "2026-08-25",
@@ -4909,6 +4981,19 @@
       ]
     },
     {
+      "agency": "근로복지공단",
+      "type": "준정부기관",
+      "date": "2026-08-12",
+      "title": "[보도자료] 근로복지공단, 울산 위기취약청년 자립에 힘 보탠다",
+      "url": "https://www.comwel.or.kr/comwel/noti/pres.jsp?mode=view&article_no=2260579&board_wrapper=%2Fcomwel%2Fnoti%2Fpres.jsp&pager.offset=0&board_no=892",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "comwel.or.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
       "agency": "주택도시보증공사",
       "type": "공기업",
       "date": "2026-08-11",
@@ -5130,6 +5215,19 @@
       "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "근로복지공단",
+      "type": "준정부기관",
+      "date": "2026-08-11",
+      "title": "[보도자료] 근로복지공단, 최근 3년 최대 규모 신입직원 274명 채용",
+      "url": "https://www.comwel.or.kr/comwel/noti/pres.jsp?mode=view&article_no=2260469&board_wrapper=%2Fcomwel%2Fnoti%2Fpres.jsp&pager.offset=0&board_no=892",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "comwel.or.kr",
+      "tags": [
+        "보도자료",
+        "채용"
       ]
     },
     {
@@ -6323,6 +6421,18 @@
       ]
     },
     {
+      "agency": "근로복지공단",
+      "type": "준정부기관",
+      "date": "2026-07-30",
+      "title": "[보도자료] 근로복지공단 임직원 손끝에서 탄생한 환경 팝업북 지역 아동에게 전달",
+      "url": "https://www.comwel.or.kr/comwel/noti/pres.jsp?mode=view&article_no=2259546&board_wrapper=%2Fcomwel%2Fnoti%2Fpres.jsp&pager.offset=0&board_no=892",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "comwel.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국수자원공사",
       "type": "공기업",
       "date": "2026-07-29",
@@ -6454,6 +6564,19 @@
       "officialDomain": "knoc.co.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "근로복지공단",
+      "type": "준정부기관",
+      "date": "2026-07-29",
+      "title": "[보도자료] 근로복지공단, 폐현수막 폐안전모로 만든 리본 공유우산 지역사회 배포",
+      "url": "https://www.comwel.or.kr/comwel/noti/pres.jsp?mode=view&article_no=2259477&board_wrapper=%2Fcomwel%2Fnoti%2Fpres.jsp&pager.offset=0&board_no=892",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "comwel.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
       ]
     },
     {
