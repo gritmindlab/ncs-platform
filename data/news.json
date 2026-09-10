@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-09T16:46:16.293114+00:00",
+  "generatedAt": "2026-09-10T04:53:52.919639+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 18,
-  "itemCount": 618,
+  "itemCount": 624,
   "health": [
     {
       "agency": "한국전력공사",
@@ -114,7 +114,7 @@
     {
       "agency": "신용보증기금",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "기술보증기금",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 9
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -463,6 +463,80 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-10",
+      "title": "한국수자원공사, 한국에너지기술평가원과 물·에너지 융합 ...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140987&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-10",
+      "title": "한국수자원공사, ‘2026 하반기 국가 K-테스트베드’...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140985&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-10",
+      "title": "한국수자원공사, 기후위기 대응 ‘디지털 물관리’로 글로...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140983&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-10",
+      "title": "--> 보도 한국수력원자력, 체코 유소년 축구팀 초청 문화 교류 행사 개최 한국수력원자력, 체코 유소년 축구팀 초청 문화 교류 행사 개최 - ‘화랑대기’ 참가 및 문화·봉사 교류로 원전 수주 지역과 상생 협력 강화 - 한국수력원자력(사장 김회천, 이하 한수원)이 체코 신규원전 사업의 성공적 이행 및 지역사회와의 상생을 위한 사회공헌 활동의 하나로, 체코 원전 건설 예정지 인근인 트레비치 지역 유소년 축구팀을 한국으로 초청해 다양한 스포츠·문화 교류 프로그램을 진행하고 ... 작성일 : 2026-09-10",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76746&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-10",
+      "title": "--> 보도 한국수력원자력, 협력사 대상 원자력 품질 교육(심화과정) 시행 한국수력원자력, 협력사 대상 원자력 품질 교육(심화과정) 시행 한국수력원자력(사장 김회천, 이하 한수원)이 9일과 10일 이틀간 한수원 방사선보건원에서 협력사 품질부서장 및 품질업무 담당자를 대상으로 원자력 품질 교육을 실시했다. 협력사의 원자력 품질 역량 강화를 위해 마련된 이번 교육에는 협력사 품질부서 임직원 100여 명이 참여했다. 이번 교육은 상반기에 심화과정(1차)에 이은 것으로, 전... 작성일 : 2026-09-10",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76745&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-09-10",
+      "title": "한국전기안전공사, 부패방지·규범준수 국제표준 인증 갱신",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171862&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
     {
       "agency": "주택도시보증공사",
       "type": "공기업",
