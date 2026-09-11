@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-11T04:50:33.320819+00:00",
+  "generatedAt": "2026-09-11T11:32:40.255753+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 665,
+  "successfulAgencyCount": 17,
+  "itemCount": 671,
   "health": [
     {
       "agency": "한국전력공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스안전공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 8
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -624,6 +624,42 @@
       ]
     },
     {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-11",
+      "title": "--> 코레일, 추석 승차권 180만매 판매 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=hdlGA3U0gaUn61r7xlydXbCyzhNudDjVbBedLAtelzPbiohVTPvqhBFEVDbOwHRa?key=911&bbsNo=199&nttNo=27291&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-11",
+      "title": "--> 코레일, 통합 철도 운영 안정화에 ‘총력’ 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=hdlGA3U0gaUn61r7xlydXbCyzhNudDjVbBedLAtelzPbiohVTPvqhBFEVDbOwHRa?key=911&bbsNo=199&nttNo=27286&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-11",
+      "title": "국민건강보험공단-대한노인회, 노인복지·건강증진 협력 강화",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013518&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국수자원공사",
       "type": "공기업",
       "date": "2026-09-10",
@@ -913,6 +949,18 @@
       "tags": [
         "보도자료",
         "청년"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-10",
+      "title": "日 AISIN과 미래차 개발 협력 나선 K-소부장 기업【9.10.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29436",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
       ]
     },
     {
@@ -1368,6 +1416,18 @@
       ]
     },
     {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-08",
+      "title": "키토 역대 최대 K-소비재 전시회, 「2026 엑스포 코리아」【9.8.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29422",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국수자원공사",
       "type": "공기업",
       "date": "2026-09-07",
@@ -1760,6 +1820,18 @@
       "date": "2026-09-04",
       "title": "--> [보도참고] ‘철도 차량 무선제어 입환시스템’ 관련",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=96127dQ4IiwAU1P13zzpIYvfsQfOMVzKbyRMU0DiBw299vqvTov1HDwArC0Tqhbi?key=911&bbsNo=199&nttNo=27253&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-04",
+      "title": "--> 코레일, 교통약자 사전예매 추석 승차권 18만 3천 매 팔려",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=hdlGA3U0gaUn61r7xlydXbCyzhNudDjVbBedLAtelzPbiohVTPvqhBFEVDbOwHRa?key=911&bbsNo=199&nttNo=27258&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "korail.com",
       "tags": [
