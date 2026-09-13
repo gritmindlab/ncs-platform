@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-12T15:45:06.946375+00:00",
+  "generatedAt": "2026-09-13T04:56:36.531078+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 16,
-  "itemCount": 675,
+  "successfulAgencyCount": 17,
+  "itemCount": 677,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error [Errno -5] No address associated with hostname>"
     },
     {
       "agency": "예금보험공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "GET 실패: <urlopen error [Errno -5] No address associated with hostname>"
     },
     {
       "agency": "한전KDN",
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "ok",
-      "itemCount": 15
+      "status": "error",
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한국광해광업공단",
@@ -463,6 +463,30 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-13",
+      "title": "--> [보도참고] 경전선 낙동강역 구내 상행선 운행 재개 알림 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=Hr1XnopMhf7pBlHIjeGdidsQgNWi9tZrzenB0MQmKIjcq04uT1l3v7orjim6GQ0L?key=911&bbsNo=199&nttNo=27293&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-13",
+      "title": "--> [보도참고] 경전선 열차 운행 조정 알림(1보) 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=Hr1XnopMhf7pBlHIjeGdidsQgNWi9tZrzenB0MQmKIjcq04uT1l3v7orjim6GQ0L?key=911&bbsNo=199&nttNo=27292&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "근로복지공단",
       "type": "준정부기관",
