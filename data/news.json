@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-14T05:05:55.375558+00:00",
+  "generatedAt": "2026-09-14T13:01:47.506733+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
-  "itemCount": 686,
+  "successfulAgencyCount": 16,
+  "itemCount": 690,
   "health": [
     {
       "agency": "한국전력공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 8
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -188,8 +188,8 @@
     },
     {
       "agency": "한국산림복지진흥원",
-      "status": "error",
-      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국산업안전보건공단",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -569,6 +569,55 @@
       "url": "https://knto.or.kr/pressRelease/550805?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-14",
+      "title": "한국수자원공사, 경기창조경제혁신센터와 지역의 혁신기업 ...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140993&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-14",
+      "title": "한국수자원공사, 1조 원 규모 필리핀 뉴클락시티 물 인...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140991&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-14",
+      "title": "--> 보도 한국수력원자력, 복합·신종재난 대비 \"안전한국훈련\" 시행 한국수력원자력, 복합·신종재난 대비 \"안전한국훈련\" 시행 - 지진·산불·드론 위협 등 고강도 시나리오 적용 - - 디지털통합재난플랫폼·신규 매뉴얼 실전 검증 - 한국수력원자력(사장 김회천, 이하 한수원)이 14일 한울원자력본부(이하 한울본부)에서 대규모 복합·신종재난 대응 역량을 점검하고 유관기관과의 협업 체계를 강화하기 위한 ‘2026년 재난대응 안전한국... 작성일 : 2026-09-14",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76805&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-14",
+      "title": "국민건강보험공단, 희귀 및 중증난치질환 산정특례 재등록 절차 쉬워진다 … 환자 ‘진단검사’ 대폭 개선",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013548&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
       "tags": [
         "보도자료"
       ]
