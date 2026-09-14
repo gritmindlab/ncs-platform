@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-13T16:26:40.279778+00:00",
+  "generatedAt": "2026-09-14T05:05:55.375558+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 677,
+  "successfulAgencyCount": 17,
+  "itemCount": 686,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 8
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -188,8 +188,8 @@
     },
     {
       "agency": "한국산림복지진흥원",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "agency": "한국산업안전보건공단",
@@ -463,6 +463,116 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-14",
+      "title": "--> 코레일, 뮤지컬로 함께하는 장애인식 개선 교육 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=XEPjgmBxSLNMGl10a1Zb10kLJR5uQqldvafSX9btlkzi1wCbTlxakcIdGTqiR0O8?key=911&bbsNo=199&nttNo=27294&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "한국남동발전",
+      "type": "공기업",
+      "date": "2026-09-14",
+      "title": "(09.11) KOEN 한국남동발전, 백상원 상임감사위원 주요 사업소 현...",
+      "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64183",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "koenergy.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-14",
+      "title": "국민건강보험공단, ‘대사증후군 건강관리 서비스’로 건강한 생활습관을 시작하세요!",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013537&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-09-14",
+      "title": "고향 가기 전 ‘안전 체크’…전기안전공사 추석 SNS 캠페인",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171918&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-14",
+      "title": "심평원 대구경북본부, ‘제20회 수성건강축제’ 참여·소통으로 지역민의 건강 챙기다",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11906&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-09-14",
+      "title": "장애인 ‘AI·디지털 튜터’ 직업영역개발로 전문가 양성 위한 훈련생 모집",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216236",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-09-14",
+      "title": "한국장애인고용공단 고용개발원, ‘제64차 EDI 정책토론회’ 개최",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216195",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-14",
+      "title": "한국관광공사×넥슨게임즈, 고품질 관광 데이터로 게임 속 ‘한국’ 그린다",
+      "url": "https://knto.or.kr/pressRelease/550806?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-14",
+      "title": "안동서 만난 한중 여행업계…지방공항 중심 지역관광 판 넓힌다",
+      "url": "https://knto.or.kr/pressRelease/550805?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국철도공사",
       "type": "공기업",
