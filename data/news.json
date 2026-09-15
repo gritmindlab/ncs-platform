@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-14T13:01:47.506733+00:00",
+  "generatedAt": "2026-09-15T05:09:43.780962+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 16,
-  "itemCount": 690,
+  "successfulAgencyCount": 15,
+  "itemCount": 698,
   "health": [
     {
       "agency": "한국전력공사",
@@ -88,8 +88,8 @@
     },
     {
       "agency": "국민건강보험공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "국민연금공단",
@@ -463,6 +463,91 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-15",
+      "title": "한국수자원공사, 국내 대표 무역·전시 복합 시설 ‘한국...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140997&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-15",
+      "title": "한국수자원공사, 한국사회책임투자포럼과 손잡고 물·기후 ...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=140995&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-15",
+      "title": "--> 코레일, 타지키스탄 철도공사와 ‘철도 현대화 업무협약’ 체결 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=nUM47qeLEWEa36p7sWH1YfuFa32Kie8pl0R6lXsRO78lxoeuTo2cdeBIT8Fh4FIA?key=911&bbsNo=199&nttNo=27299&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "협약"
+      ]
+    },
+    {
+      "agency": "예금보험공사",
+      "type": "기타공공기관",
+      "date": "2026-09-15",
+      "title": "K-예금보험 경험과 노하우, 세계와 나눈다",
+      "url": "https://www.kdic.or.kr/di/medi/selectPbcrBbsDtl.do?bbsSeCd=bodo&cdVl=bodo&pstNo=60279",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kdic.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-15",
+      "title": "캠코, 시각장애인 독서 접근성 높인다... 120명의 목소리로 만든 ‘그림해설 소리책’ 전달 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28785&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-15",
+      "title": "함께 만드는 관광의 내일, ‘2026 관광기업 이음주간’ 개최",
+      "url": "https://knto.or.kr/pressRelease/550810?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-15",
+      "title": "‘섬의 풍경을 마시고, 맛을 담다’ 한국관광공사, ‘섬이술술’캠페인으로 K-섬 관광 알린다",
+      "url": "https://knto.or.kr/pressRelease/550809?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국철도공사",
       "type": "공기업",
@@ -1657,6 +1742,19 @@
       "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-09-08",
+      "title": "한전KPS, 안전·보건관리자 전문성 강화 워크숍 성료 2026-09-08",
+      "url": "https://www.kps.co.kr/web/Board/47612/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
+      "tags": [
+        "보도자료",
+        "안전"
       ]
     },
     {
