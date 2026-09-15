@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-15T11:53:50.847216+00:00",
+  "generatedAt": "2026-09-15T17:06:31.444840+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
-  "itemCount": 715,
+  "successfulAgencyCount": 19,
+  "itemCount": 718,
   "health": [
     {
       "agency": "한국전력공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 10
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -188,8 +188,8 @@
     },
     {
       "agency": "한국산림복지진흥원",
-      "status": "error",
-      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국산업안전보건공단",
@@ -690,6 +690,42 @@
       "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11907&pageIndex=1&pageIndex2=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-15",
+      "title": "캠코, 시각장애인 독서 접근성 높인다... 120명의 목소리로 만든 ‘그림해설 소리책’ 전달",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28785&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-15",
+      "title": "中 대표 지식재산 커머스 샤오망, K-캐릭터 소싱 위해 방한 코트라, 소비재_...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29449",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-15",
+      "title": "중동 수출 물류 시계 어디로, 미-이란 충돌 6개월째 코트라, 중동 13개국 ...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29448",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
