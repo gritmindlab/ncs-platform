@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-16T04:57:14.363916+00:00",
+  "generatedAt": "2026-09-16T11:42:28.219414+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 19,
-  "itemCount": 731,
+  "itemCount": 742,
   "health": [
     {
       "agency": "한국전력공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 6
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -606,6 +606,146 @@
       "officialDomain": "knto.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-16",
+      "title": "--> 코레일, 추석 대비 고속열차 정비에 ‘구슬땀’ 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=79xoDGRW3HVkgao3aidXzbmANUPxdO6pT1Hk87b0SP9OsR9lT3eaczEyktDhC9uM?key=911&bbsNo=199&nttNo=27306&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-16",
+      "title": "--> 코레일, 항공·도로 공공기관 연구원과 업무협약 체결 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=79xoDGRW3HVkgao3aidXzbmANUPxdO6pT1Hk87b0SP9OsR9lT3eaczEyktDhC9uM?key=911&bbsNo=199&nttNo=27305&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료",
+        "협약"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-16",
+      "title": "--> 보도 한국수력원자력, 전 임직원과 함께하는 ‘청렴라이브’교육 성황리 개최 한국수력원자력, 전 임직원과 함께하는 ‘청렴라이브’교육 성황리 개최 - 다채로운 문화 프로그램과 사내 생중계로 전사 청렴·윤리의식 내재화 - 한국수력원자력(사장 김회천, 이하 한수원)이 16일 본사 대강당에서 임직원을 대상으로 ‘맞춤형 청렴 교육’을 시행했다. 이날 교육에는 강민구 한수원 상임감사위원을 비롯한 주요 경영진과 직원들이 참석했으며, 전국의 사업소 직원들을... 작성일 : 2026-09-16",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76885&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "국민건강보험공단, 추석맞이 「행가래, 강원」 공공기관 연합 봉사활동 실시",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013646&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "[보도자료] 한국장학재단-국가아동권리보장원, 자립준비청년의 자립기반 조성을 위한 업무협약 체결 2026.09.16.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21317&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "청년",
+        "협약"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "전기안전공사 대구경북본부, 40여 년 만에 새 둥지",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171935&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "심평원, 「2026년 AI 활용 경진대회」 성료",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11913&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "심평원 대구경북본부, 추석 맞이 나눔으로 아이들에게 따뜻한 마음 전해",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11912&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "심평원 전남광주본부,추석 명절 맞이 나눔으로 지역경제 선순환 기여",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11911&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "한국장애인고용공단, 금융감독원 등과 「장애대학생과 청년구직자를 위한 금융권 취업 콘서트」 개최",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216314",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "교실 밖에서 만나는 안전한 배움터, 교육여행의 새 지평을 열다",
+      "url": "https://knto.or.kr/pressRelease/550816?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료",
+        "교육",
+        "안전"
       ]
     },
     {
