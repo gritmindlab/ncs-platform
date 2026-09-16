@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-15T17:06:31.444840+00:00",
+  "generatedAt": "2026-09-16T04:57:14.363916+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 19,
-  "itemCount": 718,
+  "itemCount": 731,
   "health": [
     {
       "agency": "한국전력공사",
@@ -59,7 +59,7 @@
     {
       "agency": "한국수력원자력",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 9
     },
     {
       "agency": "한국남동발전",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 8
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -466,6 +466,151 @@
     {
       "agency": "한국수자원공사",
       "type": "공기업",
+      "date": "2026-09-16",
+      "title": "한국수자원공사, 국립농업과학원과 협력해 댐 상류 물환경...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=141000&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-16",
+      "title": "--> 코레일, 국내 최고속도 ‘EMU-370’ 고속열차 사업 본격 추진 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=XARPZiRwWyJy7czaJrcgsDdxZhqAxgZATOFkiT4YwkmJTONtTKq4T6aBqlbI51D8?key=911&bbsNo=199&nttNo=27304&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-09-16",
+      "title": "HUG, 2026 국가공헌대상 ESG경영 부문 중소벤처기업부 장관상 수상",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38441&t_title=게시물 읽기 (HUG, 2026 국가공헌대상 ESG경영 부문 중소벤처기업부 장관상 수상)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-09-16",
+      "title": "“친절한 허그(HUG), 고객은 매우만족” 한국표준협회 주관 고객응대 우 ...",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38438&t_title=게시물 읽기 (“친절한 허그(HUG), 고객은 매우만족” 한국표준협회 주관 고객응대 우수기관 2년 연속 선정 !)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "국민건강보험공단 강청희 이사장, 서울요양원 찾아 현장 소통",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013644&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "국민건강보험공단 건강보험연구원, ‘건강노화지수’ 개발 … 국제학술지 통해 타당성 확인",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013643&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "[보도자료] 한국장학재단-한국청년기업가정신재단, 대한민국 학생 창업가 발굴·육성 위해 맞손 2026.09.16.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21315&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "캠코, 유럽부흥개발은행과 손잡고 모로코에 한국 부실채권 관리 경험 전수 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28787&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "심평원-금융감독원, 보험사기·부당청구 근절위해 협력 강화",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11910&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "심평원 경기남부본부, 추석 맞아 따뜻한 한가위 온기 전달",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11909&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "공무원연금공단, 제주지역 공공기관 합동 ‘미래세대 정보보호 캠페인’ 실시",
+      "url": "https://www.geps.or.kr/notiCommunication_news/42929?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-16",
+      "title": "한국관광공사, 원주 지역사회와 손잡고 ‘청렴 문화’ 확산 나선다",
+      "url": "https://knto.or.kr/pressRelease/550813?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
       "date": "2026-09-15",
       "title": "한국수자원공사, 국내 대표 무역·전시 복합 시설 ‘한국...",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=140997&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -726,6 +871,18 @@
       "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29448",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-09-15",
+      "title": "공무원연금공단, 2026년 콜센터품질지수(KS-CQI) ‘우수기관’ 선정",
+      "url": "https://www.geps.or.kr/notiCommunication_news/42854?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
       "tags": [
         "보도자료"
       ]
