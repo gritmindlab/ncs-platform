@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-16T17:05:24.507574+00:00",
+  "generatedAt": "2026-09-17T05:01:15.858654+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 748,
+  "successfulAgencyCount": 19,
+  "itemCount": 760,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -463,6 +463,151 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-17",
+      "title": "한국수자원공사-한국광해광업공단, ESG 감사역량 강화 ...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=141006&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-17",
+      "title": "한국수자원공사, 39개 투자기관과 협력해 혁신 스타트업...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=141004&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-17",
+      "title": "--> 코레일, 고속철도 통합 기념 이벤트 “우리 지금 만나” 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=WAjYhoTjRdTgvmLtYDPXh0syZJsmkagOj5u1ymTO5RogU8pgT2ZVgFmOvbs7AZ10?key=911&bbsNo=199&nttNo=27307&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-09-17",
+      "title": "전월세시장 안정화엔 여야 없다, HUG, 「전월세 안정화를 위한 정책 토 ...",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38448&t_title=게시물 읽기 (전월세시장 안정화엔 여야 없다, HUG, 「전월세 안정화를 위한 정책 토론회」 개최)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-17",
+      "title": "--> 보도 한국수력원자력, '2026년사이버보안위원회' 개최 한국수력원자력, '2026년사이버보안위원회' 개최 - 최신 AX 및 디지털 환경 변화 맞춤형 대응 방안 모색… 보안 역량 도약의 계기 마련 - 한국수력원자력(사장 김회천, 이하 한수원)이 17일 서울 한수원 방사선보건원에서 ‘2026년 사이버보안위원회’를 개최했다. 이번 위원회는 최신 인공지능 전환(AX) 및 디지털 환경 변화에 맞춰 한수원의 사이버보안 체계를 재점검하고, 경영진의 보안... 작성일 : 2026-09-17",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76905&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-17",
+      "title": "--> 보도 한국수력원자력, 협력기업 중대재해 예방 활동 확대 추진 한국수력원자력, 협력기업 중대재해 예방 활동 확대 추진 - “중대재해처벌법 이행점검 및 안전컨설팅” 설명회 개최 - - 협력기업 안전관리 수준 향상을 통한 산업재해 감축 - 한국수력원자력(사장 김회천, 이하 한수원)은 17일 경주 본사 대회의실에서 협력기업의 안전 역량 강화를 지원하는 ‘중대재해처벌법 이행점검 및 안전컨설팅’ 설명회를 열었다. 설명회에는 올해 지원사업 대상 협력기... 작성일 : 2026-09-17",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76887&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "국민건강보험공단, 재가 생애말기 대상자 보호자 대상으로 ‘임종돌봄 안내서’ 배포",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013666&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "캠코, 지역 취약계층과의 동행 위한 온정 나눔 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28805&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "「제43회 전국장애인기능경기대회」 사진보도자료",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216336",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "「제43회 전국장애인기능경기대회」 개최",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216330",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "한국장애인고용공단 고용개발원, ‘제64차 EDI 정책토론회’ 성료",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216322",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "한국관광공사, 추석맞이 취약계층 200가구에 지역 농산물 꾸러미 전달",
+      "url": "https://knto.or.kr/pressRelease/550817?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국수자원공사",
       "type": "공기업",
