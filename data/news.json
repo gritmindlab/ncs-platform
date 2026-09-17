@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-17T11:50:27.796371+00:00",
+  "generatedAt": "2026-09-17T17:15:05.956237+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
-  "itemCount": 768,
+  "successfulAgencyCount": 13,
+  "itemCount": 771,
   "health": [
     {
       "agency": "한국전력공사",
@@ -58,8 +58,8 @@
     },
     {
       "agency": "한국수력원자력",
-      "status": "ok",
-      "itemCount": 9
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국남동발전",
@@ -88,8 +88,8 @@
     },
     {
       "agency": "국민건강보험공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "국민연금공단",
@@ -119,7 +119,7 @@
     {
       "agency": "기술보증기금",
       "status": "error",
-      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 9
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -189,7 +189,7 @@
     {
       "agency": "한국산림복지진흥원",
       "status": "error",
-      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국산업안전보건공단",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -701,6 +701,30 @@
       "url": "https://www.geps.or.kr/notiCommunication_news/42919?curPage=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "캠코, 채무조정자 생활안정 돕는 '키우미가 다해드림' 시행",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28806&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "캠코, 지역 취약계층과의 동행 위한 온정 나눔",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28805&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1813,6 +1837,18 @@
       "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=66038&article.offset=0&articleLimit=10",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-09-11",
+      "title": "한전KPS, 업무투명성 강화 위한 ‘매뉴얼 경진대회’ 개최 2026-09-11",
+      "url": "https://www.kps.co.kr/web/Board/47614/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
       "tags": [
         "보도자료"
       ]
