@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-17T05:01:15.858654+00:00",
+  "generatedAt": "2026-09-17T11:50:27.796371+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 760,
+  "successfulAgencyCount": 17,
+  "itemCount": 768,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "agency": "예금보험공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 9
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -188,8 +188,8 @@
     },
     {
       "agency": "한국산림복지진흥원",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "agency": "한국산업안전보건공단",
@@ -604,6 +604,103 @@
       "url": "https://knto.or.kr/pressRelease/550817?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-17",
+      "title": "--> 코레일, 추석 연휴 ‘특별 할인상품’ 판매 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=euGVhsJPICYPOrdm2N4Zx8EqyXgjLIS5jFRdvgCXzXFRgrWzTuXS8psWoOEUmIAD?key=911&bbsNo=199&nttNo=27309&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-17",
+      "title": "--> 코레일, 중앙선 철도 물류작업 현장 점검 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=euGVhsJPICYPOrdm2N4Zx8EqyXgjLIS5jFRdvgCXzXFRgrWzTuXS8psWoOEUmIAD?key=911&bbsNo=199&nttNo=27308&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "국민건강보험공단, 단 한 사람의 불편없이…휠체어·고령자 가로막는 민원실 장벽 허문다",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013668&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "캠코, 채무조정자 생활안정 돕는 '키우미가 다해드림' 시행 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28806&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "전기안전공사, 인적자원개발 우수기관 5회 연속 인증",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171938&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "공무원연금공단 부산지부, 추석 맞이 온기 나눔 합동 배식봉사",
+      "url": "https://www.geps.or.kr/notiCommunication_news/43073?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "공무원연금공단, 2026년도 퇴직준비 모범사례 공모전 개최",
+      "url": "https://www.geps.or.kr/notiCommunication_news/43040?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-09-17",
+      "title": "공무원연금공단, 서귀포 저소득 200가구에 추석맞이 희망선물상자 나눔",
+      "url": "https://www.geps.or.kr/notiCommunication_news/42919?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
       "tags": [
         "보도자료"
       ]
