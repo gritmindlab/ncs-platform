@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-18T11:30:28.740480+00:00",
+  "generatedAt": "2026-09-18T16:32:03.414905+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 14,
-  "itemCount": 787,
+  "successfulAgencyCount": 19,
+  "itemCount": 795,
   "health": [
     {
       "agency": "한국전력공사",
@@ -58,8 +58,8 @@
     },
     {
       "agency": "한국수력원자력",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 9
     },
     {
       "agency": "한국남동발전",
@@ -88,8 +88,8 @@
     },
     {
       "agency": "국민건강보험공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "국민연금공단",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한전KDN",
@@ -618,6 +618,102 @@
       "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216368",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-18",
+      "title": "--> 보도 한수원, 환경·사회·투명경영(ESG)·경영혁신 위원회 새롭게 출범 한수원, 환경·사회·투명경영(ESG)·경영혁신 위원회 새롭게 출범 - 경영혁신을 더해 지속가능한 성장 이끈다 - 한국수력원자력(사장 김회천, 이하 한수원)이 18일 서울 한수원 방사선보건원에서 김회천 사장과 비상임이사, 외부 전문가 등이 참석한 가운데 ‘한수원 환경·사회·투명경영(ESG)·경영혁신 위원회’ 첫 회의를 개최하고, 제3기 위원회의 새... 작성일 : 2026-09-18",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76914&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-18",
+      "title": "--> 보도 한국수력원자력, 원전해체 비즈니스 포럼 개최 한국수력원자력, 원전해체 비즈니스 포럼 개최 - 국내 원전해체 사업 현황과 글로벌 해체 경험 공유 - 한국수력원자력(사장 김회천, 이하 한수원)이 국내외 전문가들과 함께 원전 해체 산업의 기술력을 점검하고 글로벌 시장 진출 방안을 모색하는 자리를 마련했다. 한수원은 18일 서울 웨스틴조선호텔에서 기후에너지환경부와 공동 주최하고 한국원자력산업협회가 주관하는 ‘2026 원전해체 비즈니스 포럼’을... 작성일 : 2026-09-18",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76910&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-18",
+      "title": "--> 보도 한국수력원자력 인공지능(AI) 전환 워크숍 및 무선통신 콘퍼런스 개최 한국수력원자력 인공지능(AI) 전환 워크숍 및 무선통신 콘퍼런스 개최 - 인공지능(AI) 기술 확산, 무선통신 기술교류 및 산업계 협력 강화 - 한국수력원자력(사장 김회천, 이하 한수원)이 17일부터 이틀간 한수원 방사선보건원에서 ‘2026년도 원전 무선통신 기술 교류 콘퍼런스(이하 무선통신 콘퍼런스)’와 ‘2026년도 원자력산업계 인공지능(AI) 전환 워크숍’(이하 인공지능... 작성일 : 2026-09-18",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76891&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-18",
+      "title": "[9.18.금.배포즉시] 국민건강보험공단-한국국제협력단(KOICA), 필헬스(PhilHealth) 대상 초청연수 실시",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013700&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-18",
+      "title": "새출발기금 채무조정 신청 및 약정 현황(26.8월말 기준)",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28825&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-18",
+      "title": "4월 정상회담 후 빨라지는 한-인도 경협 시계 코트라, 소비재 이어 반도체 앞...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29474",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-18",
+      "title": "독일 제조 공급망 지각변동, K-소부장·AI 기업에 기회【9.18.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-18",
+      "title": "권역별 성장엔진 육성 이행, 동남권 조선해양 수출 지원 코트라, 창원에서「국제...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29467",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
