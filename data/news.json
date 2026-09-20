@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-19T15:59:33.288407+00:00",
+  "generatedAt": "2026-09-20T05:03:11.859778+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
+  "successfulAgencyCount": 18,
   "itemCount": 795,
   "health": [
     {
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
