@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-20T05:03:11.859778+00:00",
+  "generatedAt": "2026-09-20T11:35:38.295955+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
+  "successfulAgencyCount": 16,
   "itemCount": 795,
   "health": [
     {
@@ -119,7 +119,7 @@
     {
       "agency": "기술보증기금",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "agency": "예금보험공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스안전공사",
@@ -173,8 +173,8 @@
     },
     {
       "agency": "건강보험심사평가원",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "공무원연금공단",
