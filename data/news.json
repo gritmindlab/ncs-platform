@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-21T05:03:53.063980+00:00",
+  "generatedAt": "2026-09-21T12:58:19.718455+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 807,
+  "successfulAgencyCount": 18,
+  "itemCount": 816,
   "health": [
     {
       "agency": "한국전력공사",
@@ -59,7 +59,7 @@
     {
       "agency": "한국수력원자력",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 10
     },
     {
       "agency": "한국남동발전",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 7
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -604,6 +604,118 @@
       "url": "https://knto.or.kr/pressRelease/550825?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-21",
+      "title": "--> 코레일 “철도 굿즈를 한곳에서 만나보세요” 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=KQu8RVJ4ic9lyOk0l5apKa38d7X8g22WaBrw9ow5ll6HSPD3TmKQCBzUirE1czno?key=911&bbsNo=199&nttNo=27330&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-21",
+      "title": "--> 보도 한국수력원자력, 본사 임직원 대상 '2026년 하반기 청렴교육' 실시 한국수력원자력, 본사 임직원 대상 '2026년 하반기 청렴교육' 실시 - 고위직 모두 참석해 청렴 솔선수범 다짐 - 한국수력원자력(사장 김회천, 이하 한수원)이 21일 경주 본사에서 임직원을 대상으로 ‘2026년 하반기 청렴교육’을 실시했다. 이날 교육에는 김회천 사장과 강민구 상임감사위원을 비롯한 임원 및 1직급 이상 고위직이 모두 참석해 청렴 실천 의지를 다졌다. 고위직부터 솔... 작성일 : 2026-09-21",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76896&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-21",
+      "title": "--> 보도 한국수력원자력, '2026 학위논문 연구성과 학술회의' 개최 한국수력원자력, '2026 학위논문 연구성과 학술회의' 개최 - 직원들의 연구 성과를 업무 개선과 조직 경쟁력으로 연결 - 한국수력원자력(사장 김회천, 이하 한수원)이 21일 경주 본사에서 임직원과 외부 전문가 등 100여 명이 참석한 가운데 ‘2026 학위논문 연구성과 학술회의’를 개최했다. 이번 학술회의는 직원 개인의 학위과정 연구 성과를 전사에 공유하고 현업에 접목하는‘교육환류체계&rs... 작성일 : 2026-09-21",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76895&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-21",
+      "title": "--> 보도 한국수력원자력, 봄철 산불방지 유공기관‘국무총리 표창’수상 한국수력원자력, 봄철 산불방지 유공기관‘국무총리 표창’수상 - 대형산불 경험을 반영한 선제적 재난관리 성과 인정 - 한국수력원자력(사장 김회천, 이하 한수원)이 21일 연세대학교 세브란스빌딩에서 열린 행정안전부 주관 ‘2026년 봄철 산불방지 유공 포상’ 시상식에서 단체 부문 국무총리 기관표창을 수상했다. 이번 수상은 2022년 울진 산불과 2025년 영남권 대형산불 대... 작성일 : 2026-09-21",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76894&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-21",
+      "title": "--> 보도 한국수력원자력,‘2026년 제2차 공공기관 에너지그룹사 감사협의회’ 성황리에 개최 한국수력원자력,‘2026년 제2차 공공기관 에너지그룹사 감사협의회’ 성황리에 개최 - 공공기관 에너지그룹사 간 정보교류 등을 통한 감사역량 제고 - ‘2026년 제2차 공공기관 에너지그룹사 감사협의회’가 17일 한국수력원자력(사장 김회천, 이하 한수원) 월성원자력본부에서 개최됐다. 공공기관 에너지그룹사 감사협의회는 20개 에너지 공공기관 간 감사업무 협력체계를 구축해 공공기관의 청... 작성일 : 2026-09-21",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76893&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "캠코, 부산경찰청과 '교통안전 포비버스' 달린다...안전문화 확산 지원 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28850&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "심평원 부산본부, 추석 명절을 맞아 지역사회 따듯한 정 나눔",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11919&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "심평원, 추석 명절 맞아지역사회와 따뜻한 나눔 이어가",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11918&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "심평원 인천본부, 추석 명절 맞아 지역 어르신에 따뜻한 마음 전달",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11917&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
       "tags": [
         "보도자료"
       ]
