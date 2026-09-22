@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-21T12:58:19.718455+00:00",
+  "generatedAt": "2026-09-22T05:04:08.659282+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 816,
+  "successfulAgencyCount": 19,
+  "itemCount": 837,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 7
+      "itemCount": 9
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -466,6 +466,128 @@
     {
       "agency": "한국철도공사",
       "type": "공기업",
+      "date": "2026-09-22",
+      "title": "--> 코레일, 추석 승차권 암표 의심 거래 19건 수사 의뢰 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=3UZgRUh1g8ynGjWxREaZEmjED1E5F2vkYP2x9awUTBnWjoCpTdY3ze312IIRVDpT?key=911&bbsNo=199&nttNo=27333&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-22",
+      "title": "--> 보도 한국수력원자력 노사, 추석맞이 지역 전통시장 장보기 한국수력원자력 노사, 추석맞이 지역 전통시장 장보기 - 구매 물품 기부로 노사 공동 사회적 책임 실천 더해 - 한국수력원자력(사장 김회천, 노조위원장 강창호, 이하 한수원) 노사가 민족 대명절인 추석을 앞두고 전통시장 활성화와 지역 취약계층 지원을 위해 두 손을 맞잡았다. 한수원 노사는 21일 경주 대표 전통시장인 성동시장과 중앙시장을 방문해 직원들이 모은 성금으로 쌀과 생필품 등을 직접 구매하는 장보기 행사를 ... 작성일 : 2026-09-22",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76899&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-22",
+      "title": "국민건강보험공단, 김지영 신임 건강보험연구원장 임명",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013761&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-22",
+      "title": "캠코, 부산 미래세대 위해 어린이 정원 조성 및 청년 장학금 지원 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28859&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-09-22",
+      "title": "한국전기안전공사, 추석 앞두고 전기화재 예방수칙 안내",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171956&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-22",
+      "title": "심평원 서울본부, 추석 맞아 지역사회 나눔 실천",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11921&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-22",
+      "title": "심평원 제주본부, 추석 명절 맞아 지역사회 나눔 실천",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11920&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-09-22",
+      "title": "공무원연금공단 부산지부, 외국인 근로자 가족과 추석맞이 온기 나눔",
+      "url": "https://www.geps.or.kr/notiCommunication_news/43135?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-09-22",
+      "title": "공무원연금공단, 청렴시민감사관과 함께 반부패·청렴 추진실적 점검",
+      "url": "https://www.geps.or.kr/notiCommunication_news/43044?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-22",
+      "title": "박성준 풍수 전문가와 힐링 산행, 2PM 우영과 텐션 업…올가을 ‘취향 따라’ 떠나는 특별한 여행",
+      "url": "https://knto.or.kr/pressRelease/550830?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
       "date": "2026-09-21",
       "title": "--> “고속철도 통합 후 첫 추석, 늘어난 좌석공급으로 귀성·귀경길 돕는다” 새글",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=nuRjWU2CtaM1X4Jq5tUNGl9b3aBdzxYHo8O0MNaSSSgwJPTxTcBlBmn1bdF1Ha4q?key=911&bbsNo=199&nttNo=27329&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
@@ -723,6 +845,127 @@
     {
       "agency": "국민건강보험공단",
       "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "국민건강보험공단, 「불법개설기관 집중·자진 신고기간」 운영",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013701&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "기보, 서울서 제3차 2026 기업승계 MnA 브릿지 포럼 개최",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=66197&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "캠코, 부산경찰청과 '교통안전 포비버스' 달린다...안전문화 확산 지원",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28850&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "K-항공부품, 中 항공정비 거점 샤먼에서 수출 확대【9.21.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29482",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "코트라, 내수·초보기업 수출길 ‘첫걸음 길잡이’ 나선다【9.21.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29479",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "K-에듀테크, AI 확산·K-컬처 인기 타고 해외로 코트라 수출상담회서 계약 ...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29478",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "공무원연금공단·서울소방재난본부, ‘제3회 찾아가는 보상·보훈 지원센터’ 합동 운영",
+      "url": "https://www.geps.or.kr/notiCommunication_news/43133?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "공무원연금공단, '조직문화 개선 9가지 약속’ 댓글 챌린지 성료… 초록우산에 200만원 기부",
+      "url": "https://www.geps.or.kr/notiCommunication_news/43111?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-09-21",
+      "title": "공무원연금공단, 순직공무원 자녀 학습설명회 최초 개최",
+      "url": "https://www.geps.or.kr/notiCommunication_news/43035?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-09-20",
+      "title": "기보, 충청북도-신한은행과 첨단산업 육성 금융지원 협력",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=66195&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
       "date": "2026-09-18",
       "title": "국민건강보험공단, 2026년 사용량-약가 연동 협상으로 80개 품목 약가 인하",
       "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013693&article.offset=0&articleLimit=10",
@@ -971,6 +1214,18 @@
       "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29467",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-18",
+      "title": "국민건강보험공단-한국국제협력단(KOICA), 필헬스(PhilHealth) 대상 초청연수 실시",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013700&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
       "tags": [
         "보도자료"
       ]
