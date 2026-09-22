@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-22T11:48:55.963384+00:00",
+  "generatedAt": "2026-09-22T17:06:05.271397+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 18,
-  "itemCount": 843,
+  "itemCount": 845,
   "health": [
     {
       "agency": "한국전력공사",
@@ -84,7 +84,7 @@
     {
       "agency": "한국중부발전",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "국민건강보험공단",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 10
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -655,6 +655,18 @@
       "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216444",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-22",
+      "title": "K-스마트팜, 아시아 종단 수출 대장정【9.22.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29485",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1946,6 +1958,18 @@
       "type": "공기업",
       "date": "2026-09-16",
       "title": "한전KPS, 추석 명절 앞두고 지역농산물 판촉행사 새 글 2026-09-16",
+      "url": "https://www.kps.co.kr/web/Board/47634/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-09-16",
+      "title": "한전KPS, 추석 명절 앞두고 지역농산물 판촉행사 2026-09-16",
       "url": "https://www.kps.co.kr/web/Board/47634/detailView.do?pageIndex=1&menu=2468",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kps.co.kr",
