@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-22T17:06:05.271397+00:00",
+  "generatedAt": "2026-09-23T04:56:32.663939+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 845,
+  "successfulAgencyCount": 17,
+  "itemCount": 855,
   "health": [
     {
       "agency": "한국전력공사",
@@ -34,7 +34,7 @@
     {
       "agency": "주택도시보증공사",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 10
     },
     {
       "agency": "인천국제공항공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -464,6 +464,93 @@
   ],
   "items": [
     {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-09-23",
+      "title": "HUG, PF 보증료 최대 40% 인하 … 신속 착공 사업장에 인센티브",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38494&t_title=게시물 읽기 (HUG, PF 보증료 최대 40% 인하 … 신속 착공 사업장에 인센티브)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-23",
+      "title": "--> 보도 한국수력원자력, 한국에너지공단과 감사 업무협약 체결 한국수력원자력, 한국에너지공단과 감사 업무협약 체결 - 인공지능(AI) 기반 감사혁신 및 적극행정 지원제도 활성화 - 한국수력원자력(사장 김회천, 이하, 한수원)이 22일 경주 본사에서 한국에너지공단(이사장 최재관)과 인공지능(AI) 기반 감사혁신, 적극행정 지원제도 활성화를 위한 업무협약을 체결했다. 두 기관은 협약을 통해 ▲인공지능(AI) 분석을 활용한 감사기법 사례 공유 ▲적극행정 지원 제도 상호 자문 ▲내부통제 취약... 작성일 : 2026-09-23",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76945&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "협약"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-23",
+      "title": "국민건강보험공단, 추석맞이 지역사회와 함께 ‘장보고 나누고’",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013790&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-23",
+      "title": "국민건강보험공단, 민방위 유공기관 선정 대통령 표창 수상",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013789&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-09-23",
+      "title": "기보, 한국주택금융공사와 개인정보 보호 체계 강화 협력",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=66255&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-09-23",
+      "title": "기보, 우리은행과 청년창업 활성화 위한 금융지원 협약 체결",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=66254&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료",
+        "청년",
+        "협약"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-23",
+      "title": "한국관광공사, 대한민국 구석구석 즐기는 추석 여행지 소개",
+      "url": "https://knto.or.kr/pressRelease/550835?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국철도공사",
       "type": "공기업",
       "date": "2026-09-22",
@@ -669,6 +756,31 @@
       "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-09-22",
+      "title": "기보, 전통시장의 온기 담아 지역 이웃과 추석 나눔 실천",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=66247&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-22",
+      "title": "캠코, 부산 미래세대 위해 어린이 정원 조성 및 청년 장학금 지원",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28859&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료",
+        "청년"
       ]
     },
     {
@@ -1973,6 +2085,18 @@
       "url": "https://www.kps.co.kr/web/Board/47634/detailView.do?pageIndex=1&menu=2468",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kps.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-16",
+      "title": "--> 코레일, 국내 최고속도 ‘EMU-370’ 고속열차 사업 본격 추진",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=HWFRCkwroCyunDA6MEalaijUQ9dpmkfaIvT3a8W5z9ySEr6QTkrN3kVLQG1g8f19?key=911&bbsNo=199&nttNo=27304&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
