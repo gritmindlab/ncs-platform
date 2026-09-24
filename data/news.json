@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-24T05:00:08.012207+00:00",
+  "generatedAt": "2026-09-24T11:56:28.822197+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 871,
+  "successfulAgencyCount": 17,
+  "itemCount": 874,
   "health": [
     {
       "agency": "한국전력공사",
@@ -88,8 +88,8 @@
     },
     {
       "agency": "국민건강보험공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "국민연금공단",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -469,6 +469,18 @@
       "date": "2026-09-24",
       "title": "--> 코레일, 독일 철도기업과 전기분야 기술협력 강화 새글",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=yqaNbR7zKRVDo0b7LrwJOWBm0Cc3K1f8djhjsLW4ZyIZfxXLTKUewl2wmT8z1Xdd?key=911&bbsNo=199&nttNo=27345&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-24",
+      "title": "--> 코레일 ‘지역사랑 철도여행’, 국제철도연맹(UIC) 지속가능대상 수상 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=i1ekdxwRTpCiq2yuHGJBETN9f8MrakxicjtbDlRFn1zqwW89TZnp51AHn9fKPLk6?key=911&bbsNo=199&nttNo=27346&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "korail.com",
       "tags": [
@@ -1882,6 +1894,30 @@
       "date": "2026-09-17",
       "title": "--> 코레일, 고속철도 통합 기념 이벤트 “우리 지금 만나”",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=yqaNbR7zKRVDo0b7LrwJOWBm0Cc3K1f8djhjsLW4ZyIZfxXLTKUewl2wmT8z1Xdd?key=911&bbsNo=199&nttNo=27307&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-17",
+      "title": "--> 코레일, 추석 연휴 ‘특별 할인상품’ 판매",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=i1ekdxwRTpCiq2yuHGJBETN9f8MrakxicjtbDlRFn1zqwW89TZnp51AHn9fKPLk6?key=911&bbsNo=199&nttNo=27309&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-17",
+      "title": "--> 코레일, 중앙선 철도 물류작업 현장 점검",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=i1ekdxwRTpCiq2yuHGJBETN9f8MrakxicjtbDlRFn1zqwW89TZnp51AHn9fKPLk6?key=911&bbsNo=199&nttNo=27308&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "korail.com",
       "tags": [
