@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-23T17:12:11.832560+00:00",
+  "generatedAt": "2026-09-24T05:00:08.012207+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
-  "itemCount": 869,
+  "successfulAgencyCount": 19,
+  "itemCount": 871,
   "health": [
     {
       "agency": "한국전력공사",
@@ -99,7 +99,7 @@
     {
       "agency": "근로복지공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "GET 실패: HTTP Error 400: Bad Request"
     },
     {
       "agency": "한국산업인력공단",
@@ -108,8 +108,8 @@
     },
     {
       "agency": "한국장학재단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "신용보증기금",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -463,6 +463,18 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-24",
+      "title": "--> 코레일, 독일 철도기업과 전기분야 기술협력 강화 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=yqaNbR7zKRVDo0b7LrwJOWBm0Cc3K1f8djhjsLW4ZyIZfxXLTKUewl2wmT8z1Xdd?key=911&bbsNo=199&nttNo=27345&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "주택도시보증공사",
       "type": "공기업",
@@ -1860,6 +1872,18 @@
       "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29465",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-17",
+      "title": "--> 코레일, 고속철도 통합 기념 이벤트 “우리 지금 만나”",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=yqaNbR7zKRVDo0b7LrwJOWBm0Cc3K1f8djhjsLW4ZyIZfxXLTKUewl2wmT8z1Xdd?key=911&bbsNo=199&nttNo=27307&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
