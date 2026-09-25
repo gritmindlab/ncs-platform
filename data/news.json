@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-25T12:00:04.976095+00:00",
+  "generatedAt": "2026-09-25T17:20:36.648476+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
+  "successfulAgencyCount": 18,
   "itemCount": 876,
   "health": [
     {
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "status": "ok",
+      "itemCount": 15
     },
     {
       "agency": "한국광해광업공단",
