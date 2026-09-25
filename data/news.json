@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-24T17:19:57.661834+00:00",
+  "generatedAt": "2026-09-25T05:06:07.765754+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
+  "successfulAgencyCount": 19,
   "itemCount": 875,
   "health": [
     {
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
