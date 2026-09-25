@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-25T05:06:07.765754+00:00",
+  "generatedAt": "2026-09-25T12:00:04.976095+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 875,
+  "successfulAgencyCount": 17,
+  "itemCount": 876,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "ok",
-      "itemCount": 15
+      "status": "error",
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한국광해광업공단",
@@ -1618,6 +1618,18 @@
       "url": "https://www.kps.co.kr/web/Board/47635/detailView.do?pageIndex=1&menu=2468",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kps.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-18",
+      "title": "--> 고속철도 통합, 철도서비스가 이렇게 달라졌습니다",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=q2EsUwpenrkSMilQJkL8f1BfNC7FclKoB151evtTSavxeDbkTYVz08u5CcCHLsBe?key=911&bbsNo=199&nttNo=27310&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
