@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-27T17:06:25.912990+00:00",
+  "generatedAt": "2026-09-28T05:33:06.652961+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 18,
-  "itemCount": 876,
+  "itemCount": 886,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스안전공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 7
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -463,6 +463,115 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-28",
+      "title": "--> “어느 역에서 쓸 수 있지?”…‘코레일 MaaS’ UI 개선 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=dpQPPFBzKtPCE4I9fABpISbLaoU93FtF56iFKKPo4ZU2AHsCTztZUl24zk6WO3cn?key=911&bbsNo=199&nttNo=27348&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-09-28",
+      "title": "주거든든 마음든든 「HUG 든든전세주택」9월 30일부터 총 900호 입주 ...",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38499&t_title=게시물 읽기 (주거든든 마음든든 「HUG 든든전세주택」9월 30일부터 총 900호 입주자 모집(제12차) 시작)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-28",
+      "title": "--> 보도 한국수력원자력, 추석맞이 나눔으로 지역에 활력과 온기 더해 한국수력원자력, 추석맞이 나눔으로 지역에 활력과 온기 더해 - 전통시장 장보기부터 급식봉사·어르신 돌봄까지 따뜻한 동행 - 한국수력원자력(사장 김희천, 이하 한수원)이 추석 명절을 맞아 9월 한 달 동안 본사와 전국 사업소에서 지역사회와 함께하는 다양한 나눔 활동을 집중적으로 펼치며 지역 곳곳에 따뜻한 명절의 정을 전했다. 한수원은 이 기간 본사와 전국 29개 사업소에서 지역별 특성과 수요를 반영한 50여 건의... 작성일 : 2026-09-28",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=76986&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-09-28",
+      "title": "기보, 실리콘밸리서 K-벤처 글로벌 마켓 커넥트 개최",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=66345&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-09-28",
+      "title": "흩어진 재난정보 한눈에…전기안전공사, 인공지능 시스템 개발",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171970&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-28",
+      "title": "심평원 경기남부본부, 심사위원 워크숍 개최를 통한 의료현장 소통 강화",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11924&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-28",
+      "title": "스트레이 키즈(Stray Kids)와 부산으로… BIAS 캠페인 부산 편 조회 수 1천만 돌파",
+      "url": "https://knto.or.kr/pressRelease/550837?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국석유공사",
+      "type": "공기업",
+      "date": "2026-09-28",
+      "title": "[보도자료] 한국석유공사, AI 활용 업무혁신 경진대회..",
+      "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=1003&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knoc.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국석유공사",
+      "type": "공기업",
+      "date": "2026-09-28",
+      "title": "[보도자료] 한국석유공사 “추석 명절, 오피넷으로 ‘알..",
+      "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=1002&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knoc.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국철도공사",
       "type": "공기업",
@@ -1327,6 +1436,18 @@
       "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28869&mId=0701030000&ptIdx=282",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-21",
+      "title": "--> “고속철도 통합 후 첫 추석, 늘어난 좌석공급으로 귀성·귀경길 돕는다”",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=dpQPPFBzKtPCE4I9fABpISbLaoU93FtF56iFKKPo4ZU2AHsCTztZUl24zk6WO3cn?key=911&bbsNo=199&nttNo=27329&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
