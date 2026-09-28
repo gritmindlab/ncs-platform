@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-28T05:33:06.652961+00:00",
+  "generatedAt": "2026-09-28T14:06:25.113081+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 18,
-  "itemCount": 886,
+  "itemCount": 890,
   "health": [
     {
       "agency": "한국전력공사",
@@ -108,8 +108,8 @@
     },
     {
       "agency": "한국장학재단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "신용보증기금",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -573,6 +573,30 @@
       ]
     },
     {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-28",
+      "title": "국민건강보험공단, 4대 사회보험료 자동이체로 더 편리하게, 지금 신청하면 경품 혜택까지!",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013810&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-28",
+      "title": "정정훈 캠코 사장, ‘사람 살리는 금융’ 캠페인 동참 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28886&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국철도공사",
       "type": "공기업",
       "date": "2026-09-24",
@@ -813,6 +837,18 @@
       "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29488",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-23",
+      "title": "[보도설명자료] 2026.9.23.자 <서울경제> 「새출발기금 채무조정 신청해도... 약정까지 1년 걸리기도」 보도 관련 설명 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28885&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1446,6 +1482,18 @@
       "date": "2026-09-21",
       "title": "--> “고속철도 통합 후 첫 추석, 늘어난 좌석공급으로 귀성·귀경길 돕는다”",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=dpQPPFBzKtPCE4I9fABpISbLaoU93FtF56iFKKPo4ZU2AHsCTztZUl24zk6WO3cn?key=911&bbsNo=199&nttNo=27329&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-21",
+      "title": "--> 코레일 “철도 굿즈를 한곳에서 만나보세요”",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=YaPHZ64x77aRRWvaYBKyUD1cA37wftCKfOFavuURCNyBTVPoTAnQanGNfTvl7r4Z?key=911&bbsNo=199&nttNo=27330&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "korail.com",
       "tags": [
