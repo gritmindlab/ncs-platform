@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-28T14:06:25.113081+00:00",
+  "generatedAt": "2026-09-29T05:51:19.072326+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 890,
+  "successfulAgencyCount": 19,
+  "itemCount": 902,
   "health": [
     {
       "agency": "한국전력공사",
@@ -108,8 +108,8 @@
     },
     {
       "agency": "한국장학재단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "신용보증기금",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 7
+      "itemCount": 8
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -464,6 +464,79 @@
   ],
   "items": [
     {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-29",
+      "title": "한국수자원공사, 가축분뇨 고체연료화로 댐 수질 살리고 ...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=141025&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-09-29",
+      "title": "한국수자원공사, 국제기능올림픽 ‘수처리기술’ 종목 2회...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=141023&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-29",
+      "title": "--> “코레일 철도박물관 ‘가을축제’에 초대합니다” 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=2aCmk15B3v5NGPIJsy7pGNP5nUUfH0b7m1mn6kvLq1Nj8AT8TnJIbv9Q7FFU8UsI?key=911&bbsNo=199&nttNo=27351&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-09-29",
+      "title": "한국전기안전공사, 국가안전관리 추진실적 ‘최우수’",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171980&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-29",
+      "title": "민관 손잡고 카페리(Car Ferry) 방한관광 열기 이어간다",
+      "url": "https://knto.or.kr/pressRelease/550839?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-29",
+      "title": "‘도장깨기’부터 ‘웃픈 사진 티셔츠’까지… 올가을 여행의 새로운 재미",
+      "url": "https://knto.or.kr/pressRelease/550838?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국철도공사",
       "type": "공기업",
       "date": "2026-09-28",
@@ -592,6 +665,54 @@
       "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28886&mId=0701030000&ptIdx=282",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-28",
+      "title": "정정훈 캠코 사장, ‘사람 살리는 금융’ 캠페인 동참",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28886&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-28",
+      "title": "새 시대, 수출기업에 필요한 새로운 지원 서비스는【9.28.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29498",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-28",
+      "title": "K-소비재, 중국 이커머스 무역 박람회서 판로 넓혀【9.28.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29497",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-28",
+      "title": "멕시코 국빈방문 효과 활용, 한국우수상품전 코트라, 신흥전략시장·한류 거점에서...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29496",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -854,6 +975,18 @@
       ]
     },
     {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-23",
+      "title": "[보도설명자료] 2026.9.23.자 <서울경제> 「새출발기금 채무조정 신청해도... 약정까지 1년 걸리기도」 보도 관련 설명",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28885&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국철도공사",
       "type": "공기업",
       "date": "2026-09-22",
@@ -1084,6 +1217,18 @@
       "tags": [
         "보도자료",
         "청년"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-22",
+      "title": "--> 코레일, 추석 승차권 암표 의심 거래 19건 수사 의뢰",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=2aCmk15B3v5NGPIJsy7pGNP5nUUfH0b7m1mn6kvLq1Nj8AT8TnJIbv9Q7FFU8UsI?key=911&bbsNo=199&nttNo=27333&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
       ]
     },
     {
