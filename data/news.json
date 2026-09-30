@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-30T05:50:57.183289+00:00",
+  "generatedAt": "2026-09-30T12:42:07.906402+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 13,
-  "itemCount": 911,
+  "successfulAgencyCount": 19,
+  "itemCount": 926,
   "health": [
     {
       "agency": "한국전력공사",
@@ -44,7 +44,7 @@
     {
       "agency": "한국공항공사",
       "status": "error",
-      "message": "POST 실패: <urlopen error timed out>"
+      "message": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "agency": "한국가스공사",
@@ -58,8 +58,8 @@
     },
     {
       "agency": "한국수력원자력",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국남동발전",
@@ -88,8 +88,8 @@
     },
     {
       "agency": "국민건강보험공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "국민연금공단",
@@ -108,8 +108,8 @@
     },
     {
       "agency": "한국장학재단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "신용보증기금",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 9
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한전KDN",
@@ -525,6 +525,139 @@
       ]
     },
     {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-30",
+      "title": "--> 코레일, 필리핀 도시철도(MRT-7) 구매 컨설팅 사업 수주 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=j0TafR0LQh6NLaXWDtFZuF5ATtdp5sIwFjeN6OyaXB1ZbMNsTew4OZ3LJmq7DxIG?key=911&bbsNo=199&nttNo=27357&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-30",
+      "title": "--> 코레일 ‘미래철도 자문위원회’ 출범 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=j0TafR0LQh6NLaXWDtFZuF5ATtdp5sIwFjeN6OyaXB1ZbMNsTew4OZ3LJmq7DxIG?key=911&bbsNo=199&nttNo=27353&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-09-30",
+      "title": "주택도시보증공사(HUG), BNK 부산은행과 지역 중소기업 지원 상생펀드 ...",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38514&t_title=게시물 읽기 (주택도시보증공사(HUG), BNK 부산은행과 지역 중소기업 지원 상생펀드 조성)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-30",
+      "title": "--> 보도 한국수력원자력, 도시·지역혁신대상 국토부장관상 수상 한국수력원자력, 도시·지역혁신대상 국토부장관상 수상 - 영덕군과의 공동의 재난 극복 및 상생협력 우수사례 선정 - 한국수력원자력(사장 김회천, 이하 한수원)이 30일 청주 오스코에서 개최된 ‘2026 대한민국 도시·지역혁신 산업박람회’에서 공공협력 분야 도시·지역혁신대상 (국토교통부장관상)을 받았다. 지난 2019년부터 해마다 열리고 있는 ‘대한민국 도시... 작성일 : 2026-09-30",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=77050&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-09-30",
+      "title": "--> 보도 한국수력원자력, 혁신제품 공공조달 유공‘재정경제부 장관 표창’수상 한국수력원자력, 혁신제품 공공조달 유공‘재정경제부 장관 표창’수상 - 혁신제품 공공구매 활성화·중소기업 판로 확대 성과 인정 - 한국수력원자력(사장 김회천, 이하 한수원)이 30일 대전컨벤션센터에서 개최된 ‘제6회 조달의 날’ 행사에서 혁신제품 공공조달 활성화에 기여한 우수 기관으로 선정돼 경제부총리 겸 재정경제부장관 표창을 수상했다. 조달청이 주관하는 조달의 날 행사... 작성일 : 2026-09-30",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=77049&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국남동발전",
+      "type": "공기업",
+      "date": "2026-09-30",
+      "title": "(09.29) KOEN 한국남동발전, 가축분뇨를 발전연료로 탄소중립과 댐...",
+      "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64201",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "koenergy.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-09-30",
+      "title": "국민건강보험공단, 직장가입자 정산보험료 분할납부 기준 대폭 완화",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013881&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-09-30",
+      "title": "[보도자료] 한국장학재단, 대구 자립준비청년 맞춤형 지원 지속 추진 2026.09.30.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21352&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-09-30",
+      "title": "기보, 하나은행과 충청권 미래전략산업 육성 위한 금융지원 확대",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=66468&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-30",
+      "title": "2026년 제8차 중증(암)질환심의위원회 심의결과 공개",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11927&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-09-30",
+      "title": "심평원, 이소영 신임 보험수가상임이사 임명",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11926&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국수자원공사",
       "type": "공기업",
       "date": "2026-09-29",
@@ -642,6 +775,30 @@
       "url": "https://knto.or.kr/pressRelease/550840?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-29",
+      "title": "코트라-세계한인총연합회, 중소기업 해외진출 협력 MOU【9.29.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29505",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-29",
+      "title": "코트라, 역직구 수출 물류로 중동 피해기업 수출시장 다변화 글로벌 이커머스 ‘...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29504",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1092,6 +1249,30 @@
       "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28885&mId=0701030000&ptIdx=282",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-23",
+      "title": "--> 코레일, 추석 앞두고 노숙인지원센터에 생필품 기부",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=j0TafR0LQh6NLaXWDtFZuF5ATtdp5sIwFjeN6OyaXB1ZbMNsTew4OZ3LJmq7DxIG?key=911&bbsNo=199&nttNo=27344&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-23",
+      "title": "--> “하나된 철도로 안녕히 다녀오십시오”…코레일, 추석 귀성길 환송",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=j0TafR0LQh6NLaXWDtFZuF5ATtdp5sIwFjeN6OyaXB1ZbMNsTew4OZ3LJmq7DxIG?key=911&bbsNo=199&nttNo=27343&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
