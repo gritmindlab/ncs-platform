@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-29T13:01:33.226142+00:00",
+  "generatedAt": "2026-09-30T05:50:57.183289+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 906,
+  "successfulAgencyCount": 13,
+  "itemCount": 911,
   "health": [
     {
       "agency": "한국전력공사",
@@ -44,7 +44,7 @@
     {
       "agency": "한국공항공사",
       "status": "error",
-      "message": "Expecting value: line 2 column 1 (char 1)"
+      "message": "POST 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스공사",
@@ -58,8 +58,8 @@
     },
     {
       "agency": "한국수력원자력",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국남동발전",
@@ -88,8 +88,8 @@
     },
     {
       "agency": "국민건강보험공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "국민연금공단",
@@ -108,8 +108,8 @@
     },
     {
       "agency": "한국장학재단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "신용보증기금",
@@ -119,7 +119,7 @@
     {
       "agency": "기술보증기금",
       "status": "error",
-      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 8
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -463,6 +463,67 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-30",
+      "title": "캠코-BNK부산은행, 부산지역 대학생 금융역량 경진대회 개최 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28906&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-09-30",
+      "title": "전기안전공사, 한성대 학생에 미래 에너지 안전 현장 선봬",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=171986&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-30",
+      "title": "한국관광공사, 포스트 APEC 관광두레 활성화 워크숍 개최",
+      "url": "https://knto.or.kr/pressRelease/550843?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-09-30",
+      "title": "러닝을 지역 여행으로 잇는다, ‘넥스트 런 트래블 페스타’ 첫 선",
+      "url": "https://knto.or.kr/pressRelease/550842?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국석유공사",
+      "type": "공기업",
+      "date": "2026-09-30",
+      "title": "[보도자료] 한국석유공사, 박은주 신임 E&P사업본부장..",
+      "url": "https://www.knoc.co.kr/sub11/sub11_1.jsp?page=1&num=1004&mode=view&field=&text=&bid=NEWS&ses=USERSESSION&psize=12",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knoc.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국수자원공사",
       "type": "공기업",
