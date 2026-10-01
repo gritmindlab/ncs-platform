@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-30T12:42:07.906402+00:00",
+  "generatedAt": "2026-10-01T06:07:41.517174+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 926,
+  "successfulAgencyCount": 15,
+  "itemCount": 939,
   "health": [
     {
       "agency": "한국전력공사",
@@ -58,8 +58,8 @@
     },
     {
       "agency": "한국수력원자력",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국남동발전",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 9
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "ok",
-      "itemCount": 15
+      "status": "error",
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한국광해광업공단",
@@ -463,6 +463,143 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-10-01",
+      "title": "한국수자원공사, 메콩 5개국 기후위기 대응을 위한 AI...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=141036&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-10-01",
+      "title": "한국수자원공사, 혁신제품 공공조달 유공 ‘대통령 표창’...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=141035&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-10-01",
+      "title": "HUG, 한국공인중개사협회와 ‘전월세 안심신탁’활성화를 위한 간담회 개최",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38518&t_title=게시물 읽기 (HUG, 한국공인중개사협회와 ‘전월세 안심신탁’활성화를 위한 간담회 개최)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "국민건강보험공단, 안전보건경영방침 개정 … ‘중대재해 제로(Zero)화’ 실천 강화",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013896&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "국민건강보험공단, 섬·농어촌 치매어르신까지 … 장기요양 서비스 빈틈없이 촘촘하게",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013895&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "[보도자료] 한국장학재단 부산청년창업센터 입주기업 Lemon Aid, 2026 부니콘 피치데이 장려상 수상 2026.10.01.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21361&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "한국장학재단",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "[보도자료] 2025학년도 졸업생 대상 고교 취업연계 장려금 추가신청 실시 2026.10.01.",
+      "url": "https://www.kosaf.go.kr/ko/info.do?mode=view&searchStr=&searchType=&page=1&ctgrId1=&ctgrId2=&seqNo=21357&pg=press01_02",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kosaf.go.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "캠코, 사회적 경제조직 대상 국유재산 대부... 추첨 선정？대부료율 1% 적용 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28911&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "전기안전공사, 인공지능전환(AX)으로 업무 혁신 나선다",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=172001&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "“공직부터 민간기업까지”... 발달장애 청년을 위한 맞춤형 채용·직무 정보 한자리에",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216621",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료",
+        "채용",
+        "청년"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "한국장애인고용공단, 『2026 KEAD 기업 규제개선 아이디어 공모전』 개최",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216559",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국자산관리공사",
       "type": "준정부기관",
@@ -653,6 +790,18 @@
       "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11926&pageIndex=1&pageIndex2=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-09-30",
+      "title": "캠코-BNK부산은행, 부산지역 대학생 금융역량 경진대회 개최",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28906&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1002,6 +1151,18 @@
       "date": "2026-09-24",
       "title": "--> 코레일 ‘지역사랑 철도여행’, 국제철도연맹(UIC) 지속가능대상 수상 새글",
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=i1ekdxwRTpCiq2yuHGJBETN9f8MrakxicjtbDlRFn1zqwW89TZnp51AHn9fKPLk6?key=911&bbsNo=199&nttNo=27346&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-24",
+      "title": "--> 코레일, 독일 철도기업과 전기분야 기술협력 강화",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=8M3p1D6JfnF2qM9fBgKC5ajPeY12a52oFDlUarcVlhjgPe9KTeE1LQWZDcAq1k0T?key=911&bbsNo=199&nttNo=27345&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "korail.com",
       "tags": [
