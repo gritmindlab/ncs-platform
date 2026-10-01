@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-01T06:07:41.517174+00:00",
+  "generatedAt": "2026-10-01T13:29:25.541829+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 15,
-  "itemCount": 939,
+  "successfulAgencyCount": 16,
+  "itemCount": 951,
   "health": [
     {
       "agency": "한국전력공사",
@@ -58,8 +58,8 @@
     },
     {
       "agency": "한국수력원자력",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국남동발전",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국가스안전공사",
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "status": "ok",
+      "itemCount": 15
     },
     {
       "agency": "한국광해광업공단",
@@ -596,6 +596,131 @@
       "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216559",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-10-01",
+      "title": "--> 보도 한국수력원자력 인재개발원, 국내 교육훈련기관 최초 ‘인공지능(AI) 국제인증’ 획득 한국수력원자력 인재개발원, 국내 교육훈련기관 최초 ‘인공지능(AI) 국제인증’ 획득 - 국제표준 ISO/IEC 42001 획득... 원전 교육 인공지능(AI) 신뢰성 확보 - 한국수력원자력(사장 김회천, 이하 한수원) 인재개발원이 인공지능(AI)을 안전하고 책임 있게 활용하는 체계를 인정받아 국제표준 인증을 획득했다. 한수원 인재개발원은 1일 서울 한국경영인증원(KMR)에서 인공지능 경영시스템 국제표준... 작성일 : 2026-10-01",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=77072&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "인재",
+        "교육",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-10-01",
+      "title": "--> 보도 한국수력원자력, '체코 두코바니 원전사업 보조기기 입찰설명회' 개최 한국수력원자력, '체코 두코바니 원전사업 보조기기 입찰설명회' 개최 한국수력원자력(사장 김회천, 이하 한수원)이 30일 서울 한수원 방사선보건원에서 ‘체코 두코바니 원전사업 보조기기 입찰설명회’를 개최했다. 이번 설명회는 체코 두코바니 신규 원전 건설사업이 보조기기 공급사 등록 단계에서 본격적인 입찰·구매 단계로 전환됨에 따라, 국내 기업의 원활한 입찰 참여를 지원하기 위해 마련됐다. 설명회... 작성일 : 2026-10-01",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=77058&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-10-01",
+      "title": "--> 보도 한국수력원자력 이광훈 품질기술본부장, 세계원자력사업자협회 ‘원자력분야 최고 공로상’ 수상 한국수력원자력 이광훈 품질기술본부장, 세계원자력사업자협회 ‘원자력분야 최고 공로상’ 수상 - 원전 안전운영 및 성능 향상 기여 공로 인정... 한수원 9년만의 쾌거 - 한국수력원자력(사장 김회천, 이하 한수원) 이광훈 품질기술본부장이 세계원자력사업자협회(World Association of Nuclear Operators, WANO)의 ‘원자력분야 최고 공로상(NEA, Nuclear Exc... 작성일 : 2026-10-01",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=77071&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "기보, 한국환경산업기술원과 K-택소노미 활용 확산 위해 맞손",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=66562&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "기술보증기금",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "기보, 이종혁 전무이사, 장진엽, 김현 상임이사 선임",
+      "url": "https://www.kibo.or.kr/main/board/boardType05.do?mode=view&articleNo=66560&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kibo.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-10-01",
+      "title": "한전KPS, ‘에너지 JOB박람회’서 청년취업 적극 지원 새 글 2026-10-01",
+      "url": "https://www.kps.co.kr/web/Board/47664/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
+      "tags": [
+        "보도자료",
+        "청년"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "희귀‧소외암환자 치료비 부담 낮춘다, 10월부터 암 치료제 건강보험 적용 확대",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11929&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "2026년 제10차 약제급여평가위원회 심의결과 공개",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11928&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "바람길을 달리며, 희망을 나누자! 한국관광공사, ‘2026 원주 바람길숲 기부런’ 참가자 모집",
+      "url": "https://knto.or.kr/pressRelease/550848?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "패스 한 장으로 교통부터 관광까지...외국인 지방 여행 편의 높인다",
+      "url": "https://knto.or.kr/pressRelease/550847?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1170,6 +1295,18 @@
       ]
     },
     {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-24",
+      "title": "--> 코레일 ‘지역사랑 철도여행’, 국제철도연맹(UIC) 지속가능대상 수상",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=aKgMVbzdfdL1gAkSy05lTvqerbcnZag4KlOGGglCitPW8echTKKWKY1HnEIKJxn4?key=911&bbsNo=199&nttNo=27346&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "주택도시보증공사",
       "type": "공기업",
       "date": "2026-09-23",
@@ -1434,6 +1571,18 @@
       "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=j0TafR0LQh6NLaXWDtFZuF5ATtdp5sIwFjeN6OyaXB1ZbMNsTew4OZ3LJmq7DxIG?key=911&bbsNo=199&nttNo=27343&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한전KPS",
+      "type": "공기업",
+      "date": "2026-09-23",
+      "title": "한전KPS, 인니 수력발전 지분 인수…첫 해외재생E 투자 2026-09-23",
+      "url": "https://www.kps.co.kr/web/Board/47663/detailView.do?pageIndex=1&menu=2468",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kps.co.kr",
       "tags": [
         "보도자료"
       ]
