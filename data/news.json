@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-02T05:49:47.329431+00:00",
+  "generatedAt": "2026-10-02T12:44:26.393808+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 17,
-  "itemCount": 963,
+  "successfulAgencyCount": 18,
+  "itemCount": 971,
   "health": [
     {
       "agency": "한국전력공사",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 9
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
     },
     {
       "agency": "한전KDN",
@@ -598,6 +598,54 @@
       ]
     },
     {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-10-02",
+      "title": "--> 보도 한국수력원자력, 미국 전력연구원(EPRI)과 원전 기계 분야 최신 기술 한자리에 한국수력원자력, 미국 전력연구원(EPRI)과 원전 기계 분야 최신 기술 한자리에 -‘2026년 KHNP-EPRI 기계분야 통합 워크숍’ 개최 - 한국수력원자력(사장 김회천, 이하 한수원)이 1일과 2일 이틀간 대전컨벤션센터(DCC)에서 미국 전력연구원(EPRI)과 함께 ‘2026 KHNP-EPRI 기계분야 통합 워크숍’을 개최했다. 이번 워크숍에는 미국 전력연구원(EP... 작성일 : 2026-10-02",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=77107&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-10-02",
+      "title": "--> 보도 한국수력원자력, '2026년 한수원 유망 기술 설명회' 개최 한국수력원자력, '2026년 한수원 유망 기술 설명회' 개최 - 한수원이 보유한 특허 기술 401건, 중소기업에 개방 - 한국수력원자력(사장 김회천, 이하 한수원)이 중소기업의 기술 경쟁력 강화와 경제 활성화를 위해 회사가 보유하고 있는 유망 특허 기술을 대대적으로 개방한다. 한수원은 2일 서울 방사선보건원에서 중소기업 40여개사가 참석한 가운데 ‘2026년 한수원 유망 기술 설명회’를 개최했다. 이번... 작성일 : 2026-10-02",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=77085&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-10-02",
+      "title": "--> 보도 한국수력원자력, 개인정보 보호수준 평가 2년 연속 최고 등급 획득 개인정보보호위원회 위원장 표창 수상 한국수력원자력, 개인정보 보호수준 평가 2년 연속 최고 등급 획득 개인정보보호위원회 위원장 표창 수상 - 역대 최고점수인 만점 달성 - 한국수력원자력(사장 김회천, 이하 한수원)이 9월 30일 서울 양재 엘타워에서 개최된 제6회 개인정보 보호의 날 기념식에서 개인정보보호위원회가 주관한‘공공기관 개인정보 보호수준 평가’ 최우수 기관으로 선정돼 개인정보보호위원회 위원장 표창을 받았다. 특히, 한수원은 이번 ... 작성일 : 2026-10-02",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=77083&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-10-02",
+      "title": "공무원연금공단, 김우호 이사장 취임",
+      "url": "https://www.geps.or.kr/notiCommunication_news/43278?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국수자원공사",
       "type": "공기업",
       "date": "2026-10-01",
@@ -872,6 +920,42 @@
       ]
     },
     {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "日 수입시장 1위 K-뷰티, 프리미엄·성분 차별화로 고공행진 코트라, 일본 화...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29511",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "한‧일 반도체 협력 시동, 양국 64개사 공급망 협력 추진 日 반도체 클러스터...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29510",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "공무원연금공단",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "공무원연금공단 대구지부, 지역 어르신과 함께하는 '가을맞이 사랑의 음악회' 개최",
+      "url": "https://www.geps.or.kr/notiCommunication_news/43216?curPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "geps.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
       "agency": "한국자산관리공사",
       "type": "준정부기관",
       "date": "2026-09-30",
@@ -1073,6 +1157,18 @@
       "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28906&mId=0701030000&ptIdx=282",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-09-30",
+      "title": "K-수출, 통상 파고 넘어 1조 달러 향해 순항【9.30.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29509",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
