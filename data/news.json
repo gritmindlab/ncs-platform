@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-01T13:29:25.541829+00:00",
+  "generatedAt": "2026-10-02T05:49:47.329431+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 16,
-  "itemCount": 951,
+  "successfulAgencyCount": 17,
+  "itemCount": 963,
   "health": [
     {
       "agency": "한국전력공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -466,6 +466,140 @@
     {
       "agency": "한국수자원공사",
       "type": "공기업",
+      "date": "2026-10-02",
+      "title": "한국수자원공사, 미국 The Water Tower와 글...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=141040&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-10-02",
+      "title": "--> 코레일, 추석 암표 35건 수사의뢰…회원 8명 강제탈퇴 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=WNejD1iFiJ5bzeCrE7l4S6wUgZTY1h1HawtVn8UnRzEpl6GvT8ehGVCTk87dd9dB?key=911&bbsNo=199&nttNo=27369&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-10-02",
+      "title": "국민건강보험공단, 살던 곳에서 존엄한 일상을 … 통합재가서비스 현장 공개",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013913&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-10-02",
+      "title": "국민건강보험공단, 건강한 삶을 설계하는 건강보험 … 미래세대와 함께 이야기하다",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013912&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "예금보험공사",
+      "type": "기타공공기관",
+      "date": "2026-10-02",
+      "title": "예금보험공사 인사(본부장 신규보임)",
+      "url": "https://www.kdic.or.kr/di/medi/selectPbcrBbsDtl.do?bbsSeCd=bodo&cdVl=bodo&pstNo=60303",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kdic.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "예금보험공사",
+      "type": "기타공공기관",
+      "date": "2026-10-02",
+      "title": "예금보험공사 인사",
+      "url": "https://www.kdic.or.kr/di/medi/selectPbcrBbsDtl.do?bbsSeCd=bodo&cdVl=bodo&pstNo=60302",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kdic.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-10-02",
+      "title": "캠코, 11,613억원 규모 압류재산 2,745건 공매 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28925&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-10-02",
+      "title": "전기안전공사, 인공지능으로 에너지저장장치(ESS) 화재 막는다",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=172022&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-10-02",
+      "title": "심평원, 이수연 신임 상임감사 취임",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11930&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국장애인고용공단",
+      "type": "준정부기관",
+      "date": "2026-10-02",
+      "title": "전국 16개 시도교육청 한자리에... 장애인 고용 확대를 위해 머리 맞대",
+      "url": "https://www.kead.or.kr/bbs/bodo/bbsView.do?menuId=MENU0893&bbsCnId=216661",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kead.or.kr",
+      "tags": [
+        "보도자료",
+        "교육"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-10-02",
+      "title": "가을밤 수놓는 ‘전통 불꽃놀이’ 보러 일본에서 왔어요",
+      "url": "https://knto.or.kr/pressRelease/550850?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
       "date": "2026-10-01",
       "title": "한국수자원공사, 메콩 5개국 기후위기 대응을 위한 AI...",
       "url": "https://www.kwater.or.kr/news/repoView.do?seq=141036&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
@@ -721,6 +855,18 @@
       "url": "https://knto.or.kr/pressRelease/550847?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-10-01",
+      "title": "캠코, 사회적 경제조직 대상 국유재산 대부... 추첨 선정·대부료율 1% 적용",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28911&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
       "tags": [
         "보도자료"
       ]
