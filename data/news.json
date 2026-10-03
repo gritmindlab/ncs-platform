@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-02T12:44:26.393808+00:00",
+  "generatedAt": "2026-10-03T05:27:29.254124+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 18,
-  "itemCount": 971,
+  "itemCount": 973,
   "health": [
     {
       "agency": "한국전력공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 10
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -643,6 +643,31 @@
       "officialDomain": "geps.or.kr",
       "tags": [
         "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-10-02",
+      "title": "캠코, 11,613억원 규모 압류재산 2,745건 공매",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28925&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-10-02",
+      "title": "청년과 함께 그리는 코트라 내일【10.2.】",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29512",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료",
+        "청년"
       ]
     },
     {
