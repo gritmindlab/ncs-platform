@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-03T11:47:00.386891+00:00",
+  "generatedAt": "2026-10-03T16:27:05.025921+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
+  "successfulAgencyCount": 17,
   "itemCount": 973,
   "health": [
     {
@@ -108,8 +108,8 @@
     },
     {
       "agency": "한국장학재단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "신용보증기금",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "예금보험공사",
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "status": "ok",
+      "itemCount": 15
     },
     {
       "agency": "한국광해광업공단",
