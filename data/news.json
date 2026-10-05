@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-04T12:31:03.226888+00:00",
+  "generatedAt": "2026-10-05T05:49:09.678686+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 973,
+  "successfulAgencyCount": 19,
+  "itemCount": 974,
   "health": [
     {
       "agency": "한국전력공사",
@@ -128,8 +128,8 @@
     },
     {
       "agency": "한국자산관리공사",
-      "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "status": "ok",
+      "itemCount": 10
     },
     {
       "agency": "한국가스안전공사",
@@ -1521,6 +1521,18 @@
       "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29496",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-28",
+      "title": "--> “어느 역에서 쓸 수 있지?”…‘코레일 MaaS’ UI 개선",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=EEUSkjaCgz3muITb5KxqZqPP1U26NUtiEAGyXz1KOhIXz8jOTpcudiYwtTqw1TQ2?key=911&bbsNo=199&nttNo=27348&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
