@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-06T06:30:00.933821+00:00",
+  "generatedAt": "2026-10-06T18:29:18.764210+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 19,
-  "itemCount": 986,
+  "successfulAgencyCount": 18,
+  "itemCount": 989,
   "health": [
     {
       "agency": "한국전력공사",
@@ -99,7 +99,7 @@
     {
       "agency": "근로복지공단",
       "status": "error",
-      "message": "GET 실패: <urlopen error timed out>"
+      "message": "GET 실패: HTTP Error 400: Bad Request"
     },
     {
       "agency": "한국산업인력공단",
@@ -118,8 +118,8 @@
     },
     {
       "agency": "기술보증기금",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "agency": "예금보험공사",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 10
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -592,6 +592,42 @@
       "url": "https://knto.or.kr/pressRelease/550855?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "주택도시보증공사",
+      "type": "공기업",
+      "date": "2026-10-06",
+      "title": "HUG 2026 빈집정비 협력사업 아이디어 발굴 공모전 우수작 시상",
+      "url": "https://www.khug.or.kr/hug/web/cs/no/csno000006.jsp?id=45&mode=S&currentPage=1&articleId=38528&t_title=게시물 읽기 (HUG 2026 빈집정비 협력사업 아이디어 발굴 공모전 우수작 시상)",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khug.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-10-06",
+      "title": "캠코, 한국수자원공사와 함께 감사 전문성 높인다",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28945&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "대한무역투자진흥공사",
+      "type": "준정부기관",
+      "date": "2026-10-06",
+      "title": "美 항공 명가 ‘벨 텍스트론’ 구매단 방한 K-항공우주 소부장 기술, 신속 납...",
+      "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29518",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kotra.or.kr",
       "tags": [
         "보도자료"
       ]
