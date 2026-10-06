@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-05T14:49:14.655324+00:00",
+  "generatedAt": "2026-10-06T06:30:00.933821+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
   "successfulAgencyCount": 19,
-  "itemCount": 974,
+  "itemCount": 986,
   "health": [
     {
       "agency": "한국전력공사",
@@ -99,7 +99,7 @@
     {
       "agency": "근로복지공단",
       "status": "error",
-      "message": "GET 실패: HTTP Error 400: Bad Request"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국산업인력공단",
@@ -144,7 +144,7 @@
     {
       "agency": "대한무역투자진흥공사",
       "status": "ok",
-      "itemCount": 10
+      "itemCount": 9
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -463,6 +463,139 @@
     }
   ],
   "items": [
+    {
+      "agency": "한국수자원공사",
+      "type": "공기업",
+      "date": "2026-10-06",
+      "title": "한국수자원공사-한국자산관리공사, 감사활동 상호 협력 및...",
+      "url": "https://www.kwater.or.kr/news/repoView.do?seq=141045&brdId=KO26&orderByField=&orderByDirection=&s_mid=36",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kwater.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-10-06",
+      "title": "--> 코레일, 철도로 아이들의 배움과 돌봄을 ‘잇다’ 새글",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=Vyimbpao9lHmCwxlqx5K8K050hq2tQ1Jifw3Xeq2o4TXcN8CTwF16CwpL8B19CFh?key=911&bbsNo=199&nttNo=27390&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-10-06",
+      "title": "--> 보도 한국수력원자력, 노사관계 우수기업 5년 연속 인증 쾌거 한국수력원자력, 노사관계 우수기업 5년 연속 인증 쾌거 - 신뢰와 협력의 노사관계 선도 - 한국수력원자력(사장 김회천, 노조위원장 강창호, 이하 한수원)이 한국경영인증원이 주관하는 ‘노사관계 우수기업’ 인증을 5년 연속 획득했다. ‘노사관계 우수기업’ 인증제도는 상호 존중과 신뢰를 바탕으로 상생·협력의 미래지향적 노사관계를 구축한 기업을 인증하는 제도다. 급... 작성일 : 2026-10-06",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=77150&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국남동발전",
+      "type": "공기업",
+      "date": "2026-10-06",
+      "title": "(10.02) KOEN 한국남동발전, 이현빈 제10대 한국남동발전 사장 ...",
+      "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64205",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "koenergy.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국남동발전",
+      "type": "공기업",
+      "date": "2026-10-06",
+      "title": "(10.02) KOEN 한국남동발전, 산업 부산물로 폐광지 되살린다.",
+      "url": "https://www.koenergy.kr/kosep/fr/bo/board/view.do?menuCd=FN030905&ntcobSeq=64204",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "koenergy.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-10-06",
+      "title": "국민건강보험공단, “찾아가지 않은 환급금 지금 바로 확인하세요!”",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11014004&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "국민건강보험공단",
+      "type": "준정부기관",
+      "date": "2026-10-06",
+      "title": "국민건강보험공단, 인공지능(AI) 활용 해킹위협 대비 긴급 비상대책회의 실시",
+      "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11014034&article.offset=0&articleLimit=10",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "nhis.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-10-06",
+      "title": "캠코, 한국수자원공사와 함께 감사 전문성 높인다 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28945&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-10-06",
+      "title": "한국전기안전공사, 인공지능으로 전기화재 원인 10초 판별",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=172029&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "건강보험심사평가원",
+      "type": "준정부기관",
+      "date": "2026-10-06",
+      "title": "홍승권 심평원장, 상임이사 등 주요 경영진과 성과계약 체결",
+      "url": "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11931&pageIndex=1&pageIndex2=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "hira.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-10-06",
+      "title": "박보검과 함께 듣는 한국, 창경궁에서 만난 ‘한국의 소리’",
+      "url": "https://knto.or.kr/pressRelease/550855?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
     {
       "agency": "한국수자원공사",
       "type": "공기업",
@@ -1340,6 +1473,18 @@
       "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29504",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-29",
+      "title": "--> “코레일 철도박물관 ‘가을축제’에 초대합니다”",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=Vyimbpao9lHmCwxlqx5K8K050hq2tQ1Jifw3Xeq2o4TXcN8CTwF16CwpL8B19CFh?key=911&bbsNo=199&nttNo=27351&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
