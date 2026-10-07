@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-07T06:08:08.542014+00:00",
+  "generatedAt": "2026-10-07T13:36:05.671364+00:00",
   "source": "verified official press-release boards only",
   "configuredAgencyCount": 35,
   "totalAgencyCount": 91,
-  "successfulAgencyCount": 18,
-  "itemCount": 1003,
+  "successfulAgencyCount": 17,
+  "itemCount": 1010,
   "health": [
     {
       "agency": "한국전력공사",
@@ -143,8 +143,8 @@
     },
     {
       "agency": "대한무역투자진흥공사",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한국농수산식품유통공사",
@@ -178,8 +178,8 @@
     },
     {
       "agency": "공무원연금공단",
-      "status": "ok",
-      "itemCount": 10
+      "status": "error",
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "정보통신기획평가원",
@@ -219,7 +219,7 @@
     {
       "agency": "한국해양교통안전공단",
       "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "message": "GET 실패: <urlopen error timed out>"
     },
     {
       "agency": "한전KDN",
@@ -293,8 +293,8 @@
     },
     {
       "agency": "한국관광공사",
-      "status": "error",
-      "message": "게시판 구조에서 항목을 찾지 못함 (규칙 재확인 필요)"
+      "status": "ok",
+      "itemCount": 15
     },
     {
       "agency": "한국광해광업공단",
@@ -617,6 +617,68 @@
       "url": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=23&bbsId=9218",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "fowi.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국수력원자력",
+      "type": "공기업",
+      "date": "2026-10-07",
+      "title": "--> 보도 한국수력원자력 후원 국민참여형 액티비티, '아시아 최초' 이벤트 지속가능성 경영시스템 국제인증 획득 한국수력원자력 후원 국민참여형 액티비티, '아시아 최초' 이벤트 지속가능성 경영시스템 국제인증 획득 - '2026 펄스에너지 그란폰도-영동', 친환경·안전 관리 체계 우수성 입증 - - 굿윌스토어 협력 자원순환 캠페인으로 온실가스 2.5톤 감축 실천 - 한국수력원자력(이하 한수원, 사장 김회천)이 후원하는 대규모 국민참여형 스포츠 액티비티가 공기업 후원 행사로는 아시아 최초로 한국표준협회(KSA)로부터 ‘이벤트 지... 작성일 : 2026-10-07",
+      "url": "https://www.khnp.co.kr/main/selectBbsNttView.do?key=2289&bbsNo=71&nttNo=77141&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "khnp.co.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "예금보험공사",
+      "type": "기타공공기관",
+      "date": "2026-10-07",
+      "title": "예별손해보험 공개매각 관련 주식매매계약서 체결",
+      "url": "https://www.kdic.or.kr/di/medi/selectPbcrBbsDtl.do?bbsSeCd=bodo&cdVl=bodo&pstNo=60307",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kdic.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국자산관리공사",
+      "type": "준정부기관",
+      "date": "2026-10-07",
+      "title": "캠코, 부산 중소기업 대상 「찾아가는 기업 지원사업 설명회」개최 새 글",
+      "url": "https://www.kamco.or.kr/portal/bbs/view.do?bIdx=28965&mId=0701030000&ptIdx=282",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kamco.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국전기안전공사",
+      "type": "준정부기관",
+      "date": "2026-10-07",
+      "title": "전기안전공사­-신재생에너지협회, 신기술 발전설비 세미나 개최",
+      "url": "https://www.kesco.or.kr/bbs/selectBbs.do?bbs_code=MKB00002&bbs_seq=172038&currentPage=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "kesco.or.kr",
+      "tags": [
+        "보도자료",
+        "안전"
+      ]
+    },
+    {
+      "agency": "한국관광공사",
+      "type": "준정부기관",
+      "date": "2026-10-07",
+      "title": "지방공항·항만에서 시작하는 편리한 지역 여행! 한국관광공사, 외국인 관광객 대상 관광 서비스 개선 캠페인 추진",
+      "url": "https://knto.or.kr/pressRelease/550857?srchCtgry=&srchStdg=&fieldTy=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "knto.or.kr",
       "tags": [
         "보도자료"
       ]
@@ -1533,6 +1595,30 @@
       "url": "https://www.kotra.or.kr/module/ntt/unity/selectNttDetailAjax.do?siteSeq=20000002134&bbsSeq=20000026822&pageIndex=1&menuSeq=41000022002&pageMode=B&sitecntntsSeq=20000004864&tabTyCode=dataManage&mngrAt=N&nttSeq=29509",
       "source": "기관 공식 보도자료 게시판",
       "officialDomain": "kotra.or.kr",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-30",
+      "title": "--> 코레일, 필리핀 도시철도(MRT-7) 구매 컨설팅 사업 수주",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=41VDo4Kol1Ap3IGWuvK9mVaPZvg7vumRPHZQBrWs285oBaTCTrXPCr1o3AFsaUyK?key=911&bbsNo=199&nttNo=27357&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
+      "tags": [
+        "보도자료"
+      ]
+    },
+    {
+      "agency": "한국철도공사",
+      "type": "공기업",
+      "date": "2026-09-30",
+      "title": "--> 코레일 ‘미래철도 자문위원회’ 출범",
+      "url": "https://info.korail.com/info/selectBbsNttView.do;jsessionid=41VDo4Kol1Ap3IGWuvK9mVaPZvg7vumRPHZQBrWs285oBaTCTrXPCr1o3AFsaUyK?key=911&bbsNo=199&nttNo=27353&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+      "source": "기관 공식 보도자료 게시판",
+      "officialDomain": "korail.com",
       "tags": [
         "보도자료"
       ]
