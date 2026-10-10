@@ -30,7 +30,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "config" / "agencies.json"
 OUTPUT_PATH = ROOT / "data" / "news.json"
 
-USER_AGENT = "Mozilla/5.0 (compatible; GritMindLabNewsBot/1.0; +https://gritmindlab.github.io/)"
+USER_AGENT = "Mozilla/5.0 (compatible; GritMindLabNewsBot/1.0; +https://gritmindlab-dev.github.io/)"
 TIMEOUT = 25
 MAX_RETRIES = 3
 RETRY_SLEEP = 2

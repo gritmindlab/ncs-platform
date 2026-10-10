@@ -2,7 +2,7 @@
   "backfillMonths": 4,
   "maxPagesPerAgency": 30,
   "maxNewSummariesPerRun": 40,
-  "recruitFeedUrl": "https://gritmindlab.github.io/gritmindlab-recruit/data/recruit.json",
+  "recruitFeedUrl": "https://gritmindlab-dev.github.io/gritmindlab-recruit/data/recruit.json",
   "agencies": [
     {
       "name": "한국전력공사",
